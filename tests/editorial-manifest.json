@@ -1,0 +1,1826 @@
+[
+  {
+    "id": "rd-2026-11-14",
+    "date": "2026-11-14",
+    "legacyId": 1,
+    "edges": [
+      {
+        "fromWord": "HAUS",
+        "toWord": "MAUS",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "MAUS",
+        "toWord": "MAUT",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "MAUT",
+        "toWord": "HAUT",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "HAUT",
+        "toWord": "HUT",
+        "mechanism": "Entfernen",
+        "changes": null
+      },
+      {
+        "fromWord": "HUT",
+        "toWord": "MUT",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "MUT",
+        "toWord": "TURM",
+        "mechanism": "Anagramm+",
+        "changes": null
+      },
+      {
+        "fromWord": "TURM",
+        "toWord": "STURM",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "STURM",
+        "toWord": "STROM",
+        "mechanism": "Anagramm+Tausch",
+        "changes": null
+      },
+      {
+        "fromWord": "STROM",
+        "toWord": "SPANNUNG",
+        "mechanism": "Bedeutung",
+        "changes": null
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-11-15",
+    "date": "2026-11-15",
+    "legacyId": 2,
+    "edges": [
+      {
+        "fromWord": "BAUM",
+        "toWord": "RAUM",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "RAUM",
+        "toWord": "TRAUM",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "TRAUM",
+        "toWord": "TRAUMA",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "TRAUMA",
+        "toWord": "DRAMA",
+        "mechanism": "Entfernen+Tausch",
+        "changes": null
+      },
+      {
+        "fromWord": "DRAMA",
+        "toWord": "BÜHNE",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "BÜHNE",
+        "toWord": "BOHNE",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "BOHNE",
+        "toWord": "SCHOTE",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "SCHOTE",
+        "toWord": "NOTE",
+        "mechanism": "Entfernen+Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "NOTE",
+        "toWord": "TON",
+        "mechanism": "Anagramm−",
+        "changes": null
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-11-16",
+    "date": "2026-11-16",
+    "legacyId": 3,
+    "edges": [
+      {
+        "fromWord": "HAND",
+        "toWord": "SAND",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "SAND",
+        "toWord": "RAND",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "RAND",
+        "toWord": "RIND",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "RIND",
+        "toWord": "RINDE",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "RINDE",
+        "toWord": "LINDE",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "LINDE",
+        "toWord": "LINSE",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "LINSE",
+        "toWord": "LINIE",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "LINIE",
+        "toWord": "LILIE",
+        "mechanism": "Tausch",
+        "changes": 1
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-11-17",
+    "date": "2026-11-17",
+    "legacyId": 4,
+    "edges": [
+      {
+        "fromWord": "WIND",
+        "toWord": "WAND",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "WAND",
+        "toWord": "BAND",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "BAND",
+        "toWord": "BANK",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "BANK",
+        "toWord": "TANK",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "TANK",
+        "toWord": "TANG",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "TANG",
+        "toWord": "GANG",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "GANG",
+        "toWord": "GONG",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "GONG",
+        "toWord": "KLANG",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "KLANG",
+        "toWord": "LANG",
+        "mechanism": "Entfernen",
+        "changes": null
+      },
+      {
+        "fromWord": "LANG",
+        "toWord": "ANGEL",
+        "mechanism": "Anagramm+",
+        "changes": null
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-11-18",
+    "date": "2026-11-18",
+    "legacyId": 5,
+    "edges": [
+      {
+        "fromWord": "BROT",
+        "toWord": "BOOT",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "BOOT",
+        "toWord": "BEET",
+        "mechanism": "Tausch",
+        "changes": 2
+      },
+      {
+        "fromWord": "BEET",
+        "toWord": "BETT",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "BETT",
+        "toWord": "BRETT",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "BRETT",
+        "toWord": "BLATT",
+        "mechanism": "Tausch",
+        "changes": 2
+      },
+      {
+        "fromWord": "BLATT",
+        "toWord": "BAUM",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "BAUM",
+        "toWord": "SAUM",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "SAUM",
+        "toWord": "SCHAUM",
+        "mechanism": "Einfügen",
+        "changes": null
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-11-19",
+    "date": "2026-11-19",
+    "legacyId": 6,
+    "edges": [
+      {
+        "fromWord": "LICHT",
+        "toWord": "DICHT",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "DICHT",
+        "toWord": "DICHTER",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "DICHTER",
+        "toWord": "RICHTER",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "RICHTER",
+        "toWord": "TRICHTER",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "TRICHTER",
+        "toWord": "KANNE",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "KANNE",
+        "toWord": "TANNE",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "TANNE",
+        "toWord": "WANNE",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "WANNE",
+        "toWord": "WANGE",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "WANGE",
+        "toWord": "ZANGE",
+        "mechanism": "Tausch",
+        "changes": 1
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-11-20",
+    "date": "2026-11-20",
+    "legacyId": 7,
+    "edges": [
+      {
+        "fromWord": "MOND",
+        "toWord": "MUND",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "MUND",
+        "toWord": "HUND",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "HUND",
+        "toWord": "WOLF",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "WOLF",
+        "toWord": "WOLKE",
+        "mechanism": "Entfernen+Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "WOLKE",
+        "toWord": "WOLLE",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "WOLLE",
+        "toWord": "ROLLE",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "ROLLE",
+        "toWord": "ROLLER",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "ROLLER",
+        "toWord": "KELLER",
+        "mechanism": "Tausch",
+        "changes": 2
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-11-21",
+    "date": "2026-11-21",
+    "legacyId": 8,
+    "edges": [
+      {
+        "fromWord": "STEIN",
+        "toWord": "STERN",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "STERN",
+        "toWord": "ERNST",
+        "mechanism": "Anagramm",
+        "changes": null
+      },
+      {
+        "fromWord": "ERNST",
+        "toWord": "ERNTE",
+        "mechanism": "Anagramm+Tausch",
+        "changes": null
+      },
+      {
+        "fromWord": "ERNTE",
+        "toWord": "RENTE",
+        "mechanism": "Anagramm",
+        "changes": null
+      },
+      {
+        "fromWord": "RENTE",
+        "toWord": "ENTE",
+        "mechanism": "Entfernen",
+        "changes": null
+      },
+      {
+        "fromWord": "ENTE",
+        "toWord": "ENDE",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "ENDE",
+        "toWord": "WENDE",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "WENDE",
+        "toWord": "WELLE",
+        "mechanism": "Tausch",
+        "changes": 2
+      },
+      {
+        "fromWord": "WELLE",
+        "toWord": "QUELLE",
+        "mechanism": "Entfernen+Einfügen",
+        "changes": null
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-11-22",
+    "date": "2026-11-22",
+    "legacyId": 9,
+    "edges": [
+      {
+        "fromWord": "KALT",
+        "toWord": "KALK",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "KALK",
+        "toWord": "KALB",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "KALB",
+        "toWord": "KORB",
+        "mechanism": "Tausch",
+        "changes": 2
+      },
+      {
+        "fromWord": "KORB",
+        "toWord": "KORN",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "KORN",
+        "toWord": "KERN",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "KERN",
+        "toWord": "KERZE",
+        "mechanism": "Entfernen+Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "KERZE",
+        "toWord": "WACHS",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "WACHS",
+        "toWord": "LACHS",
+        "mechanism": "Tausch",
+        "changes": 1
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-11-23",
+    "date": "2026-11-23",
+    "legacyId": 10,
+    "edges": [
+      {
+        "fromWord": "FISCH",
+        "toWord": "TISCH",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "TISCH",
+        "toWord": "TEICH",
+        "mechanism": "Tausch",
+        "changes": 2
+      },
+      {
+        "fromWord": "TEICH",
+        "toWord": "DEICH",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "DEICH",
+        "toWord": "REICH",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "REICH",
+        "toWord": "REIHE",
+        "mechanism": "Anagramm+Tausch",
+        "changes": null
+      },
+      {
+        "fromWord": "REIHE",
+        "toWord": "REISE",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "REISE",
+        "toWord": "SIRENE",
+        "mechanism": "Anagramm+",
+        "changes": null
+      },
+      {
+        "fromWord": "SIRENE",
+        "toWord": "NIERE",
+        "mechanism": "Anagramm−",
+        "changes": null
+      },
+      {
+        "fromWord": "NIERE",
+        "toWord": "TIERE",
+        "mechanism": "Tausch",
+        "changes": 1
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-11-24",
+    "date": "2026-11-24",
+    "legacyId": 11,
+    "edges": [
+      {
+        "fromWord": "BILD",
+        "toWord": "WILD",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "WILD",
+        "toWord": "WALD",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "WALD",
+        "toWord": "WALL",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "WALL",
+        "toWord": "BALL",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "BALL",
+        "toWord": "TANZ",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "TANZ",
+        "toWord": "GANZ",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "GANZ",
+        "toWord": "GLANZ",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "GLANZ",
+        "toWord": "GLAS",
+        "mechanism": "Entfernen+Tausch",
+        "changes": null
+      },
+      {
+        "fromWord": "GLAS",
+        "toWord": "GRAS",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "GRAS",
+        "toWord": "GRAB",
+        "mechanism": "Tausch",
+        "changes": 1
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-11-25",
+    "date": "2026-11-25",
+    "legacyId": 12,
+    "edges": [
+      {
+        "fromWord": "TANZ",
+        "toWord": "TAKT",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "TAKT",
+        "toWord": "TAT",
+        "mechanism": "Entfernen",
+        "changes": null
+      },
+      {
+        "fromWord": "TAT",
+        "toWord": "RAT",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "RAT",
+        "toWord": "RAD",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "RAD",
+        "toWord": "RADELN",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "RADELN",
+        "toWord": "NADEL",
+        "mechanism": "Anagramm−",
+        "changes": null
+      },
+      {
+        "fromWord": "NADEL",
+        "toWord": "FADEN",
+        "mechanism": "Tausch",
+        "changes": 2
+      },
+      {
+        "fromWord": "FADEN",
+        "toWord": "LADEN",
+        "mechanism": "Tausch",
+        "changes": 1
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-11-26",
+    "date": "2026-11-26",
+    "legacyId": 13,
+    "edges": [
+      {
+        "fromWord": "REIS",
+        "toWord": "PREIS",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "PREIS",
+        "toWord": "REISE",
+        "mechanism": "Anagramm+Tausch",
+        "changes": null
+      },
+      {
+        "fromWord": "REISE",
+        "toWord": "RIESE",
+        "mechanism": "Anagramm",
+        "changes": null
+      },
+      {
+        "fromWord": "RIESE",
+        "toWord": "ZWERG",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "ZWERG",
+        "toWord": "ZWEIG",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "ZWEIG",
+        "toWord": "GEWEIH",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "GEWEIH",
+        "toWord": "HIRSCH",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "HIRSCH",
+        "toWord": "KIRSCHE",
+        "mechanism": "Tausch+Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "KIRSCHE",
+        "toWord": "KIRCHE",
+        "mechanism": "Entfernen",
+        "changes": null
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-11-27",
+    "date": "2026-11-27",
+    "legacyId": 14,
+    "edges": [
+      {
+        "fromWord": "ZEIT",
+        "toWord": "GEIZ",
+        "mechanism": "Tausch",
+        "changes": 2
+      },
+      {
+        "fromWord": "GEIZ",
+        "toWord": "GEIST",
+        "mechanism": "Entfernen+Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "GEIST",
+        "toWord": "GESTE",
+        "mechanism": "Anagramm+Tausch",
+        "changes": null
+      },
+      {
+        "fromWord": "GESTE",
+        "toWord": "GESTERN",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "GESTERN",
+        "toWord": "STERN",
+        "mechanism": "Entfernen",
+        "changes": null
+      },
+      {
+        "fromWord": "STERN",
+        "toWord": "STIRN",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "STIRN",
+        "toWord": "HIRN",
+        "mechanism": "Entfernen+Tausch",
+        "changes": null
+      },
+      {
+        "fromWord": "HIRN",
+        "toWord": "HIRSE",
+        "mechanism": "Entfernen+Einfügen",
+        "changes": null
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-11-28",
+    "date": "2026-11-28",
+    "legacyId": 15,
+    "edges": [
+      {
+        "fromWord": "WORT",
+        "toWord": "WERT",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "WERT",
+        "toWord": "WERK",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "WERK",
+        "toWord": "WERKZEUG",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "WERKZEUG",
+        "toWord": "ZEUGE",
+        "mechanism": "Entfernen+Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "ZEUGE",
+        "toWord": "ZIEGE",
+        "mechanism": "Tausch",
+        "changes": 2
+      },
+      {
+        "fromWord": "ZIEGE",
+        "toWord": "WIEGE",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "WIEGE",
+        "toWord": "FLIEGE",
+        "mechanism": "Entfernen+Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "FLIEGE",
+        "toWord": "LIEGE",
+        "mechanism": "Entfernen",
+        "changes": null
+      },
+      {
+        "fromWord": "LIEGE",
+        "toWord": "LIEBE",
+        "mechanism": "Tausch",
+        "changes": 1
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-11-29",
+    "date": "2026-11-29",
+    "legacyId": 16,
+    "edges": [
+      {
+        "fromWord": "ROSE",
+        "toWord": "ROST",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "ROST",
+        "toWord": "POST",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "POST",
+        "toWord": "POET",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "POET",
+        "toWord": "GEDICHT",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "GEDICHT",
+        "toWord": "GESICHT",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "GESICHT",
+        "toWord": "GEWICHT",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "GEWICHT",
+        "toWord": "WAAGE",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "WAAGE",
+        "toWord": "WALE",
+        "mechanism": "Entfernen+Tausch",
+        "changes": null
+      },
+      {
+        "fromWord": "WALE",
+        "toWord": "WAHL",
+        "mechanism": "Tausch",
+        "changes": 2
+      },
+      {
+        "fromWord": "WAHL",
+        "toWord": "ZAHL",
+        "mechanism": "Tausch",
+        "changes": 1
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-11-30",
+    "date": "2026-11-30",
+    "legacyId": 17,
+    "edges": [
+      {
+        "fromWord": "KERN",
+        "toWord": "KERL",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "KERL",
+        "toWord": "KERZE",
+        "mechanism": "Entfernen+Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "KERZE",
+        "toWord": "HERZ",
+        "mechanism": "Entfernen+Tausch",
+        "changes": null
+      },
+      {
+        "fromWord": "HERZ",
+        "toWord": "SCHMERZ",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "SCHMERZ",
+        "toWord": "SCHERZ",
+        "mechanism": "Entfernen",
+        "changes": null
+      },
+      {
+        "fromWord": "SCHERZ",
+        "toWord": "ERZ",
+        "mechanism": "Entfernen",
+        "changes": null
+      },
+      {
+        "fromWord": "ERZ",
+        "toWord": "EIS",
+        "mechanism": "Tausch",
+        "changes": 2
+      },
+      {
+        "fromWord": "EIS",
+        "toWord": "EISEN",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "EISEN",
+        "toWord": "EISERN",
+        "mechanism": "Einfügen",
+        "changes": null
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-12-01",
+    "date": "2026-12-01",
+    "legacyId": 18,
+    "edges": [
+      {
+        "fromWord": "BAND",
+        "toWord": "BUCH",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "BUCH",
+        "toWord": "BUCHE",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "BUCHE",
+        "toWord": "BLATT",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "BLATT",
+        "toWord": "PLATTE",
+        "mechanism": "Tausch+Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "PLATTE",
+        "toWord": "PLATZ",
+        "mechanism": "Entfernen+Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "PLATZ",
+        "toWord": "SATZ",
+        "mechanism": "Entfernen+Tausch",
+        "changes": null
+      },
+      {
+        "fromWord": "SATZ",
+        "toWord": "SALZ",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "SALZ",
+        "toWord": "SALAT",
+        "mechanism": "Entfernen+Einfügen",
+        "changes": null
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-12-02",
+    "date": "2026-12-02",
+    "legacyId": 19,
+    "edges": [
+      {
+        "fromWord": "NASE",
+        "toWord": "VASE",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "VASE",
+        "toWord": "PHASE",
+        "mechanism": "Entfernen+Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "PHASE",
+        "toWord": "HASE",
+        "mechanism": "Entfernen",
+        "changes": null
+      },
+      {
+        "fromWord": "HASE",
+        "toWord": "IGEL",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "IGEL",
+        "toWord": "SEGEL",
+        "mechanism": "Entfernen+Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "SEGEL",
+        "toWord": "REGEL",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "REGEL",
+        "toWord": "REGAL",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "REGAL",
+        "toWord": "EGAL",
+        "mechanism": "Entfernen",
+        "changes": null
+      },
+      {
+        "fromWord": "EGAL",
+        "toWord": "GALLE",
+        "mechanism": "Anagramm+",
+        "changes": null
+      },
+      {
+        "fromWord": "GALLE",
+        "toWord": "GABEL",
+        "mechanism": "Anagramm+Tausch",
+        "changes": null
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-12-03",
+    "date": "2026-12-03",
+    "legacyId": 20,
+    "edges": [
+      {
+        "fromWord": "RING",
+        "toWord": "BOXEN",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "BOXEN",
+        "toWord": "BODEN",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "BODEN",
+        "toWord": "BOGEN",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "BOGEN",
+        "toWord": "GEIGE",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "GEIGE",
+        "toWord": "FEIGE",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "FEIGE",
+        "toWord": "FEILE",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "FEILE",
+        "toWord": "ZEILE",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "ZEILE",
+        "toWord": "SEIL",
+        "mechanism": "Entfernen+Tausch",
+        "changes": null
+      },
+      {
+        "fromWord": "SEIL",
+        "toWord": "SEIFE",
+        "mechanism": "Tausch+Einfügen",
+        "changes": null
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-12-04",
+    "date": "2026-12-04",
+    "legacyId": 21,
+    "edges": [
+      {
+        "fromWord": "FALL",
+        "toWord": "BALL",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "BALL",
+        "toWord": "BASS",
+        "mechanism": "Tausch",
+        "changes": 2
+      },
+      {
+        "fromWord": "BASS",
+        "toWord": "BISS",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "BISS",
+        "toWord": "BISSEN",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "BISSEN",
+        "toWord": "WISSEN",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "WISSEN",
+        "toWord": "GEWISSEN",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "GEWISSEN",
+        "toWord": "KISSEN",
+        "mechanism": "Entfernen+Tausch",
+        "changes": null
+      },
+      {
+        "fromWord": "KISSEN",
+        "toWord": "KISTE",
+        "mechanism": "Entfernen+Tausch",
+        "changes": null
+      },
+      {
+        "fromWord": "KISTE",
+        "toWord": "KÜSTE",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "KÜSTE",
+        "toWord": "WÜSTE",
+        "mechanism": "Tausch",
+        "changes": 1
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-12-05",
+    "date": "2026-12-05",
+    "legacyId": 22,
+    "edges": [
+      {
+        "fromWord": "BUCH",
+        "toWord": "BUCHSTABE",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "BUCHSTABE",
+        "toWord": "STAB",
+        "mechanism": "Entfernen",
+        "changes": null
+      },
+      {
+        "fromWord": "STAB",
+        "toWord": "STAUB",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "STAUB",
+        "toWord": "LAUB",
+        "mechanism": "Entfernen+Tausch",
+        "changes": null
+      },
+      {
+        "fromWord": "LAUB",
+        "toWord": "LAUS",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "LAUS",
+        "toWord": "MAUS",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "MAUS",
+        "toWord": "MAUER",
+        "mechanism": "Entfernen+Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "MAUER",
+        "toWord": "BAUER",
+        "mechanism": "Tausch",
+        "changes": 1
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-12-06",
+    "date": "2026-12-06",
+    "legacyId": 23,
+    "edges": [
+      {
+        "fromWord": "TORF",
+        "toWord": "TOR",
+        "mechanism": "Entfernen",
+        "changes": null
+      },
+      {
+        "fromWord": "TOR",
+        "toWord": "TON",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "TON",
+        "toWord": "NOT",
+        "mechanism": "Umkehr",
+        "changes": null
+      },
+      {
+        "fromWord": "NOT",
+        "toWord": "NORD",
+        "mechanism": "Entfernen+Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "NORD",
+        "toWord": "ORDEN",
+        "mechanism": "Anagramm+",
+        "changes": null
+      },
+      {
+        "fromWord": "ORDEN",
+        "toWord": "ORDNER",
+        "mechanism": "Anagramm+",
+        "changes": null
+      },
+      {
+        "fromWord": "ORDNER",
+        "toWord": "FORDERN",
+        "mechanism": "Anagramm+",
+        "changes": null
+      },
+      {
+        "fromWord": "FORDERN",
+        "toWord": "FÖRDERN",
+        "mechanism": "Tausch",
+        "changes": 1
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-12-07",
+    "date": "2026-12-07",
+    "legacyId": 24,
+    "edges": [
+      {
+        "fromWord": "MEER",
+        "toWord": "MEHR",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "MEHR",
+        "toWord": "EHRE",
+        "mechanism": "Anagramm+Tausch",
+        "changes": null
+      },
+      {
+        "fromWord": "EHRE",
+        "toWord": "LEHRE",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "LEHRE",
+        "toWord": "LEERE",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "LEERE",
+        "toWord": "LEHNE",
+        "mechanism": "Tausch",
+        "changes": 2
+      },
+      {
+        "fromWord": "LEHNE",
+        "toWord": "SEHNE",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "SEHNE",
+        "toWord": "SZENE",
+        "mechanism": "Tausch",
+        "changes": 2
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-12-08",
+    "date": "2026-12-08",
+    "legacyId": 25,
+    "edges": [
+      {
+        "fromWord": "TIER",
+        "toWord": "STIER",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "STIER",
+        "toWord": "STREIT",
+        "mechanism": "Anagramm+",
+        "changes": null
+      },
+      {
+        "fromWord": "STREIT",
+        "toWord": "STREIK",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "STREIK",
+        "toWord": "STRECKE",
+        "mechanism": "Tausch+Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "STRECKE",
+        "toWord": "LÄNGE",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "LÄNGE",
+        "toWord": "MÄNGEL",
+        "mechanism": "Anagramm+",
+        "changes": null
+      },
+      {
+        "fromWord": "MÄNGEL",
+        "toWord": "MANTEL",
+        "mechanism": "Tausch",
+        "changes": 2
+      },
+      {
+        "fromWord": "MANTEL",
+        "toWord": "HANTEL",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "HANTEL",
+        "toWord": "HANDEL",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "HANDEL",
+        "toWord": "WANDEL",
+        "mechanism": "Tausch",
+        "changes": 1
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-12-09",
+    "date": "2026-12-09",
+    "legacyId": 26,
+    "edges": [
+      {
+        "fromWord": "KUSS",
+        "toWord": "KURS",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "KURS",
+        "toWord": "KURZ",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "KURZ",
+        "toWord": "KREUZ",
+        "mechanism": "Anagramm+",
+        "changes": null
+      },
+      {
+        "fromWord": "KREUZ",
+        "toWord": "KREIS",
+        "mechanism": "Tausch",
+        "changes": 2
+      },
+      {
+        "fromWord": "KREIS",
+        "toWord": "PREIS",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "PREIS",
+        "toWord": "PRISE",
+        "mechanism": "Anagramm",
+        "changes": null
+      },
+      {
+        "fromWord": "PRISE",
+        "toWord": "PRISMA",
+        "mechanism": "Entfernen+Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "PRISMA",
+        "toWord": "PRIMA",
+        "mechanism": "Entfernen",
+        "changes": null
+      },
+      {
+        "fromWord": "PRIMA",
+        "toWord": "KLIMA",
+        "mechanism": "Tausch",
+        "changes": 2
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-12-10",
+    "date": "2026-12-10",
+    "legacyId": 27,
+    "edges": [
+      {
+        "fromWord": "TUCH",
+        "toWord": "TEICH",
+        "mechanism": "Entfernen+Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "TEICH",
+        "toWord": "REICH",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "REICH",
+        "toWord": "REIF",
+        "mechanism": "Entfernen+Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "REIF",
+        "toWord": "REIFEN",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "REIFEN",
+        "toWord": "SEIFE",
+        "mechanism": "Entfernen+Tausch",
+        "changes": null
+      },
+      {
+        "fromWord": "SEIFE",
+        "toWord": "SCHAUM",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "SCHAUM",
+        "toWord": "TRAUM",
+        "mechanism": "Entfernen+Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "TRAUM",
+        "toWord": "TRAUBE",
+        "mechanism": "Entfernen+Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "TRAUBE",
+        "toWord": "TAUBE",
+        "mechanism": "Entfernen",
+        "changes": null
+      },
+      {
+        "fromWord": "TAUBE",
+        "toWord": "LAUBE",
+        "mechanism": "Tausch",
+        "changes": 1
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-12-11",
+    "date": "2026-12-11",
+    "legacyId": 28,
+    "edges": [
+      {
+        "fromWord": "FELD",
+        "toWord": "HELD",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "HELD",
+        "toWord": "HELM",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "HELM",
+        "toWord": "HEMD",
+        "mechanism": "Tausch",
+        "changes": 2
+      },
+      {
+        "fromWord": "HEMD",
+        "toWord": "KRAGEN",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "KRAGEN",
+        "toWord": "KRAN",
+        "mechanism": "Entfernen",
+        "changes": null
+      },
+      {
+        "fromWord": "KRAN",
+        "toWord": "KORN",
+        "mechanism": "Tausch",
+        "changes": 2
+      },
+      {
+        "fromWord": "KORN",
+        "toWord": "HORN",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "HORN",
+        "toWord": "HORT",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "HORT",
+        "toWord": "WORT",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "WORT",
+        "toWord": "WIRT",
+        "mechanism": "Tausch",
+        "changes": 1
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-12-12",
+    "date": "2026-12-12",
+    "legacyId": 29,
+    "edges": [
+      {
+        "fromWord": "TOPF",
+        "toWord": "KOPF",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "KOPF",
+        "toWord": "KNOPF",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "KNOPF",
+        "toWord": "HEMD",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "HEMD",
+        "toWord": "HEER",
+        "mechanism": "Tausch",
+        "changes": 2
+      },
+      {
+        "fromWord": "HEER",
+        "toWord": "MEER",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "MEER",
+        "toWord": "WELLE",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "WELLE",
+        "toWord": "WELPE",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "WELPE",
+        "toWord": "WOLF",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "WOLF",
+        "toWord": "GOLF",
+        "mechanism": "Tausch",
+        "changes": 1
+      }
+    ]
+  },
+  {
+    "id": "rd-2026-12-13",
+    "date": "2026-12-13",
+    "legacyId": 30,
+    "edges": [
+      {
+        "fromWord": "BACH",
+        "toWord": "DACH",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "DACH",
+        "toWord": "DRACHEN",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "DRACHEN",
+        "toWord": "RACHEN",
+        "mechanism": "Entfernen",
+        "changes": null
+      },
+      {
+        "fromWord": "RACHEN",
+        "toWord": "RACHE",
+        "mechanism": "Entfernen",
+        "changes": null
+      },
+      {
+        "fromWord": "RACHE",
+        "toWord": "SACHE",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "SACHE",
+        "toWord": "SACHT",
+        "mechanism": "Tausch",
+        "changes": 1
+      },
+      {
+        "fromWord": "SACHT",
+        "toWord": "SCHACHT",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "SCHACHT",
+        "toWord": "SCHACH",
+        "mechanism": "Entfernen",
+        "changes": null
+      },
+      {
+        "fromWord": "SCHACH",
+        "toWord": "MATT",
+        "mechanism": "Bedeutung",
+        "changes": null
+      },
+      {
+        "fromWord": "MATT",
+        "toWord": "MATTE",
+        "mechanism": "Einfügen",
+        "changes": null
+      },
+      {
+        "fromWord": "MATTE",
+        "toWord": "MOTTE",
+        "mechanism": "Tausch",
+        "changes": 1
+      }
+    ]
+  }
+]

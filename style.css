@@ -32,6 +32,8 @@ header {
 }
 .top {
   display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
   align-items: center;
   justify-content: space-between;
 }
@@ -145,7 +147,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 15px;
+  gap: 8px;
   background: #f5f0e6;
   border: 1px solid #e5dac8;
   border-radius: 7px;
@@ -154,7 +156,7 @@ main {
 }
 .endpoints > div:not(.arrow) {
   text-align: center;
-  min-width: 95px;
+  min-width: 0;
 }
 .endpoints small {
   display: block;
@@ -166,7 +168,8 @@ main {
   margin-bottom: 8px;
 }
 .endpoints strong {
-  font-size: clamp(24px, 6vw, 35px);
+  font-size: clamp(18px, 6vw, 35px);
+  overflow-wrap: anywhere;
   letter-spacing: 0.02em;
 }
 .arrow {
@@ -483,6 +486,10 @@ dialog::backdrop {
   align-items: flex-start;
   justify-content: space-between;
   gap: 12px;
+}
+.clue > span:first-child {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 .clue-state {
   font:

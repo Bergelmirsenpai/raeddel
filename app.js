@@ -118,20 +118,49 @@
     }
     return a;
   }
+  // Identity of the actual word sequence, independent of wording and editorialVersion.
+  // Keep the sequence itself: a short hash could silently collide.
+  function structure(p) {
+    return {
+      puzzleId: p.id,
+      structureVersion: p.structureVersion || 1,
+      chainSignature: [p.start, ...p.steps.map((s) => s.answer)].map(norm).join("|"),
+    };
+  }
+  function compatible(r, p) {
+    const expected = structure(p);
+    return (
+      r.puzzleId === expected.puzzleId &&
+      r.structureVersion === expected.structureVersion &&
+      r.chainSignature === expected.chainSignature
+    );
+  }
+  function freshRecord(p, resetNotice = false) {
+    return {
+      ...structure(p),
+      step: 0,
+      solvedEdges: [],
+      finished: false,
+      score: 0,
+      scoreStatus: "v2",
+      hintedSteps: [],
+      revealedSteps: [],
+      clueOrder: null,
+      resetNotice,
+    };
+  }
   function ensure(date, p) {
-    if (!state.records[date])
-      state.records[date] = {
-        step: 0,
-        finished: false,
-        score: 0,
-        scoreStatus: "v2",
-        hintedSteps: [],
-        revealedSteps: [],
-        clueOrder: null,
-      };
+    const previous = state.records[date];
+    if (!previous || !compatible(previous, p)) {
+      const hadProgress = previous && (previous.finished || previous.step > 0 ||
+        previous.solvedEdges?.length || previous.hintedSteps?.length ||
+        previous.revealedSteps?.length || previous.score > 0 || previous.resetNotice);
+      state.records[date] = freshRecord(p, !!hadProgress);
+    }
     const r = state.records[date],
       n = p.steps.length;
-    // Existing V2 and V1 records contain a single forward-progress counter. Never erase it.
+    Object.assign(r, structure(p));
+    // Only a record for the SAME structure may migrate a forward-progress counter.
     if (!Array.isArray(r.solvedEdges)) {
       const count = clamp(r.step, n);
       r.solvedEdges = Array.from({ length: count }, (_, i) => i);
@@ -155,7 +184,7 @@
       r.clueOrder.some((i) => !Number.isInteger(i) || i < 0 || i >= n)
     )
       r.clueOrder = shuffle(n, hash(p.id));
-    r.finished = !!r.finished || r.solvedEdges.length === n;
+    r.finished = r.solvedEdges.length === n;
     r.step = r.solvedEdges.length;
     return r;
   }
@@ -214,11 +243,9 @@
     const current = source(active());
     const known = rec.solvedEdges.includes(i);
     const word = known ? source(i) : current;
-    const raw = word.toLocaleLowerCase("de-DE");
-    const context =
-      step.kind === "letter"
-        ? `„${word}“`
-        : raw.charAt(0).toLocaleUpperCase("de-DE") + raw.slice(1);
+    // Quote every context as a word label. All open inserts remain identical,
+    // including letter case and punctuation; no clue receives an active marker.
+    const context = `„${word}“`;
     const parts = tpl.split("_");
     return { parts, context };
   }
@@ -253,6 +280,7 @@
     $("puzzleTitle").textContent =
       `Räddel #${puzzle.legacyId || dayIndex(selected) + 1}`;
     $("dateLabel").textContent = nice(selected);
+    $("updateNotice").hidden = !rec.resetNotice;
     $("startWord").textContent = puzzle.start;
     $("endWord").textContent = puzzle.end;
     $("progressText").textContent =
@@ -424,7 +452,7 @@
     );
     modal(
       "Statistik",
-      `<div class="statgrid"><div class="stat"><strong>${entries.length}</strong><span>Gelöst</span></div><div class="stat"><strong>${streak}</strong><span>Tages-Serie</span></div><div class="stat"><strong>${points}</strong><span>Punkte (V2)</span></div></div><p>Bestehende Spielstände bleiben erhalten. Historische Punkte werden nicht erfunden.</p><button id="exportBtn" class="outline">Spielstände exportieren</button><p class="muted">Sicherung als JSON-Datei. Importiert werden nur gültige Datensätze.</p><input type="file" id="importFile" accept="application/json,.json"><button id="importBtn" class="outline">Spielstände importieren</button>`,
+      `<div class="statgrid"><div class="stat"><strong>${entries.length}</strong><span>Gelöst</span></div><div class="stat"><strong>${streak}</strong><span>Tages-Serie</span></div><div class="stat"><strong>${points}</strong><span>Punkte</span></div></div><p>Spielstände unveränderter Wortketten bleiben erhalten. Bei neu bearbeiteten Ketten beginnen Fortschritt und Punkte neu; betroffene Rätsel zeigen einen Hinweis.</p><button id="exportBtn" class="outline">Spielstände exportieren</button><p class="muted">Sicherung als JSON-Datei. Importiert werden nur Datensätze für dieselbe Wortkette.</p><input type="file" id="importFile" accept="application/json,.json"><button id="importBtn" class="outline">Spielstände importieren</button>`,
     );
     $("exportBtn").onclick = () => {
       const blob = new Blob([JSON.stringify(state, null, 2)], {
@@ -450,9 +478,13 @@
         )
           throw Error("Ungültig");
         if (!confirm("Spielstände zusammenführen?")) return;
+        let skipped = 0;
         for (const [d, r] of Object.entries(v.records)) {
           const p = P.find((x) => x.date === d);
-          if (!p || !r || typeof r !== "object") continue;
+          if (!p || !r || typeof r !== "object" || Array.isArray(r) || !compatible(r, p)) {
+            skipped++;
+            continue;
+          }
           const incoming = Array.isArray(r.solvedEdges)
               ? r.solvedEdges.length
               : clamp(r.step, p.steps.length),
@@ -467,6 +499,7 @@
         save();
         $("modal").close();
         load(selected);
+        if (skipped) alert(`${skipped} Datensätze passen nicht zur aktuellen Wortkette und wurden nicht importiert.`);
       } catch {
         alert("Ungültige Sicherungsdatei.");
       }
@@ -509,6 +542,14 @@
     }
   };
   let observedDay = iso();
+  // Reconcile ALL existing records before archive badges or statistics can use them.
+  // Never touch regular storage in admin mode.
+  if (!adminMode) {
+    P.forEach((p) => {
+      if (state.records[p.date]) ensure(p.date, p);
+    });
+    save();
+  }
   const todayPuzzle = () =>
     P.filter((p) => p.date <= iso())
       .sort((a, b) => a.date.localeCompare(b.date))

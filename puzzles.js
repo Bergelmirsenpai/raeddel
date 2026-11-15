@@ -1,1787 +1,3082 @@
 window.RAEDDEL_PUZZLES = [
   {
-    id: "rd-2026-11-14",
-    start: "HAUS",
-    end: "ZELT",
-    steps: [
+    "id": "rd-2026-11-14",
+    "date": "2026-11-14",
+    "legacyId": 1,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Haus zur Elektrizität",
+    "start": "HAUS",
+    "end": "SPANNUNG",
+    "steps": [
       {
-        answer: "MAUS",
-        kind: "letter",
-        hint: "Aus _ wird mit einem anderen Anfangsbuchstaben ein kleines Nagetier.",
-        explanation:
-          "HAUS → MAUS: Aus HAUS wird mit einem anderen Anfangsbuchstaben ein kleines Nagetier.",
-        clues: {
-          forward:
-            "Aus _ wird mit einem anderen Anfangsbuchstaben ein kleines Nagetier.",
-          reverse:
-            "Aus _ wird mit einem anderen Anfangsbuchstaben ein Gebäude zum Wohnen.",
-        },
+        "answer": "MAUS",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ ein Tier, das auch als Computergerät bekannt ist.",
+        "explanation": "HAUS und MAUS unterscheiden sich im ersten Buchstaben.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ ein Tier, das auch als Computergerät bekannt ist.",
+          "reverse": "Ein neuer Anfang macht aus _ ein Gebäude mit Wohnräumen."
+        }
       },
       {
-        answer: "NAGER",
-        kind: "meaning",
-        hint: "Zu welcher Tiergruppe gehört eine _?",
-        explanation: "MAUS → NAGER: Zu welcher Tiergruppe gehört eine MAUS?",
-        clues: {
-          forward: "Zu welcher Tiergruppe gehört eine _?",
-          reverse:
-            "Welches kleine Tier ist ein typischer _ mit langem Schwanz?",
-        },
+        "answer": "MAUT",
+        "kind": "letter",
+        "hint": "Ändere den Schluss von _: Gesucht ist eine Gebühr für die Benutzung einer Straße.",
+        "explanation": "MAUS wird durch S → T zu MAUT.",
+        "clues": {
+          "forward": "Ändere den Schluss von _: Gesucht ist eine Gebühr für die Benutzung einer Straße.",
+          "reverse": "Ändere den Schluss von _: Gesucht ist ein kleines Nagetier, dessen Name auch auf dem Schreibtisch vorkommt."
+        }
       },
       {
-        answer: "LAGER",
-        kind: "letter",
-        hint: "Aus _ wird durch Änderung des Anfangsbuchstabens ein Ort für Vorräte.",
-        explanation:
-          "NAGER → LAGER: Aus NAGER wird durch Änderung des Anfangsbuchstabens ein Ort für Vorräte.",
-        clues: {
-          forward:
-            "Aus _ wird durch Änderung des Anfangsbuchstabens ein Ort für Vorräte.",
-          reverse:
-            "Aus _ wird durch Änderung des Anfangsbuchstabens ein Tier mit Nagezähnen.",
-        },
+        "answer": "HAUT",
+        "kind": "letter",
+        "hint": "Mit neuem Anfang bezeichnet _ die äußere Hülle unseres Körpers.",
+        "explanation": "MAUT und HAUT unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Mit neuem Anfang bezeichnet _ die äußere Hülle unseres Körpers.",
+          "reverse": "Mit neuem Anfang bezeichnet _ eine Gebühr, die manche Tunnel verlangen."
+        }
       },
       {
-        answer: "ZELT",
-        kind: "meaning",
-        hint: "Welche Unterkunft stellt man auf einem _ beim Camping auf?",
-        explanation:
-          "LAGER → ZELT: Welche Unterkunft stellt man auf einem LAGER beim Camping auf?",
-        clues: {
-          forward: "Welche Unterkunft stellt man auf einem _ beim Camping auf?",
-          reverse:
-            "Wie heißt die einfache Übernachtungsstelle, zu der ein _ beim Campen gehört?",
-        },
+        "answer": "HUT",
+        "kind": "letter",
+        "hint": "Nimm aus _ einen Vokal heraus: Übrig bleibt eine Kopfbedeckung mit Krempe.",
+        "explanation": "HAUT verliert A; umgekehrt wird A eingefügt.",
+        "clues": {
+          "forward": "Nimm aus _ einen Vokal heraus: Übrig bleibt eine Kopfbedeckung mit Krempe.",
+          "reverse": "Füge in _ einen Vokal ein: Es entsteht das größte Organ des Menschen."
+        }
       },
-    ],
-    date: "2026-11-14",
-    schemaVersion: 2,
-    legacyId: 1,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "MUT",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang verwandelt _ in die Eigenschaft, trotz Angst zu handeln.",
+        "explanation": "HUT und MUT unterscheiden sich im ersten Buchstaben.",
+        "clues": {
+          "forward": "Ein neuer Anfang verwandelt _ in die Eigenschaft, trotz Angst zu handeln.",
+          "reverse": "Ein neuer Anfang verwandelt _ in eine Kopfbedeckung, die man zur Begrüßung ziehen kann."
+        }
+      },
+      {
+        "answer": "TURM",
+        "kind": "letter",
+        "hint": "Ergänze _ um einen Buchstaben und ordne neu: Ein hoher, schmaler Bau entsteht.",
+        "explanation": "MUT + R lässt sich zu TURM ordnen.",
+        "clues": {
+          "forward": "Ergänze _ um einen Buchstaben und ordne neu: Ein hoher, schmaler Bau entsteht.",
+          "reverse": "Entferne aus _ einen Buchstaben und ordne neu: Gesucht ist die Kraft, sich einer Gefahr zu stellen."
+        }
+      },
+      {
+        "answer": "STURM",
+        "kind": "letter",
+        "hint": "Vorne um einen Buchstaben verlängert, wird _ zu heftigem Wind.",
+        "explanation": "Ein S vor TURM ergibt STURM.",
+        "clues": {
+          "forward": "Vorne um einen Buchstaben verlängert, wird _ zu heftigem Wind.",
+          "reverse": "Ohne den ersten Buchstaben wird _ zu einem hohen Bauwerk, etwa für eine Glocke."
+        }
+      },
+      {
+        "answer": "STROM",
+        "kind": "letter",
+        "hint": "Tausche einen Vokal in _ und ordne neu: Nun kann elektrische Ladung fließen.",
+        "explanation": "STURM verliert U und erhält O; umgeordnet ergibt das STROM.",
+        "clues": {
+          "forward": "Tausche einen Vokal in _ und ordne neu: Nun kann elektrische Ladung fließen.",
+          "reverse": "Tausche einen Vokal in _ und ordne neu: Nun tobt ein heftiger Wind."
+        }
+      },
+      {
+        "answer": "SPANNUNG",
+        "kind": "meaning",
+        "hint": "_: Gemeint ist die elektrische Lesart. Welche in Volt gemessene Größe treibt die Ladungen durch den Leiter?",
+        "explanation": "Spannung treibt elektrischen Strom an; Volt und Ampere unterscheiden die Größen.",
+        "clues": {
+          "forward": "_: Gemeint ist die elektrische Lesart. Welche in Volt gemessene Größe treibt die Ladungen durch den Leiter?",
+          "reverse": "_: Welche elektrische Größe fließt dadurch in einem geschlossenen Leiter und wird in Ampere gemessen?"
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-11-15",
-    start: "BAUM",
-    end: "NAGEL",
-    steps: [
+    "id": "rd-2026-11-15",
+    "date": "2026-11-15",
+    "legacyId": 2,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Baum zum Ton",
+    "start": "BAUM",
+    "end": "TON",
+    "steps": [
       {
-        answer: "RAUM",
-        kind: "letter",
-        hint: "Aus _ wird durch einen neuen Anfangsbuchstaben ein Innenbereich eines Gebäudes.",
-        explanation:
-          "BAUM → RAUM: Aus BAUM wird durch einen neuen Anfangsbuchstaben ein Innenbereich eines Gebäudes.",
-        clues: {
-          forward:
-            "Aus _ wird durch einen neuen Anfangsbuchstaben ein Innenbereich eines Gebäudes.",
-          reverse:
-            "Aus _ wird durch einen neuen Anfangsbuchstaben eine große Pflanze mit Stamm.",
-        },
+        "answer": "RAUM",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ einen abgetrennten Bereich in einem Gebäude.",
+        "explanation": "BAUM und RAUM unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ einen abgetrennten Bereich in einem Gebäude.",
+          "reverse": "Ein neuer Anfang macht aus _ eine Pflanze mit verholztem Stamm."
+        }
       },
       {
-        answer: "ZIMMER",
-        kind: "meaning",
-        hint: "Ein _ zum Wohnen heißt oft auch wie?",
-        explanation: "RAUM → ZIMMER: Ein RAUM zum Wohnen heißt oft auch wie?",
-        clues: {
-          forward: "Ein _ zum Wohnen heißt oft auch wie?",
-          reverse:
-            "Ein _ ist ein abgeschlossener Bereich eines Gebäudes: Wie lautet der allgemeinere Begriff?",
-        },
+        "answer": "TRAUM",
+        "kind": "letter",
+        "hint": "Stelle einen Buchstaben vor _: Nun entsteht ein Erlebnis, das man im Schlaf haben kann.",
+        "explanation": "Ein T vor RAUM ergibt TRAUM.",
+        "clues": {
+          "forward": "Stelle einen Buchstaben vor _: Nun entsteht ein Erlebnis, das man im Schlaf haben kann.",
+          "reverse": "Nimm den ersten Buchstaben von _ weg: Übrig bleibt Platz oder ein Zimmer."
+        }
       },
       {
-        answer: "HAMMER",
-        kind: "letter",
-        hint: "Ein _ wird durch Austausch der ersten zwei Buchstaben zu einem Werkzeug für Nägel.",
-        explanation:
-          "ZIMMER → HAMMER: Ein ZIMMER wird durch Austausch der ersten zwei Buchstaben zu einem Werkzeug für Nägel.",
-        clues: {
-          forward:
-            "Ein _ wird durch Austausch der ersten zwei Buchstaben zu einem Werkzeug für Nägel.",
-          reverse:
-            "Ein _ wird durch Austausch der ersten zwei Buchstaben zu einem einzelnen Wohnraum.",
-        },
+        "answer": "TRAUMA",
+        "kind": "letter",
+        "hint": "Verlängere _ hinten um einen Vokal: Gesucht ist eine seelische Verletzung nach einem erschütternden Erlebnis.",
+        "explanation": "TRAUM + A ergibt TRAUMA.",
+        "clues": {
+          "forward": "Verlängere _ hinten um einen Vokal: Gesucht ist eine seelische Verletzung nach einem erschütternden Erlebnis.",
+          "reverse": "Kürze _ am Ende um einen Vokal: Nun bleibt ein Erlebnis während des Schlafs."
+        }
       },
       {
-        answer: "NAGEL",
-        kind: "meaning",
-        hint: "Was schlägt man mit einem _ in Holz?",
-        explanation:
-          "HAMMER → NAGEL: Was schlägt man mit einem HAMMER in Holz?",
-        clues: {
-          forward: "Was schlägt man mit einem _ in Holz?",
-          reverse: "Mit welchem Werkzeug schlägt man einen _ in Holz?",
-        },
+        "answer": "DRAMA",
+        "kind": "letter",
+        "hint": "Entferne aus _ den inneren Vokal und ändere den Anfang: Ein Bühnenstück mit Konflikten entsteht.",
+        "explanation": "TRAUMA verliert U; T wird D: DRAMA.",
+        "clues": {
+          "forward": "Entferne aus _ den inneren Vokal und ändere den Anfang: Ein Bühnenstück mit Konflikten entsteht.",
+          "reverse": "Ändere den Anfang von _ und füge einen Vokal ein: Gesucht ist eine tiefe seelische Verletzung."
+        }
       },
-    ],
-    date: "2026-11-15",
-    schemaVersion: 2,
-    legacyId: 2,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "BÜHNE",
+        "kind": "meaning",
+        "hint": "_: Auf welchem erhöhten Teil des Theaters wird ein solches Bühnenstück vor dem Publikum gespielt?",
+        "explanation": "Ein Drama wird auf der Bühne aufgeführt.",
+        "clues": {
+          "forward": "_: Auf welchem erhöhten Teil des Theaters wird ein solches Bühnenstück vor dem Publikum gespielt?",
+          "reverse": "_: Welche literarische Gattung wird dort von handelnden Figuren dargestellt, statt von einem Erzähler vorgetragen zu werden?"
+        }
+      },
+      {
+        "answer": "BOHNE",
+        "kind": "letter",
+        "hint": "Ein anderer Vokal macht aus _ einen essbaren Samen in einer Hülse.",
+        "explanation": "BÜHNE wird durch Ü → O zu BOHNE.",
+        "clues": {
+          "forward": "Ein anderer Vokal macht aus _ einen essbaren Samen in einer Hülse.",
+          "reverse": "Ein anderer Vokal macht aus _ die Spielfläche im Theater."
+        }
+      },
+      {
+        "answer": "SCHOTE",
+        "kind": "meaning",
+        "hint": "_: Wie nennt man die längliche grüne Hülle dieses Samens im Küchenalltag?",
+        "explanation": "Im Küchenalltag heißt die Hülle einer Bohne oft Schote; botanisch ist sie eine Hülse.",
+        "clues": {
+          "forward": "_: Wie nennt man die längliche grüne Hülle dieses Samens im Küchenalltag?",
+          "reverse": "_: Welcher essbare Samen steckt in dieser Hülle und heißt genauso wie der geröstete Samen für Kaffee?"
+        }
+      },
+      {
+        "answer": "NOTE",
+        "kind": "letter",
+        "hint": "Ersetze die ersten drei Buchstaben von _ durch einen: Ein Zeichen in der Musik entsteht.",
+        "explanation": "SCHOTE verliert SCH und erhält N: NOTE.",
+        "clues": {
+          "forward": "Ersetze die ersten drei Buchstaben von _ durch einen: Ein Zeichen in der Musik entsteht.",
+          "reverse": "Ersetze den ersten Buchstaben von _ durch drei: Eine längliche Hülle von Erbsen entsteht, wie man sie in der Küche nennt."
+        }
+      },
+      {
+        "answer": "TON",
+        "kind": "letter",
+        "hint": "Entferne den letzten Buchstaben von _ und ordne den Rest neu: Das musikalische Zeichen wird hörbar.",
+        "explanation": "NOTE ohne E ergibt nach Umstellung TON.",
+        "clues": {
+          "forward": "Entferne den letzten Buchstaben von _ und ordne den Rest neu: Das musikalische Zeichen wird hörbar.",
+          "reverse": "Ergänze _ um einen Buchstaben und ordne neu: Das Hörbare bekommt ein Zeichen im Notensystem."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-11-16",
-    start: "HAND",
-    end: "FEUER",
-    steps: [
+    "id": "rd-2026-11-16",
+    "date": "2026-11-16",
+    "legacyId": 3,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Von der Hand zur Lilie",
+    "start": "HAND",
+    "end": "LILIE",
+    "steps": [
       {
-        answer: "SAND",
-        kind: "letter",
-        hint: "Aus _ wird durch einen anderen Anfangsbuchstaben das körnige Material am Strand.",
-        explanation:
-          "HAND → SAND: Aus HAND wird durch einen anderen Anfangsbuchstaben das körnige Material am Strand.",
-        clues: {
-          forward:
-            "Aus _ wird durch einen anderen Anfangsbuchstaben das körnige Material am Strand.",
-          reverse:
-            "Aus _ wird durch einen anderen Anfangsbuchstaben ein Körperteil mit fünf Fingern.",
-        },
+        "answer": "SAND",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ ein körniges Material, das oft Strände bedeckt.",
+        "explanation": "HAND und SAND unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ ein körniges Material, das oft Strände bedeckt.",
+          "reverse": "Ein neuer Anfang macht aus dem Strandmaterial _ das Körperteil mit Daumen und Fingern."
+        }
       },
       {
-        answer: "STRAND",
-        kind: "meaning",
-        hint: "Wo liegt der _ an der Meeresküste?",
-        explanation: "SAND → STRAND: Wo liegt der SAND an der Meeresküste?",
-        clues: {
-          forward: "Wo liegt der _ an der Meeresküste?",
-          reverse: "Welche feinen Körner bedecken einen _ häufig?",
-        },
+        "answer": "RAND",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus dem körnigen Material _ den äußeren Abschluss einer Fläche.",
+        "explanation": "SAND und RAND unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus dem körnigen Material _ den äußeren Abschluss einer Fläche.",
+          "reverse": "Ein neuer Anfang macht aus _ das körnige Material vieler Strände."
+        }
       },
       {
-        answer: "BRAND",
-        kind: "letter",
-        hint: "Aus _ wird durch Austausch der Anfangsbuchstaben ein zerstörerisches Feuer.",
-        explanation:
-          "STRAND → BRAND: Aus STRAND wird durch Austausch der Anfangsbuchstaben ein zerstörerisches Feuer.",
-        clues: {
-          forward:
-            "Aus _ wird durch Austausch der Anfangsbuchstaben ein zerstörerisches Feuer.",
-          reverse:
-            "Aus _ wird durch Austausch der Anfangsbuchstaben ein sandiger Küstenstreifen.",
-        },
+        "answer": "RIND",
+        "kind": "letter",
+        "hint": "Ein Vokalwechsel macht aus _ ein großes Nutztier, zu dessen Art Kühe und Stiere gehören.",
+        "explanation": "RAND und RIND unterscheiden sich durch A/I.",
+        "clues": {
+          "forward": "Ein Vokalwechsel macht aus _ ein großes Nutztier, zu dessen Art Kühe und Stiere gehören.",
+          "reverse": "Ein Vokalwechsel macht aus _ den äußeren Abschluss einer Fläche."
+        }
       },
       {
-        answer: "FEUER",
-        kind: "meaning",
-        hint: "Was lodert bei einem _?",
-        explanation: "BRAND → FEUER: Was lodert bei einem BRAND?",
-        clues: {
-          forward: "Was lodert bei einem _?",
-          reverse: "Wie nennt man ein großes, unkontrolliertes _?",
-        },
+        "answer": "RINDE",
+        "kind": "letter",
+        "hint": "Verlängere _ hinten um einen Vokal: Die äußere Schicht eines Baumstamms entsteht, deren Name auch eine Brotaußenseite bezeichnet.",
+        "explanation": "RIND + E ergibt RINDE.",
+        "clues": {
+          "forward": "Verlängere _ hinten um einen Vokal: Die äußere Schicht eines Baumstamms entsteht, deren Name auch eine Brotaußenseite bezeichnet.",
+          "reverse": "Kürze _ hinten um einen Vokal: Das Nutztier, zu dessen Art Kühe und Stiere gehören, bleibt."
+        }
       },
-    ],
-    date: "2026-11-16",
-    schemaVersion: 2,
-    legacyId: 3,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "LINDE",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ einen Laubbaum mit herzförmigen Blättern und duftenden Blüten.",
+        "explanation": "RINDE und LINDE unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ einen Laubbaum mit herzförmigen Blättern und duftenden Blüten.",
+          "reverse": "Ein neuer Anfang macht aus _ die äußere Schicht eines Baumstamms oder Brots."
+        }
+      },
+      {
+        "answer": "LINSE",
+        "kind": "letter",
+        "hint": "Ein anderer Buchstabe in _ macht aus dem Baum einen essbaren kleinen Samen, der auch als optisches Bauteil vorkommt.",
+        "explanation": "LINDE und LINSE unterscheiden sich durch D/S.",
+        "clues": {
+          "forward": "Ein anderer Buchstabe in _ macht aus dem Baum einen essbaren kleinen Samen, der auch als optisches Bauteil vorkommt.",
+          "reverse": "Ein anderer Buchstabe in _ macht aus dem Samen einen Laubbaum mit herzförmigen Blättern."
+        }
+      },
+      {
+        "answer": "LINIE",
+        "kind": "letter",
+        "hint": "Ein anderer innerer Buchstabe macht aus dem optischen Bauteil _ einen gezogenen Strich, der gerade oder gekrümmt sein kann.",
+        "explanation": "LINSE und LINIE unterscheiden sich durch S/I.",
+        "clues": {
+          "forward": "Ein anderer innerer Buchstabe macht aus dem optischen Bauteil _ einen gezogenen Strich, der gerade oder gekrümmt sein kann.",
+          "reverse": "Ein anderer innerer Buchstabe macht aus _ einen essbaren kleinen Samen oder ein optisches Bauteil."
+        }
+      },
+      {
+        "answer": "LILIE",
+        "kind": "letter",
+        "hint": "Ein anderer innerer Buchstabe macht aus _ eine Blume mit großen, oft trichterförmigen Blüten, die weiß sein können.",
+        "explanation": "LINIE und LILIE unterscheiden sich durch N/L.",
+        "clues": {
+          "forward": "Ein anderer innerer Buchstabe macht aus _ eine Blume mit großen, oft trichterförmigen Blüten, die weiß sein können.",
+          "reverse": "Ein anderer innerer Buchstabe macht aus _ einen gezogenen geraden oder gekrümmten Strich."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-11-17",
-    start: "WIND",
-    end: "MUND",
-    steps: [
+    "id": "rd-2026-11-17",
+    "date": "2026-11-17",
+    "legacyId": 4,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Wind zur Angel",
+    "start": "WIND",
+    "end": "ANGEL",
+    "steps": [
       {
-        answer: "KIND",
-        kind: "letter",
-        hint: "Aus _ wird durch Änderung des Anfangsbuchstabens ein junger Mensch.",
-        explanation:
-          "WIND → KIND: Aus WIND wird durch Änderung des Anfangsbuchstabens ein junger Mensch.",
-        clues: {
-          forward:
-            "Aus _ wird durch Änderung des Anfangsbuchstabens ein junger Mensch.",
-          reverse:
-            "Aus _ wird durch Änderung des Anfangsbuchstabens bewegte Luft.",
-        },
+        "answer": "WAND",
+        "kind": "letter",
+        "hint": "Ein Vokalwechsel verwandelt _ in die senkrechte Begrenzung eines Zimmers.",
+        "explanation": "WIND und WAND unterscheiden sich durch I/A.",
+        "clues": {
+          "forward": "Ein Vokalwechsel verwandelt _ in die senkrechte Begrenzung eines Zimmers.",
+          "reverse": "Ein Vokalwechsel verwandelt _ in bewegte Luft."
+        }
       },
       {
-        answer: "JUNGE",
-        kind: "meaning",
-        hint: "Wie nennt man ein männliches _?",
-        explanation: "KIND → JUNGE: Wie nennt man ein männliches KIND?",
-        clues: {
-          forward: "Wie nennt man ein männliches _?",
-          reverse: "Ein _ ist ein männliches Exemplar welcher Altersgruppe?",
-        },
+        "answer": "BAND",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ einen Streifen zum Zusammenbinden, der auch eine Musikgruppe sein kann.",
+        "explanation": "WAND und BAND unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ einen Streifen zum Zusammenbinden, der auch eine Musikgruppe sein kann.",
+          "reverse": "Ein neuer Anfang macht aus _ die senkrechte Begrenzung eines Raums."
+        }
       },
       {
-        answer: "ZUNGE",
-        kind: "letter",
-        hint: "Aus _ wird mit neuem Anfangsbuchstaben ein Organ im Mund.",
-        explanation:
-          "JUNGE → ZUNGE: Aus JUNGE wird mit neuem Anfangsbuchstaben ein Organ im Mund.",
-        clues: {
-          forward: "Aus _ wird mit neuem Anfangsbuchstaben ein Organ im Mund.",
-          reverse:
-            "Aus _ wird mit neuem Anfangsbuchstaben ein männliches Kind.",
-        },
+        "answer": "BANK",
+        "kind": "letter",
+        "hint": "Tausche den Schluss von _: Nun kann man Geld einzahlen oder sich setzen.",
+        "explanation": "BAND und BANK unterscheiden sich durch D/K.",
+        "clues": {
+          "forward": "Tausche den Schluss von _: Nun kann man Geld einzahlen oder sich setzen.",
+          "reverse": "Tausche den Schluss von _: Nun hat man einen schmalen Stoffstreifen oder eine Musikgruppe."
+        }
       },
       {
-        answer: "MUND",
-        kind: "meaning",
-        hint: "Wo im Körper befindet sich die _?",
-        explanation: "ZUNGE → MUND: Wo im Körper befindet sich die ZUNGE?",
-        clues: {
-          forward: "Wo im Körper befindet sich die _?",
-          reverse: "Welches bewegliche Organ liegt im _?",
-        },
+        "answer": "TANK",
+        "kind": "letter",
+        "hint": "Mit anderem Anfang wird _ zu einem Behälter für den Treibstoff eines Fahrzeugs.",
+        "explanation": "BANK und TANK unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Mit anderem Anfang wird _ zu einem Behälter für den Treibstoff eines Fahrzeugs.",
+          "reverse": "Mit anderem Anfang wird _ zu einem Geldinstitut oder einem langen Sitzmöbel."
+        }
       },
-    ],
-    date: "2026-11-17",
-    schemaVersion: 2,
-    legacyId: 4,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "TANG",
+        "kind": "letter",
+        "hint": "Mit anderem Schluss wird _ zu großen Meeresalgen.",
+        "explanation": "TANK und TANG unterscheiden sich durch K/G.",
+        "clues": {
+          "forward": "Mit anderem Schluss wird _ zu großen Meeresalgen.",
+          "reverse": "Mit anderem Schluss wird _ zu einem Treibstoffbehälter."
+        }
+      },
+      {
+        "answer": "GANG",
+        "kind": "letter",
+        "hint": "Ein anderer Anfang macht aus _ einen Hausflur, der auch ein Teil eines Menüs sein kann.",
+        "explanation": "TANG und GANG unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein anderer Anfang macht aus _ einen Hausflur, der auch ein Teil eines Menüs sein kann.",
+          "reverse": "Ein anderer Anfang macht aus _ große Algen im Meer."
+        }
+      },
+      {
+        "answer": "GONG",
+        "kind": "letter",
+        "hint": "Tausche einen Vokal in _: Aus dem Flur wird ein rundes Schlaginstrument.",
+        "explanation": "GANG und GONG unterscheiden sich durch A/O.",
+        "clues": {
+          "forward": "Tausche einen Vokal in _: Aus dem Flur wird ein rundes Schlaginstrument.",
+          "reverse": "Tausche einen Vokal in _: Aus dem Instrument wird ein Flur oder ein Teil eines Menüs."
+        }
+      },
+      {
+        "answer": "KLANG",
+        "kind": "meaning",
+        "hint": "_: Wie heißt der volle, schwingende Höreindruck beim Anschlagen dieses Instruments? Das gesuchte Wort reimt sich auf Gesang.",
+        "explanation": "Ein Gong erzeugt einen Klang.",
+        "clues": {
+          "forward": "_: Wie heißt der volle, schwingende Höreindruck beim Anschlagen dieses Instruments? Das gesuchte Wort reimt sich auf Gesang.",
+          "reverse": "_: Welches runde Metallinstrument erzeugt einen solchen tiefen, nachhallenden Höreindruck beim Anschlagen?"
+        }
+      },
+      {
+        "answer": "LANG",
+        "kind": "letter",
+        "hint": "Entferne den Anfangsbuchstaben von _: Übrig bleibt das Gegenteil von kurz.",
+        "explanation": "KLANG ohne K ergibt LANG.",
+        "clues": {
+          "forward": "Entferne den Anfangsbuchstaben von _: Übrig bleibt das Gegenteil von kurz.",
+          "reverse": "Setze einen Buchstaben vor _: Aus der Längenangabe wird ein voller, schwingender Höreindruck."
+        }
+      },
+      {
+        "answer": "ANGEL",
+        "kind": "letter",
+        "hint": "Ergänze _ um einen Vokal und ordne neu: Ein Gerät zum Fischen entsteht.",
+        "explanation": "LANG + E lässt sich zu ANGEL ordnen.",
+        "clues": {
+          "forward": "Ergänze _ um einen Vokal und ordne neu: Ein Gerät zum Fischen entsteht.",
+          "reverse": "Entferne aus _ einen Vokal und ordne neu: Übrig bleibt ein Adjektiv für große Ausdehnung."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-11-18",
-    start: "BROT",
-    end: "UFER",
-    steps: [
+    "id": "rd-2026-11-18",
+    "date": "2026-11-18",
+    "legacyId": 5,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Brot zum Schaum",
+    "start": "BROT",
+    "end": "SCHAUM",
+    "steps": [
       {
-        answer: "BOOT",
-        kind: "letter",
-        hint: "Aus _ wird mit einem neuen zweiten Buchstaben ein Wasserfahrzeug.",
-        explanation:
-          "BROT → BOOT: Aus BROT wird mit einem neuen zweiten Buchstaben ein Wasserfahrzeug.",
-        clues: {
-          forward:
-            "Aus _ wird mit einem neuen zweiten Buchstaben ein Wasserfahrzeug.",
-          reverse:
-            "Aus _ wird mit einem neuen zweiten Buchstaben ein gebackenes Grundnahrungsmittel.",
-        },
+        "answer": "BOOT",
+        "kind": "letter",
+        "hint": "Ändere einen inneren Buchstaben in _: Aus dem Gebackenen wird ein kleines Wasserfahrzeug.",
+        "explanation": "BROT → BOOT: R wird O.",
+        "clues": {
+          "forward": "Ändere einen inneren Buchstaben in _: Aus dem Gebackenen wird ein kleines Wasserfahrzeug.",
+          "reverse": "Ändere einen inneren Buchstaben in _: Aus dem Wasserfahrzeug wird ein gebackenes Grundnahrungsmittel."
+        }
       },
       {
-        answer: "SCHIFF",
-        kind: "meaning",
-        hint: "Ein großes _ nennt man häufig wie?",
-        explanation: "BOOT → SCHIFF: Ein großes BOOT nennt man häufig wie?",
-        clues: {
-          forward: "Ein großes _ nennt man häufig wie?",
-          reverse: "Welches kleinere Wasserfahrzeug ist mit einem _ verwandt?",
-        },
+        "answer": "BEET",
+        "kind": "letter",
+        "hint": "Tausche beide Vokale in _ aus: Eine abgegrenzte Pflanzfläche entsteht.",
+        "explanation": "BOOT und BEET unterscheiden sich in beiden Vokalen.",
+        "clues": {
+          "forward": "Tausche beide Vokale in _ aus: Eine abgegrenzte Pflanzfläche entsteht.",
+          "reverse": "Tausche beide Vokale in _ aus: Ein kleines Wasserfahrzeug entsteht."
+        }
       },
       {
-        answer: "SCHILF",
-        kind: "letter",
-        hint: "Aus _ wird durch Änderung eines Buchstabens eine Uferpflanze.",
-        explanation:
-          "SCHIFF → SCHILF: Aus SCHIFF wird durch Änderung eines Buchstabens eine Uferpflanze.",
-        clues: {
-          forward:
-            "Aus _ wird durch Änderung eines Buchstabens eine Uferpflanze.",
-          reverse:
-            "Aus _ wird durch Änderung eines Buchstabens ein großes Wasserfahrzeug.",
-        },
+        "answer": "BETT",
+        "kind": "letter",
+        "hint": "Ändere einen Buchstaben in _: Aus der Pflanzfläche wird ein Schlafmöbel.",
+        "explanation": "BEET → BETT: das zweite E wird T.",
+        "clues": {
+          "forward": "Ändere einen Buchstaben in _: Aus der Pflanzfläche wird ein Schlafmöbel.",
+          "reverse": "Ändere einen Buchstaben in _: Aus dem Schlafmöbel wird eine abgegrenzte Pflanzfläche."
+        }
       },
       {
-        answer: "UFER",
-        kind: "meaning",
-        hint: "Wo wächst _ am Rand eines Gewässers?",
-        explanation: "SCHILF → UFER: Wo wächst SCHILF am Rand eines Gewässers?",
-        clues: {
-          forward: "Wo wächst _ am Rand eines Gewässers?",
-          reverse: "Wie heißt der Rand eines Gewässers, an dem _ wächst?",
-        },
+        "answer": "BRETT",
+        "kind": "letter",
+        "hint": "Füge in _ einen Buchstaben ein: Aus dem Schlafmöbel wird ein flaches, längliches Stück Holz.",
+        "explanation": "BETT + R an zweiter Stelle ergibt BRETT.",
+        "clues": {
+          "forward": "Füge in _ einen Buchstaben ein: Aus dem Schlafmöbel wird ein flaches, längliches Stück Holz.",
+          "reverse": "Entferne aus _ einen Buchstaben: Aus dem Holzstück wird ein Schlafmöbel."
+        }
       },
-    ],
-    date: "2026-11-18",
-    schemaVersion: 2,
-    legacyId: 5,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "BLATT",
+        "kind": "letter",
+        "hint": "Tausche zwei Buchstaben in _: Ein Teil einer Pflanze entsteht, der auch aus Papier sein kann.",
+        "explanation": "BRETT → BLATT: R wird L, E wird A.",
+        "clues": {
+          "forward": "Tausche zwei Buchstaben in _: Ein Teil einer Pflanze entsteht, der auch aus Papier sein kann.",
+          "reverse": "Tausche zwei Buchstaben in _: Ein flaches Stück Holz entsteht."
+        }
+      },
+      {
+        "answer": "BAUM",
+        "kind": "meaning",
+        "hint": "_: Gemeint ist das grüne Pflanzenorgan. Welches große Gewächs trägt solche Organe an einer verholzten Krone?",
+        "explanation": "Bäume tragen Blätter; das einzelne Blatt ist zugleich eine Papierbezeichnung.",
+        "clues": {
+          "forward": "_: Gemeint ist das grüne Pflanzenorgan. Welches große Gewächs trägt solche Organe an einer verholzten Krone?",
+          "reverse": "_: Wie heißt das meist flache grüne Organ dieses Gewächses, dessen Name auch ein Stück Papier bezeichnet?"
+        }
+      },
+      {
+        "answer": "SAUM",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ den umgenähten Rand eines Kleidungsstücks.",
+        "explanation": "BAUM und SAUM unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ den umgenähten Rand eines Kleidungsstücks.",
+          "reverse": "Ein neuer Anfang macht aus _ ein Gewächs mit Stamm und Krone."
+        }
+      },
+      {
+        "answer": "SCHAUM",
+        "kind": "letter",
+        "hint": "Füge in _ zwei Buchstaben ein: Statt eines Stoffrands entsteht eine Masse aus vielen kleinen Gasbläschen.",
+        "explanation": "SAUM + CH nach S ergibt SCHAUM.",
+        "clues": {
+          "forward": "Füge in _ zwei Buchstaben ein: Statt eines Stoffrands entsteht eine Masse aus vielen kleinen Gasbläschen.",
+          "reverse": "Entferne aus _ zwei Buchstaben: Aus den Bläschen wird der umgenähte Rand eines Kleidungsstücks."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-11-19",
-    start: "LICHT",
-    end: "TRAUBE",
-    steps: [
+    "id": "rd-2026-11-19",
+    "date": "2026-11-19",
+    "legacyId": 6,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Licht zur Zange",
+    "start": "LICHT",
+    "end": "ZANGE",
+    "steps": [
       {
-        answer: "NICHT",
-        kind: "letter",
-        hint: "Aus _ wird durch Änderung des ersten Buchstabens eine Verneinung.",
-        explanation:
-          "LICHT → NICHT: Aus LICHT wird durch Änderung des ersten Buchstabens eine Verneinung.",
-        clues: {
-          forward:
-            "Aus _ wird durch Änderung des ersten Buchstabens eine Verneinung.",
-          reverse:
-            "Aus _ wird durch Änderung des ersten Buchstabens das Gegenteil von Dunkelheit.",
-        },
+        "answer": "DICHT",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ ein Wort für lückenlos oder undurchlässig.",
+        "explanation": "LICHT und DICHT unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ ein Wort für lückenlos oder undurchlässig.",
+          "reverse": "Ein neuer Anfang macht aus _ das, was Sehen ermöglicht und Dunkelheit vertreibt."
+        }
       },
       {
-        answer: "NEIN",
-        kind: "meaning",
-        hint: "Welches kurze Wort drückt wie _ eine Verneinung aus?",
-        explanation:
-          "NICHT → NEIN: Welches kurze Wort drückt wie NICHT eine Verneinung aus?",
-        clues: {
-          forward: "Welches kurze Wort drückt wie _ eine Verneinung aus?",
-          reverse:
-            "Welches Wort verneint wie _ eine Aussage, steht aber häufig direkt vor einem Satzteil?",
-        },
+        "answer": "DICHTER",
+        "kind": "letter",
+        "hint": "Verlängere _ hinten um zwei Buchstaben: Jemand, der Verse verfasst, entsteht.",
+        "explanation": "DICHT + ER ergibt DICHTER.",
+        "clues": {
+          "forward": "Verlängere _ hinten um zwei Buchstaben: Jemand, der Verse verfasst, entsteht.",
+          "reverse": "Kürze _ hinten um zwei Buchstaben: Übrig bleibt ein Wort für undurchlässig."
+        }
       },
       {
-        answer: "WEIN",
-        kind: "letter",
-        hint: "Aus _ wird durch einen neuen Anfangsbuchstaben ein Getränk aus Trauben.",
-        explanation:
-          "NEIN → WEIN: Aus NEIN wird durch einen neuen Anfangsbuchstaben ein Getränk aus Trauben.",
-        clues: {
-          forward:
-            "Aus _ wird durch einen neuen Anfangsbuchstaben ein Getränk aus Trauben.",
-          reverse:
-            "Aus _ wird durch einen neuen Anfangsbuchstaben ein Wort für Ablehnung.",
-        },
+        "answer": "RICHTER",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ jemanden, der vor Gericht ein Urteil spricht.",
+        "explanation": "DICHTER und RICHTER unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ jemanden, der vor Gericht ein Urteil spricht.",
+          "reverse": "Ein neuer Anfang macht aus _ jemanden, der Verse verfasst."
+        }
       },
       {
-        answer: "TRAUBE",
-        kind: "meaning",
-        hint: "Aus welcher Frucht wird _ hergestellt?",
-        explanation: "WEIN → TRAUBE: Aus welcher Frucht wird WEIN hergestellt?",
-        clues: {
-          forward: "Aus welcher Frucht wird _ hergestellt?",
-          reverse: "Was wird aus einer _ durch Gärung hergestellt?",
-        },
+        "answer": "TRICHTER",
+        "kind": "letter",
+        "hint": "Ein zusätzlicher Anfangsbuchstabe macht aus _ ein oben weites, unten enges Hilfsmittel zum Eingießen.",
+        "explanation": "T vor RICHTER ergibt TRICHTER.",
+        "clues": {
+          "forward": "Ein zusätzlicher Anfangsbuchstabe macht aus _ ein oben weites, unten enges Hilfsmittel zum Eingießen.",
+          "reverse": "Ohne den ersten Buchstaben wird _ zu einer Person, die vor Gericht urteilt."
+        }
       },
-    ],
-    date: "2026-11-19",
-    schemaVersion: 2,
-    legacyId: 6,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "KANNE",
+        "kind": "meaning",
+        "hint": "_: Dieses Hilfsmittel hat eine enge Tülle. Welches andere Gefäß gießt Flüssigkeit durch einen Ausguss aus und hat einen Henkel?",
+        "explanation": "Kanne und Trichter führen Flüssigkeiten; die Kanne hat Henkel und Ausguss, der Trichter eine enge Tülle.",
+        "clues": {
+          "forward": "_: Dieses Hilfsmittel hat eine enge Tülle. Welches andere Gefäß gießt Flüssigkeit durch einen Ausguss aus und hat einen Henkel?",
+          "reverse": "_: Welches oben weite, unten enge Hilfsmittel kann beim Befüllen dieses Gefäßes durch eine kleine Öffnung helfen?"
+        }
+      },
+      {
+        "answer": "TANNE",
+        "kind": "letter",
+        "hint": "Mit neuem Anfang wird _ zu einem immergrünen Nadelbaum, den man oft zu Weihnachten schmückt.",
+        "explanation": "KANNE und TANNE unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Mit neuem Anfang wird _ zu einem immergrünen Nadelbaum, den man oft zu Weihnachten schmückt.",
+          "reverse": "Mit neuem Anfang wird der Nadelbaum _ zu einem Gefäß mit Henkel und Ausguss."
+        }
+      },
+      {
+        "answer": "WANNE",
+        "kind": "letter",
+        "hint": "Mit neuem Anfang wird der Nadelbaum _ zu einem großen Gefäß, in das man zum Baden steigt.",
+        "explanation": "TANNE und WANNE unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Mit neuem Anfang wird der Nadelbaum _ zu einem großen Gefäß, in das man zum Baden steigt.",
+          "reverse": "Mit neuem Anfang wird _ zu einem immergrünen Nadelbaum."
+        }
+      },
+      {
+        "answer": "WANGE",
+        "kind": "letter",
+        "hint": "Ein anderer innerer Buchstabe macht aus _ die weiche Gesichtsseite zwischen Nase und Ohr.",
+        "explanation": "WANNE → WANGE: zweites N wird G.",
+        "clues": {
+          "forward": "Ein anderer innerer Buchstabe macht aus _ die weiche Gesichtsseite zwischen Nase und Ohr.",
+          "reverse": "Ein anderer innerer Buchstabe macht aus _ ein großes Badegefäß."
+        }
+      },
+      {
+        "answer": "ZANGE",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ ein Werkzeug mit zwei Backen zum Greifen.",
+        "explanation": "WANGE und ZANGE unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ ein Werkzeug mit zwei Backen zum Greifen.",
+          "reverse": "Ein neuer Anfang macht aus _ die seitliche Gesichtsfläche unterhalb des Auges."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-11-20",
-    start: "MOND",
-    end: "HUHN",
-    steps: [
+    "id": "rd-2026-11-20",
+    "date": "2026-11-20",
+    "legacyId": 7,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Mond in den Keller",
+    "start": "MOND",
+    "end": "KELLER",
+    "steps": [
       {
-        answer: "MUND",
-        kind: "letter",
-        hint: "Aus _ wird mit einem anderen Vokal ein Körperteil im Gesicht.",
-        explanation:
-          "MOND → MUND: Aus MOND wird mit einem anderen Vokal ein Körperteil im Gesicht.",
-        clues: {
-          forward:
-            "Aus _ wird mit einem anderen Vokal ein Körperteil im Gesicht.",
-          reverse:
-            "Aus _ wird mit einem anderen Vokal der natürliche Begleiter der Erde.",
-        },
+        "answer": "MUND",
+        "kind": "letter",
+        "hint": "Ein Vokalwechsel macht aus _ die Körperöffnung zwischen den Lippen.",
+        "explanation": "MOND und MUND unterscheiden sich durch O/U.",
+        "clues": {
+          "forward": "Ein Vokalwechsel macht aus _ die Körperöffnung zwischen den Lippen.",
+          "reverse": "Ein Vokalwechsel macht aus _ den natürlichen Begleiter der Erde."
+        }
       },
       {
-        answer: "ZAHN",
-        kind: "meaning",
-        hint: "Welcher harte Teil sitzt im _ und hilft beim Kauen?",
-        explanation:
-          "MUND → ZAHN: Welcher harte Teil sitzt im MUND und hilft beim Kauen?",
-        clues: {
-          forward: "Welcher harte Teil sitzt im _ und hilft beim Kauen?",
-          reverse: "In welchem Körperteil befindet sich ein _?",
-        },
+        "answer": "HUND",
+        "kind": "letter",
+        "hint": "Mit anderem Anfang wird _ zu einem Haustier, das bellen kann.",
+        "explanation": "MUND und HUND unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Mit anderem Anfang wird _ zu einem Haustier, das bellen kann.",
+          "reverse": "Mit anderem Anfang wird _ zur Öffnung zwischen den Lippen."
+        }
       },
       {
-        answer: "HAHN",
-        kind: "letter",
-        hint: "Aus _ wird durch Änderung des ersten Buchstabens ein männliches Huhn.",
-        explanation:
-          "ZAHN → HAHN: Aus ZAHN wird durch Änderung des ersten Buchstabens ein männliches Huhn.",
-        clues: {
-          forward:
-            "Aus _ wird durch Änderung des ersten Buchstabens ein männliches Huhn.",
-          reverse:
-            "Aus _ wird durch Änderung des ersten Buchstabens ein Teil des Gebisses.",
-        },
+        "answer": "WOLF",
+        "kind": "meaning",
+        "hint": "_: Von welchem wild lebenden Raubtier stammt dieses Haustier ab?",
+        "explanation": "Der Haushund stammt vom Wolf ab.",
+        "clues": {
+          "forward": "_: Von welchem wild lebenden Raubtier stammt dieses Haustier ab?",
+          "reverse": "_: Welches Haustier stammt von diesem Raubtier ab und wurde zum Begleiter des Menschen?"
+        }
       },
       {
-        answer: "HUHN",
-        kind: "meaning",
-        hint: "Wie heißt das weibliche Gegenstück zum _?",
-        explanation:
-          "HAHN → HUHN: Wie heißt das weibliche Gegenstück zum HAHN?",
-        clues: {
-          forward: "Wie heißt das weibliche Gegenstück zum _?",
-          reverse: "Welches Tier ist ein _ männlichen Geschlechts?",
-        },
+        "answer": "WOLKE",
+        "kind": "letter",
+        "hint": "Ersetze den Schlussbuchstaben von _ durch zwei andere: Eine schwebende Ansammlung winziger Wassertröpfchen entsteht.",
+        "explanation": "WOLF verliert F und erhält KE: WOLKE.",
+        "clues": {
+          "forward": "Ersetze den Schlussbuchstaben von _ durch zwei andere: Eine schwebende Ansammlung winziger Wassertröpfchen entsteht.",
+          "reverse": "Ersetze die letzten beiden Buchstaben von _ durch einen: Der wilde Vorfahr des Haushunds entsteht."
+        }
       },
-    ],
-    date: "2026-11-20",
-    schemaVersion: 2,
-    legacyId: 7,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "WOLLE",
+        "kind": "letter",
+        "hint": "Ein anderer Buchstabe in _ macht aus den Tröpfchen das Material, das man von Schafen schert.",
+        "explanation": "WOLKE → WOLLE: K wird L.",
+        "clues": {
+          "forward": "Ein anderer Buchstabe in _ macht aus den Tröpfchen das Material, das man von Schafen schert.",
+          "reverse": "Ein anderer Buchstabe in _ macht aus dem Schafmaterial eine Ansammlung feiner Tröpfchen am Himmel."
+        }
+      },
+      {
+        "answer": "ROLLE",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ einen Auftrag für Schauspieler, der auch unter einem Koffer sitzen kann.",
+        "explanation": "WOLLE und ROLLE unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ einen Auftrag für Schauspieler, der auch unter einem Koffer sitzen kann.",
+          "reverse": "Ein neuer Anfang macht aus _ das Material, das man von Schafen schert."
+        }
+      },
+      {
+        "answer": "ROLLER",
+        "kind": "letter",
+        "hint": "Verlängere _ hinten um einen Buchstaben: Ein Fahrzeug mit Lenker und Trittbrett entsteht.",
+        "explanation": "ROLLE + R ergibt ROLLER.",
+        "clues": {
+          "forward": "Verlängere _ hinten um einen Buchstaben: Ein Fahrzeug mit Lenker und Trittbrett entsteht.",
+          "reverse": "Kürze _ hinten um einen Buchstaben: Übrig bleibt ein drehbares Rädchen oder eine Aufgabe im Theater."
+        }
+      },
+      {
+        "answer": "KELLER",
+        "kind": "letter",
+        "hint": "Ändere zwei Buchstaben in _: Aus dem Fahrzeug wird ein Raum unter dem Erdgeschoss.",
+        "explanation": "ROLLER → KELLER: R wird K, O wird E.",
+        "clues": {
+          "forward": "Ändere zwei Buchstaben in _: Aus dem Fahrzeug wird ein Raum unter dem Erdgeschoss.",
+          "reverse": "Ändere zwei Buchstaben in _: Aus dem unterirdischen Raum wird ein Fahrzeug mit Trittbrett."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-11-21",
-    start: "STEIN",
-    end: "BEHÄLTER",
-    steps: [
+    "id": "rd-2026-11-21",
+    "date": "2026-11-21",
+    "legacyId": 8,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Stein zur Quelle",
+    "start": "STEIN",
+    "end": "QUELLE",
+    "steps": [
       {
-        answer: "STERN",
-        kind: "letter",
-        hint: "Aus _ wird durch Änderung eines Buchstabens ein leuchtender Himmelskörper.",
-        explanation:
-          "STEIN → STERN: Aus STEIN wird durch Änderung eines Buchstabens ein leuchtender Himmelskörper.",
-        clues: {
-          forward:
-            "Aus _ wird durch Änderung eines Buchstabens ein leuchtender Himmelskörper.",
-          reverse:
-            "Aus _ wird durch Änderung eines Buchstabens ein harter Brocken.",
-        },
+        "answer": "STERN",
+        "kind": "letter",
+        "hint": "Ändere einen Buchstaben in _: Aus dem Gesteinsstück wird ein selbst leuchtender Himmelskörper.",
+        "explanation": "STEIN → STERN: I wird R.",
+        "clues": {
+          "forward": "Ändere einen Buchstaben in _: Aus dem Gesteinsstück wird ein selbst leuchtender Himmelskörper.",
+          "reverse": "Ändere einen Buchstaben in _: Aus dem Himmelskörper wird ein fester Brocken Gestein."
+        }
       },
       {
-        answer: "SONNE",
-        kind: "meaning",
-        hint: "Welcher _ ist der Erde am nächsten und spendet Wärme?",
-        explanation:
-          "STERN → SONNE: Welcher STERN ist der Erde am nächsten und spendet Wärme?",
-        clues: {
-          forward: "Welcher _ ist der Erde am nächsten und spendet Wärme?",
-          reverse: "Welcher Himmelskörper ist die _ astronomisch gesehen?",
-        },
+        "answer": "ERNST",
+        "kind": "letter",
+        "hint": "Ordne _ neu: Gesucht ist ein Adjektiv für eine Haltung ohne Scherz.",
+        "explanation": "STERN und ERNST bestehen aus denselben fünf Buchstaben.",
+        "clues": {
+          "forward": "Ordne _ neu: Gesucht ist ein Adjektiv für eine Haltung ohne Scherz.",
+          "reverse": "Ordne _ neu: Gesucht ist ein selbst leuchtender Himmelskörper."
+        }
       },
       {
-        answer: "TONNE",
-        kind: "letter",
-        hint: "Aus _ wird mit einem anderen Anfangsbuchstaben ein großes Fass.",
-        explanation:
-          "SONNE → TONNE: Aus SONNE wird mit einem anderen Anfangsbuchstaben ein großes Fass.",
-        clues: {
-          forward:
-            "Aus _ wird mit einem anderen Anfangsbuchstaben ein großes Fass.",
-          reverse:
-            "Aus _ wird mit einem anderen Anfangsbuchstaben ein leuchtender Himmelskörper.",
-        },
+        "answer": "ERNTE",
+        "kind": "letter",
+        "hint": "Tausche einen Buchstaben im Adjektiv _ und ordne neu: Das Einbringen reifer Feldfrüchte entsteht.",
+        "explanation": "ERNST verliert S und erhält E; umgeordnet ergibt das ERNTE.",
+        "clues": {
+          "forward": "Tausche einen Buchstaben im Adjektiv _ und ordne neu: Das Einbringen reifer Feldfrüchte entsteht.",
+          "reverse": "Aus der Feldarbeit _ wird durch einen Buchstabentausch und Umordnung ein Adjektiv für eine Haltung ohne Scherz."
+        }
       },
       {
-        answer: "BEHÄLTER",
-        kind: "meaning",
-        hint: "Welches allgemeine Wort bezeichnet eine _ zur Aufbewahrung?",
-        explanation:
-          "TONNE → BEHÄLTER: Welches allgemeine Wort bezeichnet eine TONNE zur Aufbewahrung?",
-        clues: {
-          forward:
-            "Welches allgemeine Wort bezeichnet eine _ zur Aufbewahrung?",
-          reverse:
-            "Welche große _ kann man zum Auffangen von Regenwasser nutzen?",
-        },
+        "answer": "RENTE",
+        "kind": "letter",
+        "hint": "Ordne _ neu: Eine regelmäßige Zahlung im Ruhestand entsteht.",
+        "explanation": "ERNTE und RENTE haben denselben Buchstabenbestand.",
+        "clues": {
+          "forward": "Ordne _ neu: Eine regelmäßige Zahlung im Ruhestand entsteht.",
+          "reverse": "Ordne _ neu: Das Einbringen reifer Feldfrüchte entsteht."
+        }
       },
-    ],
-    date: "2026-11-21",
-    schemaVersion: 2,
-    legacyId: 8,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "ENTE",
+        "kind": "letter",
+        "hint": "Nimm den ersten Buchstaben von _ weg: Ein Wasservogel mit breitem Schnabel bleibt.",
+        "explanation": "RENTE ohne R ergibt ENTE.",
+        "clues": {
+          "forward": "Nimm den ersten Buchstaben von _ weg: Ein Wasservogel mit breitem Schnabel bleibt.",
+          "reverse": "Stelle einen Buchstaben vor _: Eine regelmäßige Zahlung im Ruhestand entsteht."
+        }
+      },
+      {
+        "answer": "ENDE",
+        "kind": "letter",
+        "hint": "Ein anderer Buchstabe in _ macht aus dem Vogel den letzten Punkt eines Vorgangs.",
+        "explanation": "ENTE und ENDE unterscheiden sich durch T/D.",
+        "clues": {
+          "forward": "Ein anderer Buchstabe in _ macht aus dem Vogel den letzten Punkt eines Vorgangs.",
+          "reverse": "Ein anderer Buchstabe in _ macht aus dem Schlusspunkt einen Wasservogel mit breitem Schnabel."
+        }
+      },
+      {
+        "answer": "WENDE",
+        "kind": "letter",
+        "hint": "Setze einen Buchstaben vor _: Aus dem Schluss wird eine Umkehr der Richtung.",
+        "explanation": "W vor ENDE ergibt WENDE.",
+        "clues": {
+          "forward": "Setze einen Buchstaben vor _: Aus dem Schluss wird eine Umkehr der Richtung.",
+          "reverse": "Nimm den ersten Buchstaben von _ weg: Aus der Umkehr wird der Abschluss."
+        }
+      },
+      {
+        "answer": "WELLE",
+        "kind": "letter",
+        "hint": "Ändere zwei Buchstaben in _: Eine wandernde Erhebung auf einer Wasseroberfläche entsteht.",
+        "explanation": "WENDE → WELLE: N wird L, D wird L.",
+        "clues": {
+          "forward": "Ändere zwei Buchstaben in _: Eine wandernde Erhebung auf einer Wasseroberfläche entsteht.",
+          "reverse": "Ändere zwei Buchstaben in _: Eine Umkehr der Richtung entsteht."
+        }
+      },
+      {
+        "answer": "QUELLE",
+        "kind": "letter",
+        "hint": "Ersetze den Anfangsbuchstaben von _ durch zwei andere: Gesucht ist ein Ort, an dem Grundwasser austritt.",
+        "explanation": "WELLE verliert W und erhält QU: QUELLE.",
+        "clues": {
+          "forward": "Ersetze den Anfangsbuchstaben von _ durch zwei andere: Gesucht ist ein Ort, an dem Grundwasser austritt.",
+          "reverse": "Ersetze die ersten beiden Buchstaben von _ durch einen: Eine wandernde Erhebung auf Wasser entsteht."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-11-22",
-    start: "KALT",
-    end: "RAND",
-    steps: [
+    "id": "rd-2026-11-22",
+    "date": "2026-11-22",
+    "legacyId": 9,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Von der Kälte zum Fisch",
+    "start": "KALT",
+    "end": "LACHS",
+    "steps": [
       {
-        answer: "WALD",
-        kind: "letter",
-        hint: "Aus _ wird durch Änderung zweier Buchstaben ein Gebiet voller Bäume.",
-        explanation:
-          "KALT → WALD: Aus KALT wird durch Änderung zweier Buchstaben ein Gebiet voller Bäume.",
-        clues: {
-          forward:
-            "Aus _ wird durch Änderung zweier Buchstaben ein Gebiet voller Bäume.",
-          reverse:
-            "Aus _ wird durch Änderung zweier Buchstaben das Gegenteil von warm.",
-        },
+        "answer": "KALK",
+        "kind": "letter",
+        "hint": "Ein anderer Schluss macht aus _ den Stoff, der als weiße Ablagerung im Wasserkocher zurückbleibt.",
+        "explanation": "KALT und KALK unterscheiden sich durch T/K.",
+        "clues": {
+          "forward": "Ein anderer Schluss macht aus _ den Stoff, der als weiße Ablagerung im Wasserkocher zurückbleibt.",
+          "reverse": "Ein anderer Schluss macht aus der weißen Ablagerung _ ein Adjektiv für niedrige Temperatur."
+        }
       },
       {
-        answer: "BAUM",
-        kind: "meaning",
-        hint: "Welche große Pflanze wächst im _?",
-        explanation: "WALD → BAUM: Welche große Pflanze wächst im WALD?",
-        clues: {
-          forward: "Welche große Pflanze wächst im _?",
-          reverse: "Viele _ zusammen bilden welches Naturgebiet?",
-        },
+        "answer": "KALB",
+        "kind": "letter",
+        "hint": "Ein neuer Schluss verwandelt die weiße Ablagerung _ in ein junges Rind.",
+        "explanation": "KALK und KALB unterscheiden sich durch K/B.",
+        "clues": {
+          "forward": "Ein neuer Schluss verwandelt die weiße Ablagerung _ in ein junges Rind.",
+          "reverse": "Ein neuer Schluss verwandelt _ in den Stoff weißer Ablagerungen in einem Wasserkocher."
+        }
       },
       {
-        answer: "SAUM",
-        kind: "letter",
-        hint: "Aus _ wird durch einen neuen Anfangsbuchstaben der Rand eines Kleidungsstücks.",
-        explanation:
-          "BAUM → SAUM: Aus BAUM wird durch einen neuen Anfangsbuchstaben der Rand eines Kleidungsstücks.",
-        clues: {
-          forward:
-            "Aus _ wird durch einen neuen Anfangsbuchstaben der Rand eines Kleidungsstücks.",
-          reverse:
-            "Aus _ wird durch einen neuen Anfangsbuchstaben eine große Pflanze mit Stamm.",
-        },
+        "answer": "KORB",
+        "kind": "letter",
+        "hint": "Tausche zwei Buchstaben in _: Aus dem Jungtier wird ein geflochtener Behälter.",
+        "explanation": "KALB → KORB: A wird O, L wird R.",
+        "clues": {
+          "forward": "Tausche zwei Buchstaben in _: Aus dem Jungtier wird ein geflochtener Behälter.",
+          "reverse": "Tausche zwei Buchstaben in _: Aus dem geflochtenen Behälter wird ein junges Rind."
+        }
       },
       {
-        answer: "RAND",
-        kind: "meaning",
-        hint: "Wie nennt man den _ eines Rockes auch?",
-        explanation: "SAUM → RAND: Wie nennt man den SAUM eines Rockes auch?",
-        clues: {
-          forward: "Wie nennt man den _ eines Rockes auch?",
-          reverse:
-            "Wie heißt der umgenähte Abschluss am _ eines Kleidungsstücks?",
-        },
+        "answer": "KORN",
+        "kind": "letter",
+        "hint": "Mit anderem Schluss wird _ zum einzelnen Samen eines Getreides.",
+        "explanation": "KORB und KORN unterscheiden sich durch B/N.",
+        "clues": {
+          "forward": "Mit anderem Schluss wird _ zum einzelnen Samen eines Getreides.",
+          "reverse": "Mit anderem Schluss wird _ zu einem geflochtenen Behälter."
+        }
       },
-    ],
-    date: "2026-11-22",
-    schemaVersion: 2,
-    legacyId: 9,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "KERN",
+        "kind": "letter",
+        "hint": "Ein Vokalwechsel macht aus _ den innersten Teil einer Frucht oder der Erde.",
+        "explanation": "KORN und KERN unterscheiden sich durch O/E.",
+        "clues": {
+          "forward": "Ein Vokalwechsel macht aus _ den innersten Teil einer Frucht oder der Erde.",
+          "reverse": "Ein Vokalwechsel macht aus _ einen einzelnen Getreidesamen."
+        }
+      },
+      {
+        "answer": "KERZE",
+        "kind": "letter",
+        "hint": "Ersetze den Schlussbuchstaben von _ durch zwei andere: Ein Lichtspender mit Docht entsteht.",
+        "explanation": "KERN verliert N und erhält ZE: KERZE.",
+        "clues": {
+          "forward": "Ersetze den Schlussbuchstaben von _ durch zwei andere: Ein Lichtspender mit Docht entsteht.",
+          "reverse": "Ersetze die letzten beiden Buchstaben von _ durch einen: Das Innere einer Frucht entsteht."
+        }
+      },
+      {
+        "answer": "WACHS",
+        "kind": "meaning",
+        "hint": "_: Welcher feste Brennstoff dieses Lichtspenders schmilzt beim Brennen rund um den Docht?",
+        "explanation": "Eine Kerze besteht typischerweise aus Wachs, das am Docht schmilzt.",
+        "clues": {
+          "forward": "_: Welcher feste Brennstoff dieses Lichtspenders schmilzt beim Brennen rund um den Docht?",
+          "reverse": "_: Welcher Lichtspender besteht typischerweise aus diesem Material und hat in seiner Mitte einen Docht?"
+        }
+      },
+      {
+        "answer": "LACHS",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ einen Speisefisch mit oft rosafarbenem Fleisch.",
+        "explanation": "WACHS und LACHS unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ einen Speisefisch mit oft rosafarbenem Fleisch.",
+          "reverse": "Ein neuer Anfang macht aus _ das Material, das um den Docht einer Kerze schmilzt."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-11-23",
-    start: "FISCH",
-    end: "TREPPE",
-    steps: [
+    "id": "rd-2026-11-23",
+    "date": "2026-11-23",
+    "legacyId": 10,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Fisch zu den Tieren",
+    "start": "FISCH",
+    "end": "TIERE",
+    "steps": [
       {
-        answer: "TISCH",
-        kind: "letter",
-        hint: "Aus _ wird mit anderem Anfangsbuchstaben ein Möbel zum Essen.",
-        explanation:
-          "FISCH → TISCH: Aus FISCH wird mit anderem Anfangsbuchstaben ein Möbel zum Essen.",
-        clues: {
-          forward:
-            "Aus _ wird mit anderem Anfangsbuchstaben ein Möbel zum Essen.",
-          reverse:
-            "Aus _ wird mit anderem Anfangsbuchstaben ein Wassertier mit Kiemen.",
-        },
+        "answer": "TISCH",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ ein Möbel mit waagerechter Platte zum Essen oder Arbeiten.",
+        "explanation": "FISCH und TISCH unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ ein Möbel mit waagerechter Platte zum Essen oder Arbeiten.",
+          "reverse": "Ein neuer Anfang macht aus _ ein Wassertier mit Kiemen und Flossen."
+        }
       },
       {
-        answer: "STUHL",
-        kind: "meaning",
-        hint: "Auf welchem Möbel sitzt man am _?",
-        explanation: "TISCH → STUHL: Auf welchem Möbel sitzt man am TISCH?",
-        clues: {
-          forward: "Auf welchem Möbel sitzt man am _?",
-          reverse: "An welchem Möbel steht oft ein _ zum Essen?",
-        },
+        "answer": "TEICH",
+        "kind": "letter",
+        "hint": "Ändere zwei innere Buchstaben in _: Aus dem Möbel wird ein kleines, meist künstlich angelegtes Stillgewässer.",
+        "explanation": "TISCH → TEICH: I wird E, S wird I.",
+        "clues": {
+          "forward": "Ändere zwei innere Buchstaben in _: Aus dem Möbel wird ein kleines, meist künstlich angelegtes Stillgewässer.",
+          "reverse": "Ändere zwei innere Buchstaben in _: Aus dem Gewässer wird ein Möbel mit waagerechter Platte."
+        }
       },
       {
-        answer: "STUFE",
-        kind: "letter",
-        hint: "Aus _ wird durch Änderung eines Buchstabens eine einzelne Treppenebene.",
-        explanation:
-          "STUHL → STUFE: Aus STUHL wird durch Änderung eines Buchstabens eine einzelne Treppenebene.",
-        clues: {
-          forward:
-            "Aus _ wird durch Änderung eines Buchstabens eine einzelne Treppenebene.",
-          reverse: "Aus _ wird durch Änderung eines Buchstabens ein Sitzmöbel.",
-        },
+        "answer": "DEICH",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ einen langen Wall zum Schutz vor Hochwasser.",
+        "explanation": "TEICH und DEICH unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ einen langen Wall zum Schutz vor Hochwasser.",
+          "reverse": "Ein neuer Anfang macht aus dem Hochwasserschutz _ ein kleines, meist künstlich angelegtes Stillgewässer."
+        }
       },
       {
-        answer: "TREPPE",
-        kind: "meaning",
-        hint: "Welches Bauwerk besteht aus mehreren Tritten, die jeweils eine _ bilden?",
-        explanation:
-          "STUFE → TREPPE: Welches Bauwerk besteht aus mehreren Tritten, die jeweils eine STUFE bilden?",
-        clues: {
-          forward:
-            "Welches Bauwerk besteht aus mehreren Tritten, die jeweils eine _ bilden?",
-          reverse: "Wie heißt ein einzelner Tritt einer _?",
-        },
+        "answer": "REICH",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus dem Hochwasserschutz _ ein Wort für vermögend, das auch ein Herrschaftsgebiet bezeichnen kann.",
+        "explanation": "DEICH und REICH unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus dem Hochwasserschutz _ ein Wort für vermögend, das auch ein Herrschaftsgebiet bezeichnen kann.",
+          "reverse": "Ein neuer Anfang macht aus _ einen Schutzwall gegen Hochwasser."
+        }
       },
-    ],
-    date: "2026-11-23",
-    schemaVersion: 2,
-    legacyId: 10,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "REIHE",
+        "kind": "letter",
+        "hint": "Tausche einen Buchstaben in _ und ordne neu: Gesucht ist eine geordnete Folge nebeneinanderstehender Dinge.",
+        "explanation": "REICH verliert C und erhält E; umgeordnet ergibt das REIHE.",
+        "clues": {
+          "forward": "Tausche einen Buchstaben in _ und ordne neu: Gesucht ist eine geordnete Folge nebeneinanderstehender Dinge.",
+          "reverse": "Tausche einen Buchstaben in _ und ordne neu: Gesucht ist ein Adjektiv für vermögend."
+        }
+      },
+      {
+        "answer": "REISE",
+        "kind": "letter",
+        "hint": "Ein anderer Buchstabe in _ verwandelt die Folge in eine Fahrt zu einem entfernteren Ziel.",
+        "explanation": "REIHE und REISE unterscheiden sich durch H/S.",
+        "clues": {
+          "forward": "Ein anderer Buchstabe in _ verwandelt die Folge in eine Fahrt zu einem entfernteren Ziel.",
+          "reverse": "Ein anderer Buchstabe in _ macht aus der Fahrt eine geordnete Folge nebeneinanderstehender Dinge."
+        }
+      },
+      {
+        "answer": "SIRENE",
+        "kind": "letter",
+        "hint": "Ergänze _ um einen Buchstaben und ordne neu: Ein Gerät mit heulendem Warnsignal entsteht.",
+        "explanation": "REISE + N lässt sich zu SIRENE ordnen.",
+        "clues": {
+          "forward": "Ergänze _ um einen Buchstaben und ordne neu: Ein Gerät mit heulendem Warnsignal entsteht.",
+          "reverse": "Entferne aus _ einen Buchstaben und ordne neu: Eine Fahrt zu einem entfernteren Ziel entsteht."
+        }
+      },
+      {
+        "answer": "NIERE",
+        "kind": "letter",
+        "hint": "Entferne aus _ einen Buchstaben und ordne neu: Ein Organ entsteht, das Blut filtert und Urin bildet.",
+        "explanation": "SIRENE ohne S lässt sich zu NIERE ordnen.",
+        "clues": {
+          "forward": "Entferne aus _ einen Buchstaben und ordne neu: Ein Organ entsteht, das Blut filtert und Urin bildet.",
+          "reverse": "Ergänze _ um einen Buchstaben und ordne neu: Ein Gerät mit heulendem Warnsignal entsteht."
+        }
+      },
+      {
+        "answer": "TIERE",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ Lebewesen wie Hunde und Schmetterlinge, in der Mehrzahl.",
+        "explanation": "NIERE und TIERE unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ Lebewesen wie Hunde und Schmetterlinge, in der Mehrzahl.",
+          "reverse": "Ein neuer Anfang macht aus _ das Organ, das Blut filtert und Urin bildet."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-11-24",
-    start: "BILD",
-    end: "GLEICH",
-    steps: [
+    "id": "rd-2026-11-24",
+    "date": "2026-11-24",
+    "legacyId": 11,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Bild zur Ruhestätte",
+    "start": "BILD",
+    "end": "GRAB",
+    "steps": [
       {
-        answer: "WILD",
-        kind: "letter",
-        hint: "Aus _ wird durch einen neuen Anfangsbuchstaben ein Wort für ungezähmt.",
-        explanation:
-          "BILD → WILD: Aus BILD wird durch einen neuen Anfangsbuchstaben ein Wort für ungezähmt.",
-        clues: {
-          forward:
-            "Aus _ wird durch einen neuen Anfangsbuchstaben ein Wort für ungezähmt.",
-          reverse:
-            "Aus _ wird durch einen neuen Anfangsbuchstaben eine Abbildung.",
-        },
+        "answer": "WILD",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ ein Wort für ungezähmt oder ein Sammelwort für frei lebende Jagdtiere.",
+        "explanation": "BILD und WILD unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ ein Wort für ungezähmt oder ein Sammelwort für frei lebende Jagdtiere.",
+          "reverse": "Ein neuer Anfang macht aus _ eine gemalte oder fotografierte Darstellung."
+        }
       },
       {
-        answer: "WALD",
-        kind: "meaning",
-        hint: "In welchem großen Naturgebiet leben Tiere, die man als _ bezeichnet?",
-        explanation:
-          "WILD → WALD: In welchem großen Naturgebiet leben Tiere, die man als WILD bezeichnet?",
-        clues: {
-          forward:
-            "In welchem großen Naturgebiet leben Tiere, die man als _ bezeichnet?",
-          reverse: "Welche Tiere im _ nennt man nicht zahm?",
-        },
+        "answer": "WALD",
+        "kind": "letter",
+        "hint": "Ein Vokalwechsel macht aus _ ein großes Gebiet mit dicht stehenden Bäumen.",
+        "explanation": "WILD und WALD unterscheiden sich durch I/A.",
+        "clues": {
+          "forward": "Ein Vokalwechsel macht aus _ ein großes Gebiet mit dicht stehenden Bäumen.",
+          "reverse": "Ein Vokalwechsel macht aus _ ein Wort für ungezähmt."
+        }
       },
       {
-        answer: "BALD",
-        kind: "letter",
-        hint: "Aus _ wird durch Änderung eines Buchstabens ein Zeitwort für »in Kürze«.",
-        explanation:
-          "WALD → BALD: Aus WALD wird durch Änderung eines Buchstabens ein Zeitwort für »in Kürze«.",
-        clues: {
-          forward:
-            "Aus _ wird durch Änderung eines Buchstabens ein Zeitwort für »in Kürze«.",
-          reverse:
-            "Aus _ wird durch Änderung eines Buchstabens ein großes Gebiet voller Bäume.",
-        },
+        "answer": "WALL",
+        "kind": "letter",
+        "hint": "Ein anderer Schluss macht aus _ einen aufgeschütteten Erdstreifen zum Schutz.",
+        "explanation": "WALD und WALL unterscheiden sich durch D/L.",
+        "clues": {
+          "forward": "Ein anderer Schluss macht aus _ einen aufgeschütteten Erdstreifen zum Schutz.",
+          "reverse": "Ein anderer Schluss macht aus _ ein großes Gebiet voller Bäume."
+        }
       },
       {
-        answer: "GLEICH",
-        kind: "meaning",
-        hint: "Welches Wort bedeutet wie _ »in Kürze«?",
-        explanation:
-          "BALD → GLEICH: Welches Wort bedeutet wie BALD »in Kürze«?",
-        clues: {
-          forward: "Welches Wort bedeutet wie _ »in Kürze«?",
-          reverse:
-            "Aus _ wird durch Änderung eines Buchstabens ein Gebiet voller Bäume.",
-        },
+        "answer": "BALL",
+        "kind": "letter",
+        "hint": "Ein anderer Anfang macht aus _ einen runden Spielgegenstand oder ein festliches Tanzereignis.",
+        "explanation": "WALL und BALL unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein anderer Anfang macht aus _ einen runden Spielgegenstand oder ein festliches Tanzereignis.",
+          "reverse": "Ein anderer Anfang macht aus _ einen aufgeschütteten Erdstreifen zum Schutz."
+        }
       },
-    ],
-    date: "2026-11-24",
-    schemaVersion: 2,
-    legacyId: 11,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "TANZ",
+        "kind": "meaning",
+        "hint": "_: Gemeint ist die festliche Veranstaltung. Welche Bewegung zur Musik steht dort im Mittelpunkt?",
+        "explanation": "Auf einem Ball wird getanzt.",
+        "clues": {
+          "forward": "_: Gemeint ist die festliche Veranstaltung. Welche Bewegung zur Musik steht dort im Mittelpunkt?",
+          "reverse": "_: Wie heißt eine festliche Abendveranstaltung, bei der diese Bewegungskunst im Mittelpunkt steht und man oft elegante Kleidung trägt?"
+        }
+      },
+      {
+        "answer": "GANZ",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ ein Adjektiv für ungeteilt und vollständig.",
+        "explanation": "TANZ und GANZ unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ ein Adjektiv für ungeteilt und vollständig.",
+          "reverse": "Ein neuer Anfang macht aus _ eine Bewegung zur Musik."
+        }
+      },
+      {
+        "answer": "GLANZ",
+        "kind": "letter",
+        "hint": "Füge in _ einen Buchstaben ein: Ein heller Schimmer auf einer glatten Oberfläche entsteht.",
+        "explanation": "GANZ + L nach G ergibt GLANZ.",
+        "clues": {
+          "forward": "Füge in _ einen Buchstaben ein: Ein heller Schimmer auf einer glatten Oberfläche entsteht.",
+          "reverse": "Entferne aus _ einen Buchstaben: Ein Wort für ungeteilt und vollständig bleibt."
+        }
+      },
+      {
+        "answer": "GLAS",
+        "kind": "letter",
+        "hint": "Entferne aus _ einen Buchstaben und ändere den Schluss: Ein durchsichtiges, hartes Material entsteht.",
+        "explanation": "GLANZ ohne N wird GLAZ; Z → S ergibt GLAS.",
+        "clues": {
+          "forward": "Entferne aus _ einen Buchstaben und ändere den Schluss: Ein durchsichtiges, hartes Material entsteht.",
+          "reverse": "Ändere den Schluss von _ und füge davor einen Buchstaben ein: Ein heller Schimmer entsteht."
+        }
+      },
+      {
+        "answer": "GRAS",
+        "kind": "letter",
+        "hint": "Ein anderer innerer Buchstabe macht aus _ die Pflanzen, die einen Rasen bilden.",
+        "explanation": "GLAS und GRAS unterscheiden sich durch L/R.",
+        "clues": {
+          "forward": "Ein anderer innerer Buchstabe macht aus _ die Pflanzen, die einen Rasen bilden.",
+          "reverse": "Ein anderer innerer Buchstabe macht aus _ ein durchsichtiges, hartes Material."
+        }
+      },
+      {
+        "answer": "GRAB",
+        "kind": "letter",
+        "hint": "Ein anderer Schluss macht aus _ eine letzte Ruhestätte auf dem Friedhof.",
+        "explanation": "GRAS und GRAB unterscheiden sich durch S/B.",
+        "clues": {
+          "forward": "Ein anderer Schluss macht aus _ eine letzte Ruhestätte auf dem Friedhof.",
+          "reverse": "Ein anderer Schluss macht aus _ die Pflanzen eines Rasens."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-11-25",
-    start: "TANZ",
-    end: "SUPER",
-    steps: [
+    "id": "rd-2026-11-25",
+    "date": "2026-11-25",
+    "legacyId": 12,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Tanz zum Laden",
+    "start": "TANZ",
+    "end": "LADEN",
+    "steps": [
       {
-        answer: "GANZ",
-        kind: "letter",
-        hint: "Aus _ wird durch einen neuen Anfangsbuchstaben ein Wort für vollständig.",
-        explanation:
-          "TANZ → GANZ: Aus TANZ wird durch einen neuen Anfangsbuchstaben ein Wort für vollständig.",
-        clues: {
-          forward:
-            "Aus _ wird durch einen neuen Anfangsbuchstaben ein Wort für vollständig.",
-          reverse:
-            "Aus _ wird durch einen neuen Anfangsbuchstaben eine Bewegung zur Musik.",
-        },
+        "answer": "TAKT",
+        "kind": "meaning",
+        "hint": "_: Welche regelmäßig wiederkehrende Einteilung der Musik hält die Schritte dabei zusammen?",
+        "explanation": "Ein Tanz richtet seine Schritte nach dem musikalischen Takt.",
+        "clues": {
+          "forward": "_: Welche regelmäßig wiederkehrende Einteilung der Musik hält die Schritte dabei zusammen?",
+          "reverse": "_: Welche Bewegungskunst passt ihre Schritte dieser Einteilung der Musik an?"
+        }
       },
       {
-        answer: "VOLL",
-        kind: "meaning",
-        hint: "Welches Wort bedeutet wie _ »bis zum Rand gefüllt«?",
-        explanation:
-          "GANZ → VOLL: Welches Wort bedeutet wie GANZ »bis zum Rand gefüllt«?",
-        clues: {
-          forward: "Welches Wort bedeutet wie _ »bis zum Rand gefüllt«?",
-          reverse: "Welches Wort bedeutet wie _ »vollständig«?",
-        },
+        "answer": "TAT",
+        "kind": "letter",
+        "hint": "Entferne aus _ einen Buchstaben: Aus der musikalischen Einteilung wird eine ausgeführte Handlung.",
+        "explanation": "TAKT ohne K ergibt TAT.",
+        "clues": {
+          "forward": "Entferne aus _ einen Buchstaben: Aus der musikalischen Einteilung wird eine ausgeführte Handlung.",
+          "reverse": "Füge in _ einen Buchstaben ein: Aus der Handlung wird die regelmäßig wiederkehrende Einteilung eines Musikstücks."
+        }
       },
       {
-        answer: "TOLL",
-        kind: "letter",
-        hint: "Aus _ wird durch Änderung des ersten Buchstabens ein Lobwort.",
-        explanation:
-          "VOLL → TOLL: Aus VOLL wird durch Änderung des ersten Buchstabens ein Lobwort.",
-        clues: {
-          forward:
-            "Aus _ wird durch Änderung des ersten Buchstabens ein Lobwort.",
-          reverse:
-            "Aus _ wird durch Änderung des ersten Buchstabens ein Wort für »gefüllt«.",
-        },
+        "answer": "RAT",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ einen hilfreichen Vorschlag, den man jemandem geben kann.",
+        "explanation": "TAT und RAT unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ einen hilfreichen Vorschlag, den man jemandem geben kann.",
+          "reverse": "Ein neuer Anfang macht aus _ eine Handlung, die jemand wirklich ausgeführt hat."
+        }
       },
       {
-        answer: "SUPER",
-        kind: "meaning",
-        hint: "Welches kurze Lobwort bedeutet ungefähr dasselbe wie _?",
-        explanation:
-          "TOLL → SUPER: Welches kurze Lobwort bedeutet ungefähr dasselbe wie TOLL?",
-        clues: {
-          forward: "Welches kurze Lobwort bedeutet ungefähr dasselbe wie _?",
-          reverse:
-            "Welches Lobwort mit vier Buchstaben bedeutet wie _ »großartig«?",
-        },
+        "answer": "RAD",
+        "kind": "letter",
+        "hint": "Ein anderer Schluss macht aus _ ein drehbares, kreisförmiges Bauteil eines Fahrzeugs.",
+        "explanation": "RAT und RAD unterscheiden sich durch T/D.",
+        "clues": {
+          "forward": "Ein anderer Schluss macht aus _ ein drehbares, kreisförmiges Bauteil eines Fahrzeugs.",
+          "reverse": "Ein anderer Schluss macht aus _ einen hilfreichen Vorschlag."
+        }
       },
-    ],
-    date: "2026-11-25",
-    schemaVersion: 2,
-    legacyId: 12,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "RADELN",
+        "kind": "letter",
+        "hint": "Verlängere _ hinten zu einem Verb für das Fahren mit Pedalen.",
+        "explanation": "RAD + ELN ergibt RADELN.",
+        "clues": {
+          "forward": "Verlängere _ hinten zu einem Verb für das Fahren mit Pedalen.",
+          "reverse": "Kürze _ hinten um drei Buchstaben: Ein drehbares Bauteil des Fahrzeugs bleibt."
+        }
+      },
+      {
+        "answer": "NADEL",
+        "kind": "letter",
+        "hint": "Entferne aus _ einen Buchstaben und ordne neu: Ein spitzes Werkzeug mit einem Öhr entsteht.",
+        "explanation": "RADELN ohne R lässt sich zu NADEL ordnen.",
+        "clues": {
+          "forward": "Entferne aus _ einen Buchstaben und ordne neu: Ein spitzes Werkzeug mit einem Öhr entsteht.",
+          "reverse": "Ergänze _ um einen Buchstaben und ordne neu: Ein Verb fürs Fahren mit Pedalen entsteht."
+        }
+      },
+      {
+        "answer": "FADEN",
+        "kind": "letter",
+        "hint": "Tausche zwei Buchstaben in _: Aus dem spitzen Werkzeug wird das dünne Material, das man durch sein Öhr zieht.",
+        "explanation": "NADEL → FADEN: N wird F, L wird N.",
+        "clues": {
+          "forward": "Tausche zwei Buchstaben in _: Aus dem spitzen Werkzeug wird das dünne Material, das man durch sein Öhr zieht.",
+          "reverse": "Tausche zwei Buchstaben in _: Aus dem Nähmaterial wird ein spitzes Werkzeug mit Öhr."
+        }
+      },
+      {
+        "answer": "LADEN",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ ein Geschäft oder ein Verb für das Auffüllen eines Akkus.",
+        "explanation": "FADEN und LADEN unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ ein Geschäft oder ein Verb für das Auffüllen eines Akkus.",
+          "reverse": "Ein neuer Anfang macht aus _ einen dünnen Strang zum Nähen."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-11-26",
-    start: "REIS",
-    end: "MUT",
-    steps: [
+    "id": "rd-2026-11-26",
+    "date": "2026-11-26",
+    "legacyId": 13,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Reis zur Kirche",
+    "start": "REIS",
+    "end": "KIRCHE",
+    "steps": [
       {
-        answer: "PREIS",
-        kind: "letter",
-        hint: "Aus _ wird durch einen zusätzlichen Anfangsbuchstaben der Geldbetrag einer Ware.",
-        explanation:
-          "REIS → PREIS: Aus REIS wird durch einen zusätzlichen Anfangsbuchstaben der Geldbetrag einer Ware.",
-        clues: {
-          forward:
-            "Aus _ wird durch einen zusätzlichen Anfangsbuchstaben der Geldbetrag einer Ware.",
-          reverse:
-            "Aus _ wird durch Entfernen des Anfangsbuchstabens ein Grundnahrungsmittel aus Körnern.",
-        },
+        "answer": "PREIS",
+        "kind": "letter",
+        "hint": "Stelle einen Buchstaben vor _: Aus den Körnern wird der Geldbetrag auf dem Etikett einer Ware.",
+        "explanation": "P vor REIS ergibt PREIS.",
+        "clues": {
+          "forward": "Stelle einen Buchstaben vor _: Aus den Körnern wird der Geldbetrag auf dem Etikett einer Ware.",
+          "reverse": "Nimm den ersten Buchstaben von _ weg: Ein Grundnahrungsmittel aus kleinen Körnern bleibt."
+        }
       },
       {
-        answer: "GELD",
-        kind: "meaning",
-        hint: "Womit bezahlt man einen _?",
-        explanation: "PREIS → GELD: Womit bezahlt man einen PREIS?",
-        clues: {
-          forward: "Womit bezahlt man einen _?",
-          reverse: "Was gibt man aus, wenn man einen _ bezahlt?",
-        },
+        "answer": "REISE",
+        "kind": "letter",
+        "hint": "Tausche einen Buchstaben in _ und ordne neu: Eine Fahrt zu einem entfernten Ziel entsteht.",
+        "explanation": "PREIS verliert P und erhält E; umgeordnet ergibt das REISE.",
+        "clues": {
+          "forward": "Tausche einen Buchstaben in _ und ordne neu: Eine Fahrt zu einem entfernten Ziel entsteht.",
+          "reverse": "Aus der Fahrt _ wird durch einen Buchstabentausch und Umordnung der Geldbetrag einer Ware."
+        }
       },
       {
-        answer: "HELD",
-        kind: "letter",
-        hint: "Aus _ wird durch Änderung des ersten Buchstabens ein mutiger Mensch.",
-        explanation:
-          "GELD → HELD: Aus GELD wird durch Änderung des ersten Buchstabens ein mutiger Mensch.",
-        clues: {
-          forward:
-            "Aus _ wird durch Änderung des ersten Buchstabens ein mutiger Mensch.",
-          reverse:
-            "Aus _ wird durch Änderung des ersten Buchstabens ein Zahlungsmittel.",
-        },
+        "answer": "RIESE",
+        "kind": "letter",
+        "hint": "Ordne _ neu: Eine übermenschlich große Märchengestalt entsteht.",
+        "explanation": "REISE und RIESE haben denselben Buchstabenbestand.",
+        "clues": {
+          "forward": "Ordne _ neu: Eine übermenschlich große Märchengestalt entsteht.",
+          "reverse": "Ordne _ neu: Eine Fahrt zu einem entfernten Ziel entsteht."
+        }
       },
       {
-        answer: "MUT",
-        kind: "meaning",
-        hint: "Welche Eigenschaft braucht ein _ in Gefahr?",
-        explanation:
-          "HELD → MUT: Welche Eigenschaft braucht ein HELD in Gefahr?",
-        clues: {
-          forward: "Welche Eigenschaft braucht ein _ in Gefahr?",
-          reverse: "Was zeigt ein _ trotz Angst?",
-        },
+        "answer": "ZWERG",
+        "kind": "meaning",
+        "hint": "_: Welche kleine Märchengestalt bildet den Gegenpol zu dieser übergroßen Gestalt und lebt bei Schneewittchen zu siebt?",
+        "explanation": "Zwerg und Riese sind gegensätzliche Märchengestalten.",
+        "clues": {
+          "forward": "_: Welche kleine Märchengestalt bildet den Gegenpol zu dieser übergroßen Gestalt und lebt bei Schneewittchen zu siebt?",
+          "reverse": "_: Welche übermenschlich große Märchengestalt bildet den Gegenpol zu dieser kleinen Gestalt?"
+        }
       },
-    ],
-    date: "2026-11-26",
-    schemaVersion: 2,
-    legacyId: 13,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "ZWEIG",
+        "kind": "letter",
+        "hint": "Ändere einen Buchstaben in _: Aus der Märchengestalt wird ein kleiner Seitenast.",
+        "explanation": "ZWERG und ZWEIG unterscheiden sich durch R/I.",
+        "clues": {
+          "forward": "Ändere einen Buchstaben in _: Aus der Märchengestalt wird ein kleiner Seitenast.",
+          "reverse": "Ändere einen Buchstaben in _: Aus dem Seitenast wird eine kleine Märchengestalt."
+        }
+      },
+      {
+        "answer": "GEWEIH",
+        "kind": "meaning",
+        "hint": "_: Welcher verzweigte Kopfschmuck eines Hirsches erinnert in seiner Form an diesen kleinen Seitenast?",
+        "explanation": "Ein Geweih verzweigt sich ähnlich wie ein Zweig.",
+        "clues": {
+          "forward": "_: Welcher verzweigte Kopfschmuck eines Hirsches erinnert in seiner Form an diesen kleinen Seitenast?",
+          "reverse": "_: Wie heißt ein kleiner Seitenast, mit dem man die verzweigte Form dieses Kopfschmucks vergleichen kann?"
+        }
+      },
+      {
+        "answer": "HIRSCH",
+        "kind": "meaning",
+        "hint": "_: Welches männliche Waldtier mit sechs Buchstaben trägt diesen verzweigten Kopfschmuck und kann laut röhren?",
+        "explanation": "Ein männlicher Hirsch trägt ein Geweih.",
+        "clues": {
+          "forward": "_: Welches männliche Waldtier mit sechs Buchstaben trägt diesen verzweigten Kopfschmuck und kann laut röhren?",
+          "reverse": "_: Wie heißt der verzweigte Kopfschmuck, den das männliche Tier trägt und regelmäßig abwirft?"
+        }
+      },
+      {
+        "answer": "KIRSCHE",
+        "kind": "letter",
+        "hint": "Ändere den Anfang von _ und ergänze einen Buchstaben am Ende: Eine rote Steinfrucht mit Stiel entsteht.",
+        "explanation": "HIRSCH wird durch H → K und angehängtes E zu KIRSCHE.",
+        "clues": {
+          "forward": "Ändere den Anfang von _ und ergänze einen Buchstaben am Ende: Eine rote Steinfrucht mit Stiel entsteht.",
+          "reverse": "Ändere den Anfang von _ und streiche den letzten Buchstaben: Ein männliches Waldtier mit Geweih entsteht."
+        }
+      },
+      {
+        "answer": "KIRCHE",
+        "kind": "letter",
+        "hint": "Entferne aus _ einen Buchstaben: Statt der Frucht entsteht ein christliches Gotteshaus.",
+        "explanation": "KIRSCHE ohne S ergibt KIRCHE.",
+        "clues": {
+          "forward": "Entferne aus _ einen Buchstaben: Statt der Frucht entsteht ein christliches Gotteshaus.",
+          "reverse": "Füge in _ einen Buchstaben ein: Statt des Gotteshauses entsteht eine rote Steinfrucht mit Stiel."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-11-27",
-    start: "ZEIT",
-    end: "MALZ",
-    steps: [
+    "id": "rd-2026-11-27",
+    "date": "2026-11-27",
+    "legacyId": 14,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Von der Zeit zum Getreide",
+    "start": "ZEIT",
+    "end": "HIRSE",
+    "steps": [
       {
-        answer: "GEIZ",
-        kind: "letter",
-        hint: "Aus _ wird durch Umstellung und Änderung eines Buchstabens übertriebene Sparsamkeit.",
-        explanation:
-          "ZEIT → GEIZ: Aus ZEIT wird durch Umstellung und Änderung eines Buchstabens übertriebene Sparsamkeit.",
-        clues: {
-          forward:
-            "Aus _ wird durch Umstellung und Änderung eines Buchstabens übertriebene Sparsamkeit.",
-          reverse:
-            "Aus _ wird durch Umstellung und Änderung eines Buchstabens das, was eine Uhr misst.",
-        },
+        "answer": "GEIZ",
+        "kind": "letter",
+        "hint": "Tausche zwei Buchstaben in _: Aus dem von Uhren Gemessenen wird übertriebene Sparsamkeit.",
+        "explanation": "ZEIT → GEIZ: Z wird G, T wird Z.",
+        "clues": {
+          "forward": "Tausche zwei Buchstaben in _: Aus dem von Uhren Gemessenen wird übertriebene Sparsamkeit.",
+          "reverse": "Tausche zwei Buchstaben in _: Aus übertriebener Sparsamkeit wird das, was Uhren messen."
+        }
       },
       {
-        answer: "GIER",
-        kind: "meaning",
-        hint: "Welche starke Begierde nach Besitz steckt oft hinter _?",
-        explanation:
-          "GEIZ → GIER: Welche starke Begierde nach Besitz steckt oft hinter GEIZ?",
-        clues: {
-          forward: "Welche starke Begierde nach Besitz steckt oft hinter _?",
-          reverse:
-            "Aus _ wird durch Änderung zweier Buchstaben das, was eine Uhr misst.",
-        },
+        "answer": "GEIST",
+        "kind": "letter",
+        "hint": "Ersetze den Schlussbuchstaben von _ durch zwei andere: Eine spukende Gestalt entsteht.",
+        "explanation": "GEIZ verliert Z und erhält ST: GEIST.",
+        "clues": {
+          "forward": "Ersetze den Schlussbuchstaben von _ durch zwei andere: Eine spukende Gestalt entsteht.",
+          "reverse": "Ersetze die letzten beiden Buchstaben von _ durch einen: Übertriebene Sparsamkeit entsteht."
+        }
       },
       {
-        answer: "BIER",
-        kind: "letter",
-        hint: "Aus _ wird mit geändertem Anfangsbuchstaben ein Getränk aus Hopfen und Malz.",
-        explanation:
-          "GIER → BIER: Aus GIER wird mit geändertem Anfangsbuchstaben ein Getränk aus Hopfen und Malz.",
-        clues: {
-          forward:
-            "Aus _ wird mit geändertem Anfangsbuchstaben ein Getränk aus Hopfen und Malz.",
-          reverse:
-            "Aus _ wird mit geändertem Anfangsbuchstaben starkes Verlangen.",
-        },
+        "answer": "GESTE",
+        "kind": "letter",
+        "hint": "Tausche einen Buchstaben in _ und ordne neu: Eine bedeutungsvolle Bewegung der Hand entsteht.",
+        "explanation": "GEIST verliert I und erhält E; umgeordnet ergibt das GESTE.",
+        "clues": {
+          "forward": "Tausche einen Buchstaben in _ und ordne neu: Eine bedeutungsvolle Bewegung der Hand entsteht.",
+          "reverse": "Tausche einen Buchstaben in _ und ordne neu: Eine spukende Gestalt entsteht."
+        }
       },
       {
-        answer: "MALZ",
-        kind: "meaning",
-        hint: "Welcher Getreidebestandteil steckt traditionell in _?",
-        explanation:
-          "BIER → MALZ: Welcher Getreidebestandteil steckt traditionell in BIER?",
-        clues: {
-          forward: "Welcher Getreidebestandteil steckt traditionell in _?",
-          reverse: "Woraus braut man _ neben Hopfen?",
-        },
+        "answer": "GESTERN",
+        "kind": "letter",
+        "hint": "Verlängere _ hinten um zwei Buchstaben: Gesucht ist der Tag unmittelbar vor heute.",
+        "explanation": "GESTE + RN ergibt GESTERN.",
+        "clues": {
+          "forward": "Verlängere _ hinten um zwei Buchstaben: Gesucht ist der Tag unmittelbar vor heute.",
+          "reverse": "Kürze _ hinten um zwei Buchstaben: Eine bedeutungsvolle Handbewegung bleibt."
+        }
       },
-    ],
-    date: "2026-11-27",
-    schemaVersion: 2,
-    legacyId: 14,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "STERN",
+        "kind": "letter",
+        "hint": "Entferne die ersten beiden Buchstaben von _: Ein selbst leuchtender Himmelskörper bleibt.",
+        "explanation": "GESTERN ohne GE ergibt STERN.",
+        "clues": {
+          "forward": "Entferne die ersten beiden Buchstaben von _: Ein selbst leuchtender Himmelskörper bleibt.",
+          "reverse": "Stelle zwei Buchstaben vor _: Nun ist der Tag unmittelbar vor heute gemeint."
+        }
+      },
+      {
+        "answer": "STIRN",
+        "kind": "letter",
+        "hint": "Tausche einen Vokal in _: Aus dem Himmelskörper wird die Gesichtsfläche über den Augenbrauen.",
+        "explanation": "STERN und STIRN unterscheiden sich durch E/I.",
+        "clues": {
+          "forward": "Tausche einen Vokal in _: Aus dem Himmelskörper wird die Gesichtsfläche über den Augenbrauen.",
+          "reverse": "Tausche einen Vokal in _: Aus dem Körperteil wird ein selbst leuchtender Himmelskörper."
+        }
+      },
+      {
+        "answer": "HIRN",
+        "kind": "letter",
+        "hint": "Entferne den ersten Buchstaben von _ und ändere den neuen Anfang: Ein Denkorgan entsteht.",
+        "explanation": "STIRN ohne S wird TIRN; T → H ergibt HIRN.",
+        "clues": {
+          "forward": "Entferne den ersten Buchstaben von _ und ändere den neuen Anfang: Ein Denkorgan entsteht.",
+          "reverse": "Ändere den Anfang von _ und stelle einen weiteren Buchstaben davor: Die Gesichtsfläche über den Augenbrauen entsteht."
+        }
+      },
+      {
+        "answer": "HIRSE",
+        "kind": "letter",
+        "hint": "Ersetze den letzten Buchstaben von _ durch zwei andere: Ein kleinkörniges Getreide entsteht.",
+        "explanation": "HIRN verliert N und erhält SE: HIRSE.",
+        "clues": {
+          "forward": "Ersetze den letzten Buchstaben von _ durch zwei andere: Ein kleinkörniges Getreide entsteht.",
+          "reverse": "Ersetze die letzten beiden Buchstaben von _ durch einen: Das Organ zum Denken entsteht."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-11-28",
-    start: "WORT",
-    end: "MARKT",
-    steps: [
+    "id": "rd-2026-11-28",
+    "date": "2026-11-28",
+    "legacyId": 15,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Wort zur Liebe",
+    "start": "WORT",
+    "end": "LIEBE",
+    "steps": [
       {
-        answer: "ORT",
-        kind: "letter",
-        hint: "Aus _ wird durch Weglassen des ersten Buchstabens eine Stelle oder ein Platz.",
-        explanation:
-          "WORT → ORT: Aus WORT wird durch Weglassen des ersten Buchstabens eine Stelle oder ein Platz.",
-        clues: {
-          forward:
-            "Aus _ wird durch Weglassen des ersten Buchstabens eine Stelle oder ein Platz.",
-          reverse:
-            "Aus _ wird durch Hinzufügen eines Anfangsbuchstabens eine sprachliche Einheit.",
-        },
+        "answer": "WERT",
+        "kind": "letter",
+        "hint": "Ein Vokalwechsel macht aus _ den Nutzen oder die Bedeutung, die man einer Sache beimisst.",
+        "explanation": "WORT und WERT unterscheiden sich durch O/E.",
+        "clues": {
+          "forward": "Ein Vokalwechsel macht aus _ den Nutzen oder die Bedeutung, die man einer Sache beimisst.",
+          "reverse": "Ein Vokalwechsel macht aus _ eine sprachliche Einheit zwischen zwei Leerzeichen."
+        }
       },
       {
-        answer: "STADT",
-        kind: "meaning",
-        hint: "Welche größere Siedlung ist ein _ mit vielen Einwohnern?",
-        explanation:
-          "ORT → STADT: Welche größere Siedlung ist ein ORT mit vielen Einwohnern?",
-        clues: {
-          forward: "Welche größere Siedlung ist ein _ mit vielen Einwohnern?",
-          reverse:
-            "Welches allgemeinere Wort bezeichnet eine _ als bewohnten Platz?",
-        },
+        "answer": "WERK",
+        "kind": "letter",
+        "hint": "Ein anderer Schluss macht aus _ eine geschaffene Arbeit, etwa ein Musikstück oder Gemälde.",
+        "explanation": "WERT und WERK unterscheiden sich durch T/K.",
+        "clues": {
+          "forward": "Ein anderer Schluss macht aus _ eine geschaffene Arbeit, etwa ein Musikstück oder Gemälde.",
+          "reverse": "Ein anderer Schluss macht aus _ den Nutzen oder die Bedeutung einer Sache."
+        }
       },
       {
-        answer: "STAND",
-        kind: "letter",
-        hint: "Aus _ wird durch Austausch der letzten Buchstaben eine Position oder ein Zustand des Stehens.",
-        explanation:
-          "STADT → STAND: Aus STADT wird durch Austausch der letzten Buchstaben eine Position oder ein Zustand des Stehens.",
-        clues: {
-          forward:
-            "Aus _ wird durch Austausch der letzten Buchstaben eine Position oder ein Zustand des Stehens.",
-          reverse:
-            "Aus _ wird durch Austausch der letzten Buchstaben eine größere Siedlung.",
-        },
+        "answer": "WERKZEUG",
+        "kind": "letter",
+        "hint": "Verlängere _ hinten zu einem zusammengesetzten Wort: Gesucht ist ein Hilfsmittel zum handwerklichen Arbeiten.",
+        "explanation": "WERK + ZEUG ergibt WERKZEUG.",
+        "clues": {
+          "forward": "Verlängere _ hinten zu einem zusammengesetzten Wort: Gesucht ist ein Hilfsmittel zum handwerklichen Arbeiten.",
+          "reverse": "Welcher erste Bestandteil steckt in _, wenn man die letzten vier Buchstaben entfernt und eine geschaffene Arbeit sucht?"
+        }
       },
       {
-        answer: "MARKT",
-        kind: "meaning",
-        hint: "Auf welchem Platz stehen viele Verkaufsstände wie ein _?",
-        explanation:
-          "STAND → MARKT: Auf welchem Platz stehen viele Verkaufsstände wie ein STAND?",
-        clues: {
-          forward: "Auf welchem Platz stehen viele Verkaufsstände wie ein _?",
-          reverse: "Wie heißt ein einzelner Verkaufsplatz auf einem _?",
-        },
+        "answer": "ZEUGE",
+        "kind": "letter",
+        "hint": "Entferne den ersten Wortbestandteil von _ und ergänze einen Vokal: Eine Person, die vor Gericht über eine Beobachtung aussagt, entsteht.",
+        "explanation": "WERKZEUG ohne WERK ergibt ZEUG; + E ergibt ZEUGE.",
+        "clues": {
+          "forward": "Entferne den ersten Wortbestandteil von _ und ergänze einen Vokal: Eine Person, die vor Gericht über eine Beobachtung aussagt, entsteht.",
+          "reverse": "Entferne den Schlussvokal von _ und setze einen Wortbestandteil davor: Ein Hilfsmittel zum handwerklichen Arbeiten entsteht."
+        }
       },
-    ],
-    date: "2026-11-28",
-    schemaVersion: 2,
-    legacyId: 15,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "ZIEGE",
+        "kind": "letter",
+        "hint": "Tausche beide inneren Vokale in _: Ein meckerndes Nutztier entsteht.",
+        "explanation": "ZEUGE → ZIEGE: E wird I, U wird E.",
+        "clues": {
+          "forward": "Tausche beide inneren Vokale in _: Ein meckerndes Nutztier entsteht.",
+          "reverse": "Tausche beide inneren Vokale in _: Eine Person, die vor Gericht über Beobachtungen aussagt, entsteht."
+        }
+      },
+      {
+        "answer": "WIEGE",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ ein schaukelndes Bett für ein Baby.",
+        "explanation": "ZIEGE und WIEGE unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ ein schaukelndes Bett für ein Baby.",
+          "reverse": "Ein neuer Anfang macht aus _ ein meckerndes Nutztier."
+        }
+      },
+      {
+        "answer": "FLIEGE",
+        "kind": "letter",
+        "hint": "Ersetze den Anfang von _ durch zwei Buchstaben: Ein Insekt oder ein gebundenes Halsaccessoire entsteht.",
+        "explanation": "WIEGE verliert W und erhält FL: FLIEGE.",
+        "clues": {
+          "forward": "Ersetze den Anfang von _ durch zwei Buchstaben: Ein Insekt oder ein gebundenes Halsaccessoire entsteht.",
+          "reverse": "Ersetze die ersten beiden Buchstaben von _ durch einen: Ein schaukelndes Babybett entsteht."
+        }
+      },
+      {
+        "answer": "LIEGE",
+        "kind": "letter",
+        "hint": "Nimm den ersten Buchstaben von _ weg: Ein Möbel zum ausgestreckten Ruhen bleibt.",
+        "explanation": "FLIEGE ohne F ergibt LIEGE.",
+        "clues": {
+          "forward": "Nimm den ersten Buchstaben von _ weg: Ein Möbel zum ausgestreckten Ruhen bleibt.",
+          "reverse": "Stelle einen Buchstaben vor _: Ein Insekt oder ein Halsaccessoire entsteht."
+        }
+      },
+      {
+        "answer": "LIEBE",
+        "kind": "letter",
+        "hint": "Ein anderer innerer Buchstabe macht aus _ ein tiefes Gefühl der Zuneigung.",
+        "explanation": "LIEGE und LIEBE unterscheiden sich durch G/B.",
+        "clues": {
+          "forward": "Ein anderer innerer Buchstabe macht aus _ ein tiefes Gefühl der Zuneigung.",
+          "reverse": "Ein anderer innerer Buchstabe macht aus _ ein Möbel zum ausgestreckten Ruhen."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-11-29",
-    start: "ROSE",
-    end: "GROSS",
-    steps: [
+    "id": "rd-2026-11-29",
+    "date": "2026-11-29",
+    "legacyId": 16,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Von der Rose zur Zahl",
+    "start": "ROSE",
+    "end": "ZAHL",
+    "steps": [
       {
-        answer: "HOSE",
-        kind: "letter",
-        hint: "Aus _ wird durch Änderung des ersten Buchstabens ein Kleidungsstück für die Beine.",
-        explanation:
-          "ROSE → HOSE: Aus ROSE wird durch Änderung des ersten Buchstabens ein Kleidungsstück für die Beine.",
-        clues: {
-          forward:
-            "Aus _ wird durch Änderung des ersten Buchstabens ein Kleidungsstück für die Beine.",
-          reverse:
-            "Aus _ wird durch Änderung des ersten Buchstabens eine duftende Blume.",
-        },
+        "answer": "ROST",
+        "kind": "letter",
+        "hint": "Ein anderer Schluss macht aus _ den rötlich braunen Belag, der sich auf feuchtem Eisen bildet.",
+        "explanation": "ROSE und ROST unterscheiden sich durch E/T.",
+        "clues": {
+          "forward": "Ein anderer Schluss macht aus _ den rötlich braunen Belag, der sich auf feuchtem Eisen bildet.",
+          "reverse": "Ein anderer Schluss macht aus _ eine Blume, deren Stängel oft Stacheln trägt."
+        }
       },
       {
-        answer: "KLEID",
-        kind: "meaning",
-        hint: "Welches Kleidungsstück ist wie eine _ zum Anziehen, aber meist ohne getrennte Beine?",
-        explanation:
-          "HOSE → KLEID: Welches Kleidungsstück ist wie eine HOSE zum Anziehen, aber meist ohne getrennte Beine?",
-        clues: {
-          forward:
-            "Welches Kleidungsstück ist wie eine _ zum Anziehen, aber meist ohne getrennte Beine?",
-          reverse:
-            "Welches Kleidungsstück trägt man statt eines _ als einteiliges Ober- und Unterteil?",
-        },
+        "answer": "POST",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ den Dienst, der Briefe und Pakete befördert.",
+        "explanation": "ROST und POST unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ den Dienst, der Briefe und Pakete befördert.",
+          "reverse": "Ein neuer Anfang macht aus _ einen rötlich braunen Belag auf feuchtem Eisen."
+        }
       },
       {
-        answer: "KLEIN",
-        kind: "letter",
-        hint: "Aus _ wird durch Änderung eines Buchstabens das Gegenteil von groß.",
-        explanation:
-          "KLEID → KLEIN: Aus KLEID wird durch Änderung eines Buchstabens das Gegenteil von groß.",
-        clues: {
-          forward:
-            "Aus _ wird durch Änderung eines Buchstabens das Gegenteil von groß.",
-          reverse:
-            "Aus _ wird durch Änderung eines Buchstabens ein einteiliges Kleidungsstück.",
-        },
+        "answer": "POET",
+        "kind": "letter",
+        "hint": "Ein anderer Buchstabe in _ macht aus dem Briefdienst einen Verfasser von Gedichten.",
+        "explanation": "POST und POET unterscheiden sich durch S/E.",
+        "clues": {
+          "forward": "Ein anderer Buchstabe in _ macht aus dem Briefdienst einen Verfasser von Gedichten.",
+          "reverse": "Ein anderer Buchstabe in _ macht aus dem Gedichtverfasser einen Dienst für Briefe und Pakete."
+        }
       },
       {
-        answer: "GROSS",
-        kind: "meaning",
-        hint: "Was ist das Gegenteil von _?",
-        explanation: "KLEIN → GROSS: Was ist das Gegenteil von KLEIN?",
-        clues: {
-          forward: "Was ist das Gegenteil von _?",
-          reverse: "Was ist das Gegenteil von _?",
-        },
+        "answer": "GEDICHT",
+        "kind": "meaning",
+        "hint": "_: Wie lautet der allgemeine Begriff für einen Text, den eine solche Person in Versen und oft Strophen verfasst? Keine besondere Unterart ist gesucht.",
+        "explanation": "Ein Poet verfasst Gedichte.",
+        "clues": {
+          "forward": "_: Wie lautet der allgemeine Begriff für einen Text, den eine solche Person in Versen und oft Strophen verfasst? Keine besondere Unterart ist gesucht.",
+          "reverse": "_: Wie nennt man einen Verfasser dieser Textform mit einem kurzen Wort aus vier Buchstaben?"
+        }
       },
-    ],
-    date: "2026-11-29",
-    schemaVersion: 2,
-    legacyId: 16,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "GESICHT",
+        "kind": "letter",
+        "hint": "Ändere einen inneren Buchstaben in _: Aus dem Verstext wird der vordere Teil des Kopfes.",
+        "explanation": "GEDICHT → GESICHT: D wird S.",
+        "clues": {
+          "forward": "Ändere einen inneren Buchstaben in _: Aus dem Verstext wird der vordere Teil des Kopfes.",
+          "reverse": "Ändere einen inneren Buchstaben in _: Aus dem vorderen Kopfteil wird ein Text in Versen."
+        }
+      },
+      {
+        "answer": "GEWICHT",
+        "kind": "letter",
+        "hint": "Ein anderer innerer Buchstabe macht aus dem vorderen Kopfteil _ die Angabe, die man im Alltag auf einer Personenwaage abliest.",
+        "explanation": "GESICHT und GEWICHT unterscheiden sich durch S/W.",
+        "clues": {
+          "forward": "Ein anderer innerer Buchstabe macht aus dem vorderen Kopfteil _ die Angabe, die man im Alltag auf einer Personenwaage abliest.",
+          "reverse": "Ein anderer innerer Buchstabe macht aus _ den vorderen Teil des Kopfes."
+        }
+      },
+      {
+        "answer": "WAAGE",
+        "kind": "meaning",
+        "hint": "_: Mit welchem Messgerät bestimmt man das, wenn man sich zum Beispiel auf eine Plattform stellt?",
+        "explanation": "Eine Waage bestimmt die Masse, die im Alltag Gewicht genannt wird.",
+        "clues": {
+          "forward": "_: Mit welchem Messgerät bestimmt man das, wenn man sich zum Beispiel auf eine Plattform stellt?",
+          "reverse": "_: Welche Eigenschaft eines Körpers nennt man im Alltag den angezeigten Kilogrammwert dieses Messgeräts?"
+        }
+      },
+      {
+        "answer": "WALE",
+        "kind": "letter",
+        "hint": "Entferne aus _ einen Buchstaben und ändere einen weiteren: Große Meeressäuger entstehen, in der Mehrzahl.",
+        "explanation": "WAAGE verliert ein A; G wird L: WALE.",
+        "clues": {
+          "forward": "Entferne aus _ einen Buchstaben und ändere einen weiteren: Große Meeressäuger entstehen, in der Mehrzahl.",
+          "reverse": "Füge in _ einen Buchstaben ein und ändere einen weiteren: Ein Messgerät für den Kilogrammwert entsteht."
+        }
+      },
+      {
+        "answer": "WAHL",
+        "kind": "letter",
+        "hint": "Ändere zwei Buchstaben in _: Aus den Meeressäugern wird das Entscheiden zwischen Möglichkeiten.",
+        "explanation": "WALE → WAHL: L wird H, E wird L.",
+        "clues": {
+          "forward": "Ändere zwei Buchstaben in _: Aus den Meeressäugern wird das Entscheiden zwischen Möglichkeiten.",
+          "reverse": "Ändere zwei Buchstaben in _: Aus der Entscheidung werden große Meeressäuger in der Mehrzahl."
+        }
+      },
+      {
+        "answer": "ZAHL",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ einen mathematischen Wert, den Ziffern darstellen können.",
+        "explanation": "WAHL und ZAHL unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ einen mathematischen Wert, den Ziffern darstellen können.",
+          "reverse": "Ein neuer Anfang macht aus _ das Entscheiden zwischen mehreren Möglichkeiten."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-11-30",
-    start: "KERN",
-    end: "INSEKT",
-    steps: [
+    "id": "rd-2026-11-30",
+    "date": "2026-11-30",
+    "legacyId": 17,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Kern zur Festigkeit",
+    "start": "KERN",
+    "end": "EISERN",
+    "steps": [
       {
-        answer: "STERN",
-        kind: "letter",
-        hint: "Aus _ wird durch Austausch des ersten und Ergänzung eines Buchstabens ein Himmelskörper.",
-        explanation:
-          "KERN → STERN: Aus KERN wird durch Austausch des ersten und Ergänzung eines Buchstabens ein Himmelskörper.",
-        clues: {
-          forward:
-            "Aus _ wird durch Austausch des ersten und Ergänzung eines Buchstabens ein Himmelskörper.",
-          reverse:
-            "Aus _ wird durch Änderung der ersten beiden Buchstaben der innere Teil einer Frucht.",
-        },
+        "answer": "KERL",
+        "kind": "letter",
+        "hint": "Ein anderer Schluss macht aus _ eine umgangssprachliche Bezeichnung für einen Mann.",
+        "explanation": "KERN und KERL unterscheiden sich durch N/L.",
+        "clues": {
+          "forward": "Ein anderer Schluss macht aus _ eine umgangssprachliche Bezeichnung für einen Mann.",
+          "reverse": "Ein anderer Schluss macht aus _ den innersten Teil einer Frucht oder der Erde."
+        }
       },
       {
-        answer: "HIMMEL",
-        kind: "meaning",
-        hint: "Wo sieht man einen _ nachts?",
-        explanation: "STERN → HIMMEL: Wo sieht man einen STERN nachts?",
-        clues: {
-          forward: "Wo sieht man einen _ nachts?",
-          reverse: "Welcher leuchtende Punkt am _ ist eine ferne Sonne?",
-        },
+        "answer": "KERZE",
+        "kind": "letter",
+        "hint": "Ersetze den Schluss von _ durch zwei Buchstaben: Ein Lichtspender mit Docht entsteht.",
+        "explanation": "KERL verliert L und erhält ZE: KERZE.",
+        "clues": {
+          "forward": "Ersetze den Schluss von _ durch zwei Buchstaben: Ein Lichtspender mit Docht entsteht.",
+          "reverse": "Ersetze die letzten beiden Buchstaben von _ durch einen: Eine umgangssprachliche Bezeichnung für einen Mann entsteht."
+        }
       },
       {
-        answer: "HUMMEL",
-        kind: "letter",
-        hint: "Aus _ wird mit verändertem Vokal ein summendes Insekt.",
-        explanation:
-          "HIMMEL → HUMMEL: Aus HIMMEL wird mit verändertem Vokal ein summendes Insekt.",
-        clues: {
-          forward: "Aus _ wird mit verändertem Vokal ein summendes Insekt.",
-          reverse: "Aus _ wird mit verändertem Vokal das Gewölbe über uns.",
-        },
+        "answer": "HERZ",
+        "kind": "letter",
+        "hint": "Nimm den letzten Buchstaben von _ weg und ändere den Anfang: Das Organ, das Blut pumpt, entsteht.",
+        "explanation": "KERZE ohne E wird KERZ; K → H ergibt HERZ.",
+        "clues": {
+          "forward": "Nimm den letzten Buchstaben von _ weg und ändere den Anfang: Das Organ, das Blut pumpt, entsteht.",
+          "reverse": "Ändere den Anfang von _ und ergänze hinten einen Vokal: Ein Lichtspender mit Docht entsteht."
+        }
       },
       {
-        answer: "INSEKT",
-        kind: "meaning",
-        hint: "Zu welcher Tierklasse gehört die _?",
-        explanation:
-          "HUMMEL → INSEKT: Zu welcher Tierklasse gehört die HUMMEL?",
-        clues: {
-          forward: "Zu welcher Tierklasse gehört die _?",
-          reverse: "Eine _ ist ein Vertreter welcher Tierklasse?",
-        },
+        "answer": "SCHMERZ",
+        "kind": "letter",
+        "hint": "Füge in _ drei Buchstaben ein: Gesucht ist eine unangenehme Empfindung bei Verletzungen oder Liebeskummer.",
+        "explanation": "HERZ erhält SC am Anfang und M nach H: SCHMERZ.",
+        "clues": {
+          "forward": "Füge in _ drei Buchstaben ein: Gesucht ist eine unangenehme Empfindung bei Verletzungen oder Liebeskummer.",
+          "reverse": "Entferne aus _ drei Buchstaben: Übrig bleibt das Organ, das Blut pumpt und als Zeichen der Liebe gilt."
+        }
       },
-    ],
-    date: "2026-11-30",
-    schemaVersion: 2,
-    legacyId: 17,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "SCHERZ",
+        "kind": "letter",
+        "hint": "Entferne aus _ einen Buchstaben: Aus dem unangenehmen Gefühl wird eine nicht ernst gemeinte Bemerkung.",
+        "explanation": "SCHMERZ ohne M ergibt SCHERZ.",
+        "clues": {
+          "forward": "Entferne aus _ einen Buchstaben: Aus dem unangenehmen Gefühl wird eine nicht ernst gemeinte Bemerkung.",
+          "reverse": "Füge in _ einen Buchstaben ein: Aus der lustigen Bemerkung wird eine unangenehme Empfindung bei einer Verletzung."
+        }
+      },
+      {
+        "answer": "ERZ",
+        "kind": "letter",
+        "hint": "Entferne die ersten drei Buchstaben von _: Ein Gestein, aus dem man Metall gewinnt, bleibt.",
+        "explanation": "SCHERZ ohne SCH ergibt ERZ.",
+        "clues": {
+          "forward": "Entferne die ersten drei Buchstaben von _: Ein Gestein, aus dem man Metall gewinnt, bleibt.",
+          "reverse": "Stelle drei Buchstaben vor _: Eine nicht ernst gemeinte Bemerkung entsteht."
+        }
+      },
+      {
+        "answer": "EIS",
+        "kind": "letter",
+        "hint": "Ändere zwei Buchstaben in _: Aus dem metallhaltigen Gestein wird gefrorenes Wasser.",
+        "explanation": "ERZ → EIS: R wird I, Z wird S.",
+        "clues": {
+          "forward": "Ändere zwei Buchstaben in _: Aus dem metallhaltigen Gestein wird gefrorenes Wasser.",
+          "reverse": "Ändere zwei Buchstaben in _: Aus gefrorenem Wasser wird metallhaltiges Gestein."
+        }
+      },
+      {
+        "answer": "EISEN",
+        "kind": "letter",
+        "hint": "Verlängere _ hinten um zwei Buchstaben: Ein magnetisch anziehbares Metall entsteht.",
+        "explanation": "EIS + EN ergibt EISEN.",
+        "clues": {
+          "forward": "Verlängere _ hinten um zwei Buchstaben: Ein magnetisch anziehbares Metall entsteht.",
+          "reverse": "Kürze _ hinten um zwei Buchstaben: Gefrorenes Wasser bleibt."
+        }
+      },
+      {
+        "answer": "EISERN",
+        "kind": "letter",
+        "hint": "Füge in _ einen Buchstaben ein: Gesucht ist ein Adjektiv für unbeugsam oder aus diesem Metall bestehend.",
+        "explanation": "EISEN + R vor N ergibt EISERN.",
+        "clues": {
+          "forward": "Füge in _ einen Buchstaben ein: Gesucht ist ein Adjektiv für unbeugsam oder aus diesem Metall bestehend.",
+          "reverse": "Entferne aus _ einen Buchstaben: Das magnetisch anziehbare Metall bleibt."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-12-01",
-    start: "BAND",
-    end: "BEGINN",
-    steps: [
+    "id": "rd-2026-12-01",
+    "date": "2026-12-01",
+    "legacyId": 18,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Band zum Salat",
+    "start": "BAND",
+    "end": "SALAT",
+    "steps": [
       {
-        answer: "LAND",
-        kind: "letter",
-        hint: "Aus _ wird mit anderem Anfangsbuchstaben ein Gebiet mit Grenzen.",
-        explanation:
-          "BAND → LAND: Aus BAND wird mit anderem Anfangsbuchstaben ein Gebiet mit Grenzen.",
-        clues: {
-          forward:
-            "Aus _ wird mit anderem Anfangsbuchstaben ein Gebiet mit Grenzen.",
-          reverse:
-            "Aus _ wird mit anderem Anfangsbuchstaben ein schmaler Streifen aus Stoff.",
-        },
+        "answer": "BUCH",
+        "kind": "meaning",
+        "hint": "_: Gemeint ist ein gebundener Teil eines mehrteiligen Werks. Welcher allgemeinere Gegenstand mit Seiten ist das?",
+        "explanation": "Ein Band ist ein einzelnes Buch einer mehrteiligen Ausgabe.",
+        "clues": {
+          "forward": "_: Gemeint ist ein gebundener Teil eines mehrteiligen Werks. Welcher allgemeinere Gegenstand mit Seiten ist das?",
+          "reverse": "_: Welches Wort bezeichnet ein einzelnes solches Exemplar innerhalb einer mehrteiligen Ausgabe?"
+        }
       },
       {
-        answer: "STAAT",
-        kind: "meaning",
-        hint: "Wie nennt man ein politisch organisiertes _?",
-        explanation:
-          "LAND → STAAT: Wie nennt man ein politisch organisiertes LAND?",
-        clues: {
-          forward: "Wie nennt man ein politisch organisiertes _?",
-          reverse:
-            "Ein _ ist politisch organisiert; wie heißt das Gebiet, das er regiert?",
-        },
+        "answer": "BUCHE",
+        "kind": "letter",
+        "hint": "Verlängere _ hinten um einen Vokal: Ein Laubbaum mit glatter, grauer Rinde entsteht.",
+        "explanation": "BUCH + E ergibt BUCHE.",
+        "clues": {
+          "forward": "Verlängere _ hinten um einen Vokal: Ein Laubbaum mit glatter, grauer Rinde entsteht.",
+          "reverse": "Kürze _ hinten um einen Vokal: Ein gebundenes Werk aus Seiten bleibt."
+        }
       },
       {
-        answer: "START",
-        kind: "letter",
-        hint: "Aus _ wird durch Austausch des vorletzten Buchstabens der Beginn eines Rennens.",
-        explanation:
-          "STAAT → START: Aus STAAT wird durch Austausch des vorletzten Buchstabens der Beginn eines Rennens.",
-        clues: {
-          forward:
-            "Aus _ wird durch Austausch des vorletzten Buchstabens der Beginn eines Rennens.",
-          reverse:
-            "Aus _ wird durch Austausch des vorletzten Buchstabens ein politisch organisiertes Land.",
-        },
+        "answer": "BLATT",
+        "kind": "meaning",
+        "hint": "_: Welcher flache grüne Pflanzenteil dieses Baums heißt genauso wie ein Stück Papier?",
+        "explanation": "Eine Buche trägt Blätter; Blatt bezeichnet auch ein Stück Papier.",
+        "clues": {
+          "forward": "_: Welcher flache grüne Pflanzenteil dieses Baums heißt genauso wie ein Stück Papier?",
+          "reverse": "_: Welcher Laubbaum mit glatter grauer Rinde trägt solche ovalen Pflanzenorgane, wenn sein Name aus fünf Buchstaben besteht?"
+        }
       },
       {
-        answer: "BEGINN",
-        kind: "meaning",
-        hint: "Welches Wort bedeutet wie _ »Anfang«?",
-        explanation:
-          "START → BEGINN: Welches Wort bedeutet wie START »Anfang«?",
-        clues: {
-          forward: "Welches Wort bedeutet wie _ »Anfang«?",
-          reverse: "Wie nennt man den _ eines Vorgangs auch?",
-        },
+        "answer": "PLATTE",
+        "kind": "letter",
+        "hint": "Ändere den Anfang von _ und ergänze hinten einen Vokal: Ein flaches, festes Stück Material entsteht.",
+        "explanation": "BLATT wird durch B → P und angehängtes E zu PLATTE.",
+        "clues": {
+          "forward": "Ändere den Anfang von _ und ergänze hinten einen Vokal: Ein flaches, festes Stück Material entsteht.",
+          "reverse": "Ändere den Anfang von _ und entferne den Schlussvokal: Ein flaches Pflanzenorgan oder Stück Papier entsteht."
+        }
       },
-    ],
-    date: "2026-12-01",
-    schemaVersion: 2,
-    legacyId: 18,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "PLATZ",
+        "kind": "letter",
+        "hint": "Ersetze die letzten beiden Buchstaben von _ durch einen: Ein freier Sitz oder eine offene Fläche in einer Stadt entsteht.",
+        "explanation": "PLATTE verliert TE und erhält Z: PLATZ.",
+        "clues": {
+          "forward": "Ersetze die letzten beiden Buchstaben von _ durch einen: Ein freier Sitz oder eine offene Fläche in einer Stadt entsteht.",
+          "reverse": "Ersetze den Schlussbuchstaben von _ durch zwei: Ein flaches, festes Materialstück entsteht."
+        }
+      },
+      {
+        "answer": "SATZ",
+        "kind": "letter",
+        "hint": "Nimm den ersten Buchstaben von _ weg und ändere den neuen Anfang: Eine sprachliche Einheit mit Prädikat entsteht.",
+        "explanation": "PLATZ ohne P wird LATZ; L → S ergibt SATZ.",
+        "clues": {
+          "forward": "Nimm den ersten Buchstaben von _ weg und ändere den neuen Anfang: Eine sprachliche Einheit mit Prädikat entsteht.",
+          "reverse": "Ändere den Anfang von _ und stelle einen Buchstaben davor: Ein freier Sitz oder eine offene Stadtfläche entsteht."
+        }
+      },
+      {
+        "answer": "SALZ",
+        "kind": "letter",
+        "hint": "Ein anderer innerer Buchstabe macht aus _ ein kristallines Gewürz, dessen Hauptbestandteil Natriumchlorid ist.",
+        "explanation": "SATZ und SALZ unterscheiden sich durch T/L.",
+        "clues": {
+          "forward": "Ein anderer innerer Buchstabe macht aus _ ein kristallines Gewürz, dessen Hauptbestandteil Natriumchlorid ist.",
+          "reverse": "Ein anderer innerer Buchstabe macht aus _ eine sprachliche Einheit mit Prädikat."
+        }
+      },
+      {
+        "answer": "SALAT",
+        "kind": "letter",
+        "hint": "Ersetze den Schlussbuchstaben von _ durch zwei andere: Eine Speise aus angemachten rohen Blättern entsteht.",
+        "explanation": "SALZ verliert Z und erhält AT: SALAT.",
+        "clues": {
+          "forward": "Ersetze den Schlussbuchstaben von _ durch zwei andere: Eine Speise aus angemachten rohen Blättern entsteht.",
+          "reverse": "Ersetze die letzten beiden Buchstaben von _ durch einen: Ein kristallines Gewürz entsteht."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-12-02",
-    start: "NASE",
-    end: "HEMD",
-    steps: [
+    "id": "rd-2026-12-02",
+    "date": "2026-12-02",
+    "legacyId": 19,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Von der Nase zur Gabel",
+    "start": "NASE",
+    "end": "GABEL",
+    "steps": [
       {
-        answer: "VASE",
-        kind: "letter",
-        hint: "Aus _ wird mit geändertem Anfangsbuchstaben ein Gefäß für Blumen.",
-        explanation:
-          "NASE → VASE: Aus NASE wird mit geändertem Anfangsbuchstaben ein Gefäß für Blumen.",
-        clues: {
-          forward:
-            "Aus _ wird mit geändertem Anfangsbuchstaben ein Gefäß für Blumen.",
-          reverse:
-            "Aus _ wird mit geändertem Anfangsbuchstaben ein Körperteil zum Riechen.",
-        },
+        "answer": "VASE",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ ein Gefäß für Schnittblumen.",
+        "explanation": "NASE und VASE unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ ein Gefäß für Schnittblumen.",
+          "reverse": "Ein neuer Anfang macht aus _ das Riechorgan im Gesicht."
+        }
       },
       {
-        answer: "BLUME",
-        kind: "meaning",
-        hint: "Was stellt man in eine _?",
-        explanation: "VASE → BLUME: Was stellt man in eine VASE?",
-        clues: {
-          forward: "Was stellt man in eine _?",
-          reverse: "In welchem Gefäß kann eine _ als Schnittblume stehen?",
-        },
+        "answer": "PHASE",
+        "kind": "letter",
+        "hint": "Ersetze den ersten Buchstaben von _ durch zwei andere: Ein zeitlich begrenzter Abschnitt einer Entwicklung entsteht.",
+        "explanation": "VASE verliert V und erhält PH: PHASE.",
+        "clues": {
+          "forward": "Ersetze den ersten Buchstaben von _ durch zwei andere: Ein zeitlich begrenzter Abschnitt einer Entwicklung entsteht.",
+          "reverse": "Ersetze die ersten beiden Buchstaben von _ durch einen: Ein Gefäß für Schnittblumen entsteht."
+        }
       },
       {
-        answer: "BLUSE",
-        kind: "letter",
-        hint: "Aus _ wird mit einem neuen Anfangsbuchstaben ein Kleidungsstück.",
-        explanation:
-          "BLUME → BLUSE: Aus BLUME wird mit einem neuen Anfangsbuchstaben ein Kleidungsstück.",
-        clues: {
-          forward:
-            "Aus _ wird mit einem neuen Anfangsbuchstaben ein Kleidungsstück.",
-          reverse:
-            "Aus _ wird mit einem neuen Anfangsbuchstaben eine Pflanze mit Blüte.",
-        },
+        "answer": "HASE",
+        "kind": "letter",
+        "hint": "Nimm den Anfangsbuchstaben von _ weg: Ein wildes Tier mit langen Ohren bleibt.",
+        "explanation": "PHASE ohne P ergibt HASE.",
+        "clues": {
+          "forward": "Nimm den Anfangsbuchstaben von _ weg: Ein wildes Tier mit langen Ohren bleibt.",
+          "reverse": "Stelle einen Buchstaben vor _: Ein zeitlich begrenzter Entwicklungsabschnitt entsteht."
+        }
       },
       {
-        answer: "HEMD",
-        kind: "meaning",
-        hint: "Welches Oberteil ähnelt einer _ und wird oft zugeknöpft?",
-        explanation:
-          "BLUSE → HEMD: Welches Oberteil ähnelt einer BLUSE und wird oft zugeknöpft?",
-        clues: {
-          forward: "Welches Oberteil ähnelt einer _ und wird oft zugeknöpft?",
-          reverse:
-            "Welches Kleidungsstück ähnelt einem _ und hat oft einen Kragen?",
-        },
+        "answer": "IGEL",
+        "kind": "meaning",
+        "hint": "_: Welches kleine Stacheltier ist im Märchen der Wettlaufgegner dieses langohrigen Tiers?",
+        "explanation": "Das bekannte Märchen erzählt vom Wettlauf zwischen Hase und Igel.",
+        "clues": {
+          "forward": "_: Welches kleine Stacheltier ist im Märchen der Wettlaufgegner dieses langohrigen Tiers?",
+          "reverse": "_: Welches langohrige Tier tritt im Märchen gegen dieses Stacheltier zum Wettlauf an?"
+        }
       },
-    ],
-    date: "2026-12-02",
-    schemaVersion: 2,
-    legacyId: 19,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "SEGEL",
+        "kind": "letter",
+        "hint": "Ersetze den Anfang von _ durch zwei Buchstaben: Ein Tuch entsteht, das ein Boot durch Wind antreibt.",
+        "explanation": "IGEL verliert I und erhält SE: SEGEL.",
+        "clues": {
+          "forward": "Ersetze den Anfang von _ durch zwei Buchstaben: Ein Tuch entsteht, das ein Boot durch Wind antreibt.",
+          "reverse": "Ersetze die ersten beiden Buchstaben von _ durch einen: Ein kleines Stacheltier entsteht."
+        }
+      },
+      {
+        "answer": "REGEL",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ eine Vorgabe, an die man sich beim Spielen halten soll.",
+        "explanation": "SEGEL und REGEL unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ eine Vorgabe, an die man sich beim Spielen halten soll.",
+          "reverse": "Ein neuer Anfang macht aus _ ein Tuch, das Wind zum Vortrieb eines Bootes nutzt."
+        }
+      },
+      {
+        "answer": "REGAL",
+        "kind": "letter",
+        "hint": "Ein Vokalwechsel macht aus _ ein Möbel mit offenen Ablageböden.",
+        "explanation": "REGEL und REGAL unterscheiden sich durch E/A.",
+        "clues": {
+          "forward": "Ein Vokalwechsel macht aus _ ein Möbel mit offenen Ablageböden.",
+          "reverse": "Ein Vokalwechsel macht aus _ eine Vorgabe, an die man sich beim Spielen halten soll."
+        }
+      },
+      {
+        "answer": "EGAL",
+        "kind": "letter",
+        "hint": "Entferne den ersten Buchstaben von _: Übrig bleibt ein Wort für gleichgültig oder ohne Bedeutung.",
+        "explanation": "REGAL ohne R ergibt EGAL.",
+        "clues": {
+          "forward": "Entferne den ersten Buchstaben von _: Übrig bleibt ein Wort für gleichgültig oder ohne Bedeutung.",
+          "reverse": "Setze einen Buchstaben vor _: Ein Möbel mit offenen Ablageböden entsteht."
+        }
+      },
+      {
+        "answer": "GALLE",
+        "kind": "letter",
+        "hint": "Ergänze _ um einen Buchstaben und ordne neu: Eine in der Leber gebildete Verdauungsflüssigkeit entsteht.",
+        "explanation": "EGAL + L lässt sich zu GALLE ordnen.",
+        "clues": {
+          "forward": "Ergänze _ um einen Buchstaben und ordne neu: Eine in der Leber gebildete Verdauungsflüssigkeit entsteht.",
+          "reverse": "Entferne aus _ einen Buchstaben und ordne neu: Gesucht ist ein Wort für gleichgültig."
+        }
+      },
+      {
+        "answer": "GABEL",
+        "kind": "letter",
+        "hint": "Tausche einen Buchstaben in _ und ordne neu: Ein Essgerät mit Zinken entsteht.",
+        "explanation": "GALLE verliert ein L und erhält B; umgeordnet ergibt das GABEL.",
+        "clues": {
+          "forward": "Tausche einen Buchstaben in _ und ordne neu: Ein Essgerät mit Zinken entsteht.",
+          "reverse": "Tausche einen Buchstaben in _ und ordne neu: Eine in der Leber gebildete Verdauungsflüssigkeit entsteht."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-12-03",
-    start: "RING",
-    end: "SCHUTZ",
-    steps: [
+    "id": "rd-2026-12-03",
+    "date": "2026-12-03",
+    "legacyId": 20,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Ring zur Seife",
+    "start": "RING",
+    "end": "SEIFE",
+    "steps": [
       {
-        answer: "DING",
-        kind: "letter",
-        hint: "Aus _ wird durch Änderung des Anfangsbuchstabens ein unspezifischer Gegenstand.",
-        explanation:
-          "RING → DING: Aus RING wird durch Änderung des Anfangsbuchstabens ein unspezifischer Gegenstand.",
-        clues: {
-          forward:
-            "Aus _ wird durch Änderung des Anfangsbuchstabens ein unspezifischer Gegenstand.",
-          reverse:
-            "Aus _ wird durch Änderung des Anfangsbuchstabens ein runder Schmuckgegenstand.",
-        },
+        "answer": "BOXEN",
+        "kind": "meaning",
+        "hint": "_: Gemeint ist die Kampffläche. Welche Sportart mit gepolsterten Handschuhen wird dort ausgetragen?",
+        "explanation": "Boxen findet in einem Ring statt.",
+        "clues": {
+          "forward": "_: Gemeint ist die Kampffläche. Welche Sportart mit gepolsterten Handschuhen wird dort ausgetragen?",
+          "reverse": "_: Wie heißt die von Seilen begrenzte Kampffläche bei dieser Sportart?"
+        }
       },
       {
-        answer: "SACHE",
-        kind: "meaning",
-        hint: "Welches Wort bedeutet wie _ »Gegenstand«?",
-        explanation:
-          "DING → SACHE: Welches Wort bedeutet wie DING »Gegenstand«?",
-        clues: {
-          forward: "Welches Wort bedeutet wie _ »Gegenstand«?",
-          reverse:
-            "Welches Wort ist wie _ eine allgemeine Bezeichnung für einen Gegenstand?",
-        },
+        "answer": "BODEN",
+        "kind": "letter",
+        "hint": "Ein anderer innerer Buchstabe macht aus _ die untere Fläche eines Zimmers.",
+        "explanation": "BOXEN und BODEN unterscheiden sich durch X/D.",
+        "clues": {
+          "forward": "Ein anderer innerer Buchstabe macht aus _ die untere Fläche eines Zimmers.",
+          "reverse": "Ein anderer innerer Buchstabe macht aus der unteren Zimmerfläche _ eine Sportart mit gepolsterten Handschuhen."
+        }
       },
       {
-        answer: "WACHE",
-        kind: "letter",
-        hint: "Aus _ wird durch Änderung des ersten Buchstabens eine Person, die aufpasst.",
-        explanation:
-          "SACHE → WACHE: Aus SACHE wird durch Änderung des ersten Buchstabens eine Person, die aufpasst.",
-        clues: {
-          forward:
-            "Aus _ wird durch Änderung des ersten Buchstabens eine Person, die aufpasst.",
-          reverse:
-            "Aus _ wird durch Änderung des ersten Buchstabens ein Gegenstand.",
-        },
+        "answer": "BOGEN",
+        "kind": "letter",
+        "hint": "Ein anderer innerer Buchstabe macht aus der unteren Zimmerfläche _ ein Gerät, das Pfeile abschießt und auch ein Werkzeug für Streichinstrumente bezeichnet.",
+        "explanation": "BODEN und BOGEN unterscheiden sich durch D/G.",
+        "clues": {
+          "forward": "Ein anderer innerer Buchstabe macht aus der unteren Zimmerfläche _ ein Gerät, das Pfeile abschießt und auch ein Werkzeug für Streichinstrumente bezeichnet.",
+          "reverse": "Ein anderer innerer Buchstabe macht aus _ die untere Fläche eines Zimmers."
+        }
       },
       {
-        answer: "SCHUTZ",
-        kind: "meaning",
-        hint: "Wofür sorgt eine _ an einem Eingang?",
-        explanation: "WACHE → SCHUTZ: Wofür sorgt eine WACHE an einem Eingang?",
-        clues: {
-          forward: "Wofür sorgt eine _ an einem Eingang?",
-          reverse: "Welche Person sorgt an einem Eingang für _?",
-        },
+        "answer": "GEIGE",
+        "kind": "meaning",
+        "hint": "_: Gemeint ist das Werkzeug für Saiten. Welches Streichinstrument, auch Violine genannt, hält man zwischen Schulter und Kinn und spielt es damit?",
+        "explanation": "Eine Geige wird mit einem Bogen gespielt.",
+        "clues": {
+          "forward": "_: Gemeint ist das Werkzeug für Saiten. Welches Streichinstrument, auch Violine genannt, hält man zwischen Schulter und Kinn und spielt es damit?",
+          "reverse": "_: Welches mit Haaren bespannte Werkzeug streicht bei diesem Instrument über die Saiten?"
+        }
       },
-    ],
-    date: "2026-12-03",
-    schemaVersion: 2,
-    legacyId: 20,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "FEIGE",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ eine süße Frucht mit vielen kleinen Kernen, deren Name auch ängstlich bedeuten kann.",
+        "explanation": "GEIGE und FEIGE unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ eine süße Frucht mit vielen kleinen Kernen, deren Name auch ängstlich bedeuten kann.",
+          "reverse": "Ein neuer Anfang macht aus _ ein Streichinstrument zwischen Schulter und Kinn."
+        }
+      },
+      {
+        "answer": "FEILE",
+        "kind": "letter",
+        "hint": "Ein anderer innerer Buchstabe macht aus _ ein Werkzeug mit rauer Fläche zum Abtragen von Material.",
+        "explanation": "FEIGE und FEILE unterscheiden sich durch G/L.",
+        "clues": {
+          "forward": "Ein anderer innerer Buchstabe macht aus _ ein Werkzeug mit rauer Fläche zum Abtragen von Material.",
+          "reverse": "Ein anderer innerer Buchstabe macht aus _ eine süße Frucht, deren Name auch ängstlich bedeuten kann."
+        }
+      },
+      {
+        "answer": "ZEILE",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ eine waagerechte Folge von Schriftzeichen in einem Text.",
+        "explanation": "FEILE und ZEILE unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ eine waagerechte Folge von Schriftzeichen in einem Text.",
+          "reverse": "Ein neuer Anfang macht aus _ ein Werkzeug mit rauer Fläche zum Abtragen von Material."
+        }
+      },
+      {
+        "answer": "SEIL",
+        "kind": "letter",
+        "hint": "Entferne den Schlussbuchstaben von _ und ändere den Anfang: Eine starke Schnur aus verdrillten Fasern entsteht.",
+        "explanation": "ZEILE ohne E wird ZEIL; Z → S ergibt SEIL.",
+        "clues": {
+          "forward": "Entferne den Schlussbuchstaben von _ und ändere den Anfang: Eine starke Schnur aus verdrillten Fasern entsteht.",
+          "reverse": "Ändere den Anfang von _ und ergänze hinten einen Vokal: Eine waagerechte Folge von Schriftzeichen entsteht."
+        }
+      },
+      {
+        "answer": "SEIFE",
+        "kind": "letter",
+        "hint": "Ändere den Schluss von _ und ergänze einen Vokal: Ein Waschmittel entsteht, das es auch als festes Stück gibt.",
+        "explanation": "SEIL wird durch L → F und angehängtes E zu SEIFE.",
+        "clues": {
+          "forward": "Ändere den Schluss von _ und ergänze einen Vokal: Ein Waschmittel entsteht, das es auch als festes Stück gibt.",
+          "reverse": "Nimm den Schlussvokal von _ weg und ändere den neuen Schluss: Eine starke Schnur entsteht."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-12-04",
-    start: "FALL",
-    end: "GRIFF",
-    steps: [
+    "id": "rd-2026-12-04",
+    "date": "2026-12-04",
+    "legacyId": 21,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Fall zur Wüste",
+    "start": "FALL",
+    "end": "WÜSTE",
+    "steps": [
       {
-        answer: "BALL",
-        kind: "letter",
-        hint: "Aus _ wird mit anderem Anfangsbuchstaben ein Spielgerät zum Werfen.",
-        explanation:
-          "FALL → BALL: Aus FALL wird mit anderem Anfangsbuchstaben ein Spielgerät zum Werfen.",
-        clues: {
-          forward:
-            "Aus _ wird mit anderem Anfangsbuchstaben ein Spielgerät zum Werfen.",
-          reverse: "Aus _ wird mit anderem Anfangsbuchstaben ein Sturz.",
-        },
+        "answer": "BALL",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ einen runden Gegenstand zum Werfen oder ein festliches Tanzereignis.",
+        "explanation": "FALL und BALL unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ einen runden Gegenstand zum Werfen oder ein festliches Tanzereignis.",
+          "reverse": "Ein neuer Anfang macht aus _ einen Sturz oder einen zu untersuchenden Vorgang."
+        }
       },
       {
-        answer: "SPIEL",
-        kind: "meaning",
-        hint: "Was kann man mit einem _ machen, etwa Fußball?",
-        explanation:
-          "BALL → SPIEL: Was kann man mit einem BALL machen, etwa Fußball?",
-        clues: {
-          forward: "Was kann man mit einem _ machen, etwa Fußball?",
-          reverse: "Wie nennt man eine Beschäftigung wie Fußball mit einem _?",
-        },
+        "answer": "BASS",
+        "kind": "letter",
+        "hint": "Ändere zwei Buchstaben in _: Aus dem Spielgegenstand wird eine tiefe Stimme oder ein tief klingendes Instrument.",
+        "explanation": "BALL → BASS: beide L werden S.",
+        "clues": {
+          "forward": "Ändere zwei Buchstaben in _: Aus dem Spielgegenstand wird eine tiefe Stimme oder ein tief klingendes Instrument.",
+          "reverse": "Ändere zwei Buchstaben in _: Aus der tiefen Stimme wird ein runder Spielgegenstand."
+        }
       },
       {
-        answer: "STIEL",
-        kind: "letter",
-        hint: "Aus _ wird durch Änderung eines Buchstabens der Griffteil eines Werkzeugs.",
-        explanation:
-          "SPIEL → STIEL: Aus SPIEL wird durch Änderung eines Buchstabens der Griffteil eines Werkzeugs.",
-        clues: {
-          forward:
-            "Aus _ wird durch Änderung eines Buchstabens der Griffteil eines Werkzeugs.",
-          reverse:
-            "Aus _ wird durch Änderung eines Buchstabens eine Freizeitbeschäftigung.",
-        },
+        "answer": "BISS",
+        "kind": "letter",
+        "hint": "Ein Vokalwechsel macht aus _ das Zupacken mit den Zähnen.",
+        "explanation": "BASS und BISS unterscheiden sich durch A/I.",
+        "clues": {
+          "forward": "Ein Vokalwechsel macht aus _ das Zupacken mit den Zähnen.",
+          "reverse": "Ein Vokalwechsel macht aus _ eine tiefe Stimme oder ein tief klingendes Instrument."
+        }
       },
       {
-        answer: "GRIFF",
-        kind: "meaning",
-        hint: "Wo fasst man einen _ an?",
-        explanation: "STIEL → GRIFF: Wo fasst man einen STIEL an?",
-        clues: {
-          forward: "Wo fasst man einen _ an?",
-          reverse:
-            "Wie heißt der längliche Schaft, an dessen Ende ein _ sitzen kann?",
-        },
+        "answer": "BISSEN",
+        "kind": "letter",
+        "hint": "Verlängere _ hinten um zwei Buchstaben: Nun ist eine kleine Portion Nahrung für den Mund gemeint.",
+        "explanation": "BISS + EN ergibt BISSEN.",
+        "clues": {
+          "forward": "Verlängere _ hinten um zwei Buchstaben: Nun ist eine kleine Portion Nahrung für den Mund gemeint.",
+          "reverse": "Kürze _ hinten um zwei Buchstaben: Aus der Portion wird das Zupacken mit den Zähnen."
+        }
       },
-    ],
-    date: "2026-12-04",
-    schemaVersion: 2,
-    legacyId: 21,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "WISSEN",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ die Gesamtheit dessen, was jemand gelernt hat.",
+        "explanation": "BISSEN und WISSEN unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ die Gesamtheit dessen, was jemand gelernt hat.",
+          "reverse": "Ein neuer Anfang macht aus _ eine kleine Portion Nahrung für den Mund."
+        }
+      },
+      {
+        "answer": "GEWISSEN",
+        "kind": "letter",
+        "hint": "Verlängere _ vorne um zwei Buchstaben: Eine innere Stimme entsteht, die Handlungen moralisch beurteilt.",
+        "explanation": "GE vor WISSEN ergibt GEWISSEN.",
+        "clues": {
+          "forward": "Verlängere _ vorne um zwei Buchstaben: Eine innere Stimme entsteht, die Handlungen moralisch beurteilt.",
+          "reverse": "Entferne die ersten beiden Buchstaben von _: Übrig bleibt die Gesamtheit dessen, was jemand gelernt hat."
+        }
+      },
+      {
+        "answer": "KISSEN",
+        "kind": "letter",
+        "hint": "Entferne die ersten beiden Buchstaben von _ und ändere den neuen Anfang: Ein weiches Polster für den Kopf entsteht.",
+        "explanation": "GEWISSEN ohne GE wird WISSEN; W → K ergibt KISSEN.",
+        "clues": {
+          "forward": "Entferne die ersten beiden Buchstaben von _ und ändere den neuen Anfang: Ein weiches Polster für den Kopf entsteht.",
+          "reverse": "Ändere den Anfang von _ und stelle zwei weitere Buchstaben davor: Die innere Stimme zur moralischen Beurteilung entsteht."
+        }
+      },
+      {
+        "answer": "KISTE",
+        "kind": "letter",
+        "hint": "Entferne den Schlussbuchstaben von _ und ändere einen inneren Buchstaben: Ein fester Behälter mit meist rechteckigen Wänden entsteht.",
+        "explanation": "KISSEN ohne N wird KISSE; zweites S → T ergibt KISTE.",
+        "clues": {
+          "forward": "Entferne den Schlussbuchstaben von _ und ändere einen inneren Buchstaben: Ein fester Behälter mit meist rechteckigen Wänden entsteht.",
+          "reverse": "Füge an _ einen Schlussbuchstaben an und ändere einen inneren Buchstaben: Ein weiches Kopfpolster entsteht."
+        }
+      },
+      {
+        "answer": "KÜSTE",
+        "kind": "letter",
+        "hint": "Ein Vokalwechsel macht aus _ den Grenzstreifen zwischen Land und Meer.",
+        "explanation": "KISTE und KÜSTE unterscheiden sich durch I/Ü.",
+        "clues": {
+          "forward": "Ein Vokalwechsel macht aus _ den Grenzstreifen zwischen Land und Meer.",
+          "reverse": "Ein Vokalwechsel macht aus _ einen festen, meist rechteckigen Behälter."
+        }
+      },
+      {
+        "answer": "WÜSTE",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ ein Gebiet mit so wenig Niederschlag, dass dort kaum Pflanzen wachsen.",
+        "explanation": "KÜSTE und WÜSTE unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ ein Gebiet mit so wenig Niederschlag, dass dort kaum Pflanzen wachsen.",
+          "reverse": "Ein neuer Anfang macht aus _ den Grenzstreifen zwischen Land und Meer."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-12-05",
-    start: "BUCH",
-    end: "AUTO",
-    steps: [
+    "id": "rd-2026-12-05",
+    "date": "2026-12-05",
+    "legacyId": 22,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Buch zum Bauern",
+    "start": "BUCH",
+    "end": "BAUER",
+    "steps": [
       {
-        answer: "BAUCH",
-        kind: "letter",
-        hint: "Aus _ wird mit einem zusätzlichen Buchstaben ein Körperteil.",
-        explanation:
-          "BUCH → BAUCH: Aus BUCH wird mit einem zusätzlichen Buchstaben ein Körperteil.",
-        clues: {
-          forward:
-            "Aus _ wird mit einem zusätzlichen Buchstaben ein Körperteil.",
-          reverse:
-            "Aus _ wird durch Weglassen eines Buchstabens ein gedrucktes Werk.",
-        },
+        "answer": "BUCHSTABE",
+        "kind": "letter",
+        "hint": "Verlängere _ zu einem zusammengesetzten Wort: Gesucht ist ein einzelnes Zeichen unseres Alphabets.",
+        "explanation": "BUCH + STABE ergibt BUCHSTABE; im fertigen Wort ist BUCH der erste Bestandteil.",
+        "clues": {
+          "forward": "Verlängere _ zu einem zusammengesetzten Wort: Gesucht ist ein einzelnes Zeichen unseres Alphabets.",
+          "reverse": "Welcher erste Bestandteil von _ bezeichnet ein gebundenes Werk aus vielen Seiten?"
+        }
       },
       {
-        answer: "MAGEN",
-        kind: "meaning",
-        hint: "Welches Organ liegt im _ und verdaut Nahrung?",
-        explanation:
-          "BAUCH → MAGEN: Welches Organ liegt im BAUCH und verdaut Nahrung?",
-        clues: {
-          forward: "Welches Organ liegt im _ und verdaut Nahrung?",
-          reverse: "In welchem Körperteil liegt der _?",
-        },
+        "answer": "STAB",
+        "kind": "letter",
+        "hint": "Entferne von _ die ersten vier und den letzten Buchstaben: Ein langer, gerader Gegenstand bleibt.",
+        "explanation": "BUCHSTABE ohne BUCH und E ergibt STAB.",
+        "clues": {
+          "forward": "Entferne von _ die ersten vier und den letzten Buchstaben: Ein langer, gerader Gegenstand bleibt.",
+          "reverse": "Stelle vier Buchstaben vor _ und einen dahinter: Ein einzelnes Zeichen unseres Alphabets entsteht."
+        }
       },
       {
-        answer: "WAGEN",
-        kind: "letter",
-        hint: "Aus _ wird mit einem neuen Anfangsbuchstaben ein Fahrzeug.",
-        explanation:
-          "MAGEN → WAGEN: Aus MAGEN wird mit einem neuen Anfangsbuchstaben ein Fahrzeug.",
-        clues: {
-          forward: "Aus _ wird mit einem neuen Anfangsbuchstaben ein Fahrzeug.",
-          reverse:
-            "Aus _ wird mit einem neuen Anfangsbuchstaben ein Verdauungsorgan.",
-        },
+        "answer": "STAUB",
+        "kind": "letter",
+        "hint": "Füge in _ einen Vokal ein: Feine trockene Teilchen entstehen, die sich auf Möbeln absetzen.",
+        "explanation": "STAB + U vor B ergibt STAUB.",
+        "clues": {
+          "forward": "Füge in _ einen Vokal ein: Feine trockene Teilchen entstehen, die sich auf Möbeln absetzen.",
+          "reverse": "Entferne aus _ einen Vokal: Ein langer, gerader Gegenstand bleibt."
+        }
       },
       {
-        answer: "AUTO",
-        kind: "meaning",
-        hint: "Wie heißt ein motorisierter _ im Alltag?",
-        explanation:
-          "WAGEN → AUTO: Wie heißt ein motorisierter WAGEN im Alltag?",
-        clues: {
-          forward: "Wie heißt ein motorisierter _ im Alltag?",
-          reverse:
-            "Wie nennt man ein _ umgangssprachlich noch, wenn es vier Räder hat?",
-        },
+        "answer": "LAUB",
+        "kind": "letter",
+        "hint": "Entferne den Anfangsbuchstaben von _ und ändere den neuen Anfang: Alle Blätter eines Baums sind gemeinsam gemeint.",
+        "explanation": "STAUB ohne S wird TAUB; T → L ergibt LAUB.",
+        "clues": {
+          "forward": "Entferne den Anfangsbuchstaben von _ und ändere den neuen Anfang: Alle Blätter eines Baums sind gemeinsam gemeint.",
+          "reverse": "Ändere den Anfang von _ und stelle einen weiteren Buchstaben davor: Feine trockene Teilchen auf Möbeln entstehen."
+        }
       },
-    ],
-    date: "2026-12-05",
-    schemaVersion: 2,
-    legacyId: 22,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "LAUS",
+        "kind": "letter",
+        "hint": "Ein anderer Schluss macht aus _ einen winzigen Parasiten, der im Kopfhaar leben kann.",
+        "explanation": "LAUB und LAUS unterscheiden sich durch B/S.",
+        "clues": {
+          "forward": "Ein anderer Schluss macht aus _ einen winzigen Parasiten, der im Kopfhaar leben kann.",
+          "reverse": "Ein anderer Schluss macht aus _ die Blätter eines Baums als Gesamtheit."
+        }
+      },
+      {
+        "answer": "MAUS",
+        "kind": "letter",
+        "hint": "Ein anderer Anfang macht aus _ ein kleines Nagetier, dessen Name auch ein Computergerät bezeichnet.",
+        "explanation": "LAUS und MAUS unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein anderer Anfang macht aus _ ein kleines Nagetier, dessen Name auch ein Computergerät bezeichnet.",
+          "reverse": "Ein anderer Anfang macht aus _ einen winzigen Parasiten im Kopfhaar."
+        }
+      },
+      {
+        "answer": "MAUER",
+        "kind": "letter",
+        "hint": "Ersetze den Schlussbuchstaben von _ durch zwei andere: Eine aus Steinen errichtete Trennwand entsteht.",
+        "explanation": "MAUS verliert S und erhält ER: MAUER.",
+        "clues": {
+          "forward": "Ersetze den Schlussbuchstaben von _ durch zwei andere: Eine aus Steinen errichtete Trennwand entsteht.",
+          "reverse": "Ersetze die letzten beiden Buchstaben von _ durch einen: Ein kleines Nagetier oder Computergerät entsteht."
+        }
+      },
+      {
+        "answer": "BAUER",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ jemanden, der einen landwirtschaftlichen Betrieb führt und auch eine Schachfigur benennen kann.",
+        "explanation": "MAUER und BAUER unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ jemanden, der einen landwirtschaftlichen Betrieb führt und auch eine Schachfigur benennen kann.",
+          "reverse": "Ein neuer Anfang macht aus _ eine aus Steinen errichtete Trennwand."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-12-06",
-    start: "TORF",
-    end: "HÖREN",
-    steps: [
+    "id": "rd-2026-12-06",
+    "date": "2026-12-06",
+    "legacyId": 23,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Torf zum Unterstützen",
+    "start": "TORF",
+    "end": "FÖRDERN",
+    "steps": [
       {
-        answer: "DORF",
-        kind: "letter",
-        hint: "Aus _ wird mit anderem Anfangsbuchstaben eine kleine Siedlung.",
-        explanation:
-          "TORF → DORF: Aus TORF wird mit anderem Anfangsbuchstaben eine kleine Siedlung.",
-        clues: {
-          forward:
-            "Aus _ wird mit anderem Anfangsbuchstaben eine kleine Siedlung.",
-          reverse:
-            "Aus _ wird mit anderem Anfangsbuchstaben zersetztes Pflanzenmaterial.",
-        },
+        "answer": "TOR",
+        "kind": "letter",
+        "hint": "Kürze _ am Ende um einen Buchstaben: Gesucht ist eine große Durchfahrt oder ein Treffer im Fußball.",
+        "explanation": "TORF ohne F ergibt TOR.",
+        "clues": {
+          "forward": "Kürze _ am Ende um einen Buchstaben: Gesucht ist eine große Durchfahrt oder ein Treffer im Fußball.",
+          "reverse": "Verlängere _ hinten um einen Buchstaben: Aus teilweise zersetzten Pflanzenresten im Moor entstandenes Material wird gesucht."
+        }
       },
       {
-        answer: "ORT",
-        kind: "meaning",
-        hint: "Ein _ ist eine Art bewohnter ...?",
-        explanation: "DORF → ORT: Ein DORF ist eine Art bewohnter ...?",
-        clues: {
-          forward: "Ein _ ist eine Art bewohnter ...?",
-          reverse:
-            "Ein _ ist eine kleine Ortschaft: Wie heißt die allgemeinere Bezeichnung?",
-        },
+        "answer": "TON",
+        "kind": "letter",
+        "hint": "Ein anderer Schluss macht aus _ einen hörbaren Klang oder ein formbares Material zum Töpfern.",
+        "explanation": "TOR und TON unterscheiden sich durch R/N.",
+        "clues": {
+          "forward": "Ein anderer Schluss macht aus _ einen hörbaren Klang oder ein formbares Material zum Töpfern.",
+          "reverse": "Ein anderer Schluss macht aus _ eine große Durchfahrt oder einen Treffer im Fußball."
+        }
       },
       {
-        answer: "OHR",
-        kind: "letter",
-        hint: "Aus _ wird durch Änderung zweier Buchstaben ein Hörorgan.",
-        explanation:
-          "ORT → OHR: Aus ORT wird durch Änderung zweier Buchstaben ein Hörorgan.",
-        clues: {
-          forward: "Aus _ wird durch Änderung zweier Buchstaben ein Hörorgan.",
-          reverse:
-            "Aus _ wird durch Änderung zweier Buchstaben ein Platz oder eine Stelle.",
-        },
+        "answer": "NOT",
+        "kind": "letter",
+        "hint": "Lies _ rückwärts: Aus dem Klang wird eine schwere Lage, in der Hilfe nötig ist.",
+        "explanation": "TON rückwärts ergibt NOT.",
+        "clues": {
+          "forward": "Lies _ rückwärts: Aus dem Klang wird eine schwere Lage, in der Hilfe nötig ist.",
+          "reverse": "Lies _ rückwärts: Aus der schweren Lage wird ein hörbarer Klang."
+        }
       },
       {
-        answer: "HÖREN",
-        kind: "meaning",
-        hint: "Was kann man mit dem _ besonders gut?",
-        explanation: "OHR → HÖREN: Was kann man mit dem OHR besonders gut?",
-        clues: {
-          forward: "Was kann man mit dem _ besonders gut?",
-          reverse: "Welcher Sinn wird durch das _ ermöglicht?",
-        },
+        "answer": "NORD",
+        "kind": "letter",
+        "hint": "Ersetze den Schlussbuchstaben von _ durch zwei andere: Eine Himmelsrichtung auf der Kompassrose entsteht.",
+        "explanation": "NOT verliert T und erhält RD: NORD.",
+        "clues": {
+          "forward": "Ersetze den Schlussbuchstaben von _ durch zwei andere: Eine Himmelsrichtung auf der Kompassrose entsteht.",
+          "reverse": "Ersetze die letzten beiden Buchstaben von _ durch einen: Eine schwere Lage entsteht, in der Hilfe nötig ist."
+        }
       },
-    ],
-    date: "2026-12-06",
-    schemaVersion: 2,
-    legacyId: 23,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "ORDEN",
+        "kind": "letter",
+        "hint": "Ergänze _ um einen Vokal und ordne neu: Eine Auszeichnung zum Anstecken entsteht.",
+        "explanation": "NORD + E lässt sich zu ORDEN ordnen.",
+        "clues": {
+          "forward": "Ergänze _ um einen Vokal und ordne neu: Eine Auszeichnung zum Anstecken entsteht.",
+          "reverse": "Entferne aus _ einen Vokal und ordne neu: Eine Himmelsrichtung als Kompassbeschriftung entsteht."
+        }
+      },
+      {
+        "answer": "ORDNER",
+        "kind": "letter",
+        "hint": "Ergänze _ um einen Buchstaben und ordne neu: Ein Behälter zum Abheften gelochter Blätter entsteht.",
+        "explanation": "ORDEN + R lässt sich zu ORDNER ordnen.",
+        "clues": {
+          "forward": "Ergänze _ um einen Buchstaben und ordne neu: Ein Behälter zum Abheften gelochter Blätter entsteht.",
+          "reverse": "Entferne aus _ einen Buchstaben und ordne neu: Eine Auszeichnung zum Anstecken entsteht."
+        }
+      },
+      {
+        "answer": "FORDERN",
+        "kind": "letter",
+        "hint": "Ergänze _ um einen Buchstaben und ordne neu: Ein Verb für nachdrücklich verlangen entsteht.",
+        "explanation": "ORDNER + F lässt sich zu FORDERN ordnen.",
+        "clues": {
+          "forward": "Ergänze _ um einen Buchstaben und ordne neu: Ein Verb für nachdrücklich verlangen entsteht.",
+          "reverse": "Entferne aus _ einen Buchstaben und ordne neu: Ein Behälter zum Abheften gelochter Blätter entsteht."
+        }
+      },
+      {
+        "answer": "FÖRDERN",
+        "kind": "letter",
+        "hint": "Ändere einen Vokal in _: Nun bedeutet das Verb unterstützen oder voranbringen.",
+        "explanation": "FORDERN und FÖRDERN unterscheiden sich durch O/Ö.",
+        "clues": {
+          "forward": "Ändere einen Vokal in _: Nun bedeutet das Verb unterstützen oder voranbringen.",
+          "reverse": "Ändere einen Vokal in _: Nun bedeutet das Verb nachdrücklich verlangen."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-12-07",
-    start: "MEER",
-    end: "EINIGE",
-    steps: [
+    "id": "rd-2026-12-07",
+    "date": "2026-12-07",
+    "legacyId": 24,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Meer zur Szene",
+    "start": "MEER",
+    "end": "SZENE",
+    "steps": [
       {
-        answer: "MEHR",
-        kind: "letter",
-        hint: "Aus _ wird durch Austausch des letzten Buchstabens eine größere Menge.",
-        explanation:
-          "MEER → MEHR: Aus MEER wird durch Austausch des letzten Buchstabens eine größere Menge.",
-        clues: {
-          forward:
-            "Aus _ wird durch Austausch des letzten Buchstabens eine größere Menge.",
-          reverse:
-            "Aus _ wird durch Austausch des letzten Buchstabens ein großes Gewässer.",
-        },
+        "answer": "MEHR",
+        "kind": "letter",
+        "hint": "Ein anderer Buchstabe in _ macht aus dem Gewässer ein Wort für eine größere Menge.",
+        "explanation": "MEER und MEHR unterscheiden sich durch E/H.",
+        "clues": {
+          "forward": "Ein anderer Buchstabe in _ macht aus dem Gewässer ein Wort für eine größere Menge.",
+          "reverse": "Ein anderer Buchstabe in _ macht aus der Mengenangabe ein großes salziges Gewässer."
+        }
       },
       {
-        answer: "WENIGER",
-        kind: "meaning",
-        hint: "Was ist das Gegenteil von _?",
-        explanation: "MEHR → WENIGER: Was ist das Gegenteil von MEHR?",
-        clues: {
-          forward: "Was ist das Gegenteil von _?",
-          reverse: "Was ist das Gegenteil von _?",
-        },
+        "answer": "EHRE",
+        "kind": "letter",
+        "hint": "Aus der Mengenangabe _ wird durch einen Buchstabentausch und Umordnung hohes öffentliches Ansehen.",
+        "explanation": "MEHR verliert M und erhält E; umgeordnet ergibt das EHRE.",
+        "clues": {
+          "forward": "Aus der Mengenangabe _ wird durch einen Buchstabentausch und Umordnung hohes öffentliches Ansehen.",
+          "reverse": "Tausche einen Buchstaben in _ und ordne neu: Eine Angabe für eine größere Menge entsteht."
+        }
       },
       {
-        answer: "WENIGE",
-        kind: "letter",
-        hint: "Aus _ wird durch Entfernen eines Teils ein Wort für eine kleinere Menge.",
-        explanation:
-          "WENIGER → WENIGE: Aus WENIGER wird durch Entfernen eines Teils ein Wort für eine kleinere Menge.",
-        clues: {
-          forward:
-            "Aus _ wird durch Entfernen eines Teils ein Wort für eine kleinere Menge.",
-          reverse:
-            "Aus _ wird durch Hinzufügen eines Teils ein Vergleichswort für geringere Menge.",
-        },
+        "answer": "LEHRE",
+        "kind": "letter",
+        "hint": "Stelle einen Buchstaben vor _: Eine betriebliche Berufsausbildung entsteht.",
+        "explanation": "L vor EHRE ergibt LEHRE.",
+        "clues": {
+          "forward": "Stelle einen Buchstaben vor _: Eine betriebliche Berufsausbildung entsteht.",
+          "reverse": "Entferne den Anfangsbuchstaben von _: Hohes Ansehen bleibt."
+        }
       },
       {
-        answer: "EINIGE",
-        kind: "letter",
-        hint: "Aus _ wird durch Entfernen des letzten Buchstabens eine Mengenangabe.",
-        explanation:
-          "WENIGE → EINIGE: Aus WENIGE wird durch Entfernen des letzten Buchstabens eine Mengenangabe.",
-        clues: {
-          forward:
-            "Aus _ wird durch Entfernen des letzten Buchstabens eine Mengenangabe.",
-          reverse:
-            "Aus _ wird durch Hinzufügen eines letzten Buchstabens eine andere Mengenangabe.",
-        },
+        "answer": "LEERE",
+        "kind": "letter",
+        "hint": "Ein anderer innerer Buchstabe macht aus _ den Zustand, in dem nichts vorhanden ist.",
+        "explanation": "LEHRE und LEERE unterscheiden sich durch H/E.",
+        "clues": {
+          "forward": "Ein anderer innerer Buchstabe macht aus _ den Zustand, in dem nichts vorhanden ist.",
+          "reverse": "Ein anderer innerer Buchstabe macht aus _ eine betriebliche Berufsausbildung."
+        }
       },
-    ],
-    date: "2026-12-07",
-    schemaVersion: 2,
-    legacyId: 24,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "LEHNE",
+        "kind": "letter",
+        "hint": "Ändere zwei Buchstaben in _: Aus dem Zustand ohne Inhalt wird die Rückenstütze eines Stuhls.",
+        "explanation": "LEERE → LEHNE: E an dritter Stelle wird H, R wird N.",
+        "clues": {
+          "forward": "Ändere zwei Buchstaben in _: Aus dem Zustand ohne Inhalt wird die Rückenstütze eines Stuhls.",
+          "reverse": "Ändere zwei Buchstaben in _: Aus der Rückenstütze wird der Zustand ohne Inhalt."
+        }
+      },
+      {
+        "answer": "SEHNE",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ die feste Verbindung zwischen Muskel und Knochen, die auch einen Bogen spannt.",
+        "explanation": "LEHNE und SEHNE unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ die feste Verbindung zwischen Muskel und Knochen, die auch einen Bogen spannt.",
+          "reverse": "Ein neuer Anfang macht aus _ die Rückenstütze eines Stuhls."
+        }
+      },
+      {
+        "answer": "SZENE",
+        "kind": "letter",
+        "hint": "Tausche zwei Buchstaben in _: Ein einzelner Abschnitt eines Theaterstücks entsteht.",
+        "explanation": "SEHNE → SZENE: E an zweiter Stelle wird Z, H wird E.",
+        "clues": {
+          "forward": "Tausche zwei Buchstaben in _: Ein einzelner Abschnitt eines Theaterstücks entsteht.",
+          "reverse": "Tausche zwei Buchstaben in _: Eine Verbindung zwischen Muskel und Knochen entsteht."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-12-08",
-    start: "TIER",
-    end: "ENTSCHEIDUNG",
-    steps: [
+    "id": "rd-2026-12-08",
+    "date": "2026-12-08",
+    "legacyId": 25,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Tier zum Wandel",
+    "start": "TIER",
+    "end": "WANDEL",
+    "steps": [
       {
-        answer: "VIER",
-        kind: "letter",
-        hint: "Aus _ wird durch Änderung des ersten Buchstabens die Zahl nach drei.",
-        explanation:
-          "TIER → VIER: Aus TIER wird durch Änderung des ersten Buchstabens die Zahl nach drei.",
-        clues: {
-          forward:
-            "Aus _ wird durch Änderung des ersten Buchstabens die Zahl nach drei.",
-          reverse:
-            "Aus _ wird durch Änderung des ersten Buchstabens ein Lebewesen.",
-        },
+        "answer": "STIER",
+        "kind": "letter",
+        "hint": "Stelle einen Buchstaben vor _: Ein männliches Rind entsteht.",
+        "explanation": "S vor TIER ergibt STIER.",
+        "clues": {
+          "forward": "Stelle einen Buchstaben vor _: Ein männliches Rind entsteht.",
+          "reverse": "Nimm den ersten Buchstaben von _ weg: Ein allgemeiner Begriff für ein Lebewesen, das keine Pflanze ist, bleibt."
+        }
       },
       {
-        answer: "ZAHL",
-        kind: "meaning",
-        hint: "Ein _ ist eine bestimmte Art von ...?",
-        explanation: "VIER → ZAHL: Ein VIER ist eine bestimmte Art von ...?",
-        clues: {
-          forward: "Ein _ ist eine bestimmte Art von ...?",
-          reverse: "Welche konkrete _ folgt auf drei und kommt vor fünf?",
-        },
+        "answer": "STREIT",
+        "kind": "letter",
+        "hint": "Ergänze _ um einen Buchstaben und ordne neu: Eine heftige Auseinandersetzung entsteht.",
+        "explanation": "STIER + T lässt sich zu STREIT ordnen.",
+        "clues": {
+          "forward": "Ergänze _ um einen Buchstaben und ordne neu: Eine heftige Auseinandersetzung entsteht.",
+          "reverse": "Entferne aus _ einen Buchstaben und ordne neu: Ein männliches Rind entsteht."
+        }
       },
       {
-        answer: "WAHL",
-        kind: "letter",
-        hint: "Aus _ wird mit neuem Anfangsbuchstaben eine Entscheidung zwischen Möglichkeiten.",
-        explanation:
-          "ZAHL → WAHL: Aus ZAHL wird mit neuem Anfangsbuchstaben eine Entscheidung zwischen Möglichkeiten.",
-        clues: {
-          forward:
-            "Aus _ wird mit neuem Anfangsbuchstaben eine Entscheidung zwischen Möglichkeiten.",
-          reverse:
-            "Aus _ wird mit neuem Anfangsbuchstaben ein mathematischer Wert.",
-        },
+        "answer": "STREIK",
+        "kind": "letter",
+        "hint": "Ein anderer Schluss macht aus _ die gemeinsame Arbeitsniederlegung von Beschäftigten.",
+        "explanation": "STREIT und STREIK unterscheiden sich durch T/K.",
+        "clues": {
+          "forward": "Ein anderer Schluss macht aus _ die gemeinsame Arbeitsniederlegung von Beschäftigten.",
+          "reverse": "Ein anderer Schluss macht aus _ eine heftige Auseinandersetzung."
+        }
       },
       {
-        answer: "ENTSCHEIDUNG",
-        kind: "meaning",
-        hint: "Was trifft man bei einer _?",
-        explanation: "WAHL → ENTSCHEIDUNG: Was trifft man bei einer WAHL?",
-        clues: {
-          forward: "Was trifft man bei einer _?",
-          reverse:
-            "Wie nennt man den Vorgang, bei dem eine _ zwischen Kandidaten getroffen wird?",
-        },
+        "answer": "STRECKE",
+        "kind": "letter",
+        "hint": "Ändere einen Buchstaben in _ und ergänze hinten einen Vokal: Ein zurückzulegender Weg entsteht.",
+        "explanation": "STREIK wird durch I → C und angehängtes E zu STRECKE.",
+        "clues": {
+          "forward": "Ändere einen Buchstaben in _ und ergänze hinten einen Vokal: Ein zurückzulegender Weg entsteht.",
+          "reverse": "Entferne den Schlussvokal von _ und ändere einen inneren Buchstaben: Eine gemeinsame Arbeitsniederlegung entsteht."
+        }
       },
-    ],
-    date: "2026-12-08",
-    schemaVersion: 2,
-    legacyId: 25,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "LÄNGE",
+        "kind": "meaning",
+        "hint": "_: Welche räumliche Größe dieses Wegs gibt man zum Beispiel in Metern oder Kilometern an?",
+        "explanation": "Die Länge einer Strecke wird in Längeneinheiten gemessen.",
+        "clues": {
+          "forward": "_: Welche räumliche Größe dieses Wegs gibt man zum Beispiel in Metern oder Kilometern an?",
+          "reverse": "_: Wie heißt in der Schulgeometrie ein gerader Teil einer Linie zwischen zwei Endpunkten, der diese räumliche Größe besitzt?"
+        }
+      },
+      {
+        "answer": "MÄNGEL",
+        "kind": "letter",
+        "hint": "Ergänze _ um einen Buchstaben und ordne neu: Gesucht ist die Mehrzahl von Fehler oder Defekt.",
+        "explanation": "LÄNGE + M lässt sich zu MÄNGEL ordnen.",
+        "clues": {
+          "forward": "Ergänze _ um einen Buchstaben und ordne neu: Gesucht ist die Mehrzahl von Fehler oder Defekt.",
+          "reverse": "Entferne aus _ einen Buchstaben und ordne neu: Eine räumliche Ausdehnung entsteht."
+        }
+      },
+      {
+        "answer": "MANTEL",
+        "kind": "letter",
+        "hint": "Ändere zwei Buchstaben in _: Aus den Defekten wird ein langes Kleidungsstück für draußen.",
+        "explanation": "MÄNGEL → MANTEL: Ä wird A, G wird T.",
+        "clues": {
+          "forward": "Ändere zwei Buchstaben in _: Aus den Defekten wird ein langes Kleidungsstück für draußen.",
+          "reverse": "Ändere zwei Buchstaben in _: Aus dem Kleidungsstück werden Fehler oder Defekte in der Mehrzahl."
+        }
+      },
+      {
+        "answer": "HANTEL",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ ein Trainingsgerät mit Gewichten an den Enden.",
+        "explanation": "MANTEL und HANTEL unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ ein Trainingsgerät mit Gewichten an den Enden.",
+          "reverse": "Ein neuer Anfang macht aus _ ein langes Kleidungsstück für draußen."
+        }
+      },
+      {
+        "answer": "HANDEL",
+        "kind": "letter",
+        "hint": "Ein anderer innerer Buchstabe macht aus _ das Kaufen und Verkaufen von Waren.",
+        "explanation": "HANTEL und HANDEL unterscheiden sich durch T/D.",
+        "clues": {
+          "forward": "Ein anderer innerer Buchstabe macht aus _ das Kaufen und Verkaufen von Waren.",
+          "reverse": "Ein anderer innerer Buchstabe macht aus _ ein Trainingsgerät mit Gewichten an beiden Enden."
+        }
+      },
+      {
+        "answer": "WANDEL",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ eine allmähliche Veränderung.",
+        "explanation": "HANDEL und WANDEL unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ eine allmähliche Veränderung.",
+          "reverse": "Ein neuer Anfang macht aus _ das Kaufen und Verkaufen von Waren."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-12-09",
-    start: "KUSS",
-    end: "HELL",
-    steps: [
+    "id": "rd-2026-12-09",
+    "date": "2026-12-09",
+    "legacyId": 26,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Kuss zum Klima",
+    "start": "KUSS",
+    "end": "KLIMA",
+    "steps": [
       {
-        answer: "MUSS",
-        kind: "letter",
-        hint: "Aus _ wird durch Änderung des ersten Buchstabens ein Wort für »ist erforderlich«.",
-        explanation:
-          "KUSS → MUSS: Aus KUSS wird durch Änderung des ersten Buchstabens ein Wort für »ist erforderlich«.",
-        clues: {
-          forward:
-            "Aus _ wird durch Änderung des ersten Buchstabens ein Wort für »ist erforderlich«.",
-          reverse:
-            "Aus _ wird durch Änderung des ersten Buchstabens ein Zeichen von Zuneigung mit den Lippen.",
-        },
+        "answer": "KURS",
+        "kind": "letter",
+        "hint": "Ein anderer innerer Buchstabe macht aus _ einen Lehrgang oder die eingeschlagene Fahrtrichtung.",
+        "explanation": "KUSS und KURS unterscheiden sich durch S/R.",
+        "clues": {
+          "forward": "Ein anderer innerer Buchstabe macht aus _ einen Lehrgang oder die eingeschlagene Fahrtrichtung.",
+          "reverse": "Ein anderer innerer Buchstabe macht aus _ ein Zeichen der Zuneigung mit den Lippen."
+        }
       },
       {
-        answer: "PFLICHT",
-        kind: "meaning",
-        hint: "Wie heißt eine Aufgabe, die man unbedingt erledigen _?",
-        explanation:
-          "MUSS → PFLICHT: Wie heißt eine Aufgabe, die man unbedingt erledigen MUSS?",
-        clues: {
-          forward: "Wie heißt eine Aufgabe, die man unbedingt erledigen _?",
-          reverse: "Eine _ ist etwas, das man tun ...?",
-        },
+        "answer": "KURZ",
+        "kind": "letter",
+        "hint": "Ein anderer Schluss macht aus _ ein Adjektiv für geringe Dauer oder Ausdehnung.",
+        "explanation": "KURS und KURZ unterscheiden sich durch S/Z.",
+        "clues": {
+          "forward": "Ein anderer Schluss macht aus _ ein Adjektiv für geringe Dauer oder Ausdehnung.",
+          "reverse": "Ein anderer Schluss macht aus _ einen Lehrgang oder eine Fahrtrichtung."
+        }
       },
       {
-        answer: "LICHT",
-        kind: "letter",
-        hint: "Aus _ wird durch Weglassen der ersten Buchstaben ein Wort für Helligkeit.",
-        explanation:
-          "PFLICHT → LICHT: Aus PFLICHT wird durch Weglassen der ersten Buchstaben ein Wort für Helligkeit.",
-        clues: {
-          forward:
-            "Aus _ wird durch Weglassen der ersten Buchstaben ein Wort für Helligkeit.",
-          reverse:
-            "Aus _ wird durch Hinzufügen von Anfangsbuchstaben eine verbindliche Aufgabe.",
-        },
+        "answer": "KREUZ",
+        "kind": "letter",
+        "hint": "Ergänze _ um einen Vokal und ordne neu: Zwei sich schneidende Linien bilden dieses Zeichen.",
+        "explanation": "KURZ + E lässt sich zu KREUZ ordnen.",
+        "clues": {
+          "forward": "Ergänze _ um einen Vokal und ordne neu: Zwei sich schneidende Linien bilden dieses Zeichen.",
+          "reverse": "Entferne aus _ einen Vokal und ordne neu: Ein Adjektiv für geringe Dauer entsteht."
+        }
       },
       {
-        answer: "HELL",
-        kind: "meaning",
-        hint: "Wie ist es, wenn viel _ vorhanden ist?",
-        explanation: "LICHT → HELL: Wie ist es, wenn viel LICHT vorhanden ist?",
-        clues: {
-          forward: "Wie ist es, wenn viel _ vorhanden ist?",
-          reverse: "Welches Adjektiv beschreibt einen Raum mit viel _?",
-        },
+        "answer": "KREIS",
+        "kind": "letter",
+        "hint": "Tausche zwei Buchstaben in _: Aus den gekreuzten Linien wird eine geschlossene runde Linie mit überall gleichem Abstand zum Mittelpunkt.",
+        "explanation": "KREUZ → KREIS: U wird I, Z wird S.",
+        "clues": {
+          "forward": "Tausche zwei Buchstaben in _: Aus den gekreuzten Linien wird eine geschlossene runde Linie mit überall gleichem Abstand zum Mittelpunkt.",
+          "reverse": "Tausche zwei Buchstaben in _: Aus der runden Linie wird ein Zeichen aus zwei sich schneidenden Linien."
+        }
       },
-    ],
-    date: "2026-12-09",
-    schemaVersion: 2,
-    legacyId: 26,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "PREIS",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ den Geldbetrag einer Ware oder eine Auszeichnung bei einem Wettbewerb.",
+        "explanation": "KREIS und PREIS unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ den Geldbetrag einer Ware oder eine Auszeichnung bei einem Wettbewerb.",
+          "reverse": "Ein neuer Anfang macht aus _ eine runde Linie mit gleichem Abstand zum Mittelpunkt."
+        }
+      },
+      {
+        "answer": "PRISE",
+        "kind": "letter",
+        "hint": "Ordne _ neu: Eine kleine Menge Gewürz entsteht, die zwischen zwei Fingerspitzen Platz hat.",
+        "explanation": "PREIS und PRISE sind Anagramme.",
+        "clues": {
+          "forward": "Ordne _ neu: Eine kleine Menge Gewürz entsteht, die zwischen zwei Fingerspitzen Platz hat.",
+          "reverse": "Ordne _ neu: Der Geldbetrag einer Ware oder eine Wettbewerbsauszeichnung entsteht."
+        }
+      },
+      {
+        "answer": "PRISMA",
+        "kind": "letter",
+        "hint": "Ersetze den Schlussvokal von _ durch zwei Buchstaben: Ein durchsichtiger Körper entsteht, der weißes Licht in Farben zerlegen kann.",
+        "explanation": "PRISE verliert E und erhält MA: PRISMA.",
+        "clues": {
+          "forward": "Ersetze den Schlussvokal von _ durch zwei Buchstaben: Ein durchsichtiger Körper entsteht, der weißes Licht in Farben zerlegen kann.",
+          "reverse": "Ersetze die letzten beiden Buchstaben von _ durch einen Vokal: Eine kleine Menge Gewürz entsteht."
+        }
+      },
+      {
+        "answer": "PRIMA",
+        "kind": "letter",
+        "hint": "Entferne aus _ einen Buchstaben: Ein geläufiges Lobwort bleibt.",
+        "explanation": "PRISMA ohne S ergibt PRIMA.",
+        "clues": {
+          "forward": "Entferne aus _ einen Buchstaben: Ein geläufiges Lobwort bleibt.",
+          "reverse": "Füge in _ einen Buchstaben ein: Ein durchsichtiger Körper entsteht, der Licht in Farben zerlegen kann."
+        }
+      },
+      {
+        "answer": "KLIMA",
+        "kind": "letter",
+        "hint": "Tausche die ersten beiden Buchstaben von _ aus: Die typischen Wetterverhältnisse über viele Jahre entstehen.",
+        "explanation": "PRIMA → KLIMA: P wird K, R wird L.",
+        "clues": {
+          "forward": "Tausche die ersten beiden Buchstaben von _ aus: Die typischen Wetterverhältnisse über viele Jahre entstehen.",
+          "reverse": "Tausche die ersten beiden Buchstaben von _ aus: Ein geläufiges Lobwort entsteht."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-12-10",
-    start: "TUCH",
-    end: "GITARRE",
-    steps: [
+    "id": "rd-2026-12-10",
+    "date": "2026-12-10",
+    "legacyId": 27,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Tuch zur Laube",
+    "start": "TUCH",
+    "end": "LAUBE",
+    "steps": [
       {
-        answer: "BUCH",
-        kind: "letter",
-        hint: "Aus _ wird mit neuem Anfangsbuchstaben ein gedrucktes Werk.",
-        explanation:
-          "TUCH → BUCH: Aus TUCH wird mit neuem Anfangsbuchstaben ein gedrucktes Werk.",
-        clues: {
-          forward:
-            "Aus _ wird mit neuem Anfangsbuchstaben ein gedrucktes Werk.",
-          reverse: "Aus _ wird mit neuem Anfangsbuchstaben ein Stück Stoff.",
-        },
+        "answer": "TEICH",
+        "kind": "letter",
+        "hint": "Ersetze den Vokal von _ durch zwei Vokale: Ein kleines, meist künstlich angelegtes Stillgewässer entsteht.",
+        "explanation": "TUCH verliert U und erhält EI: TEICH.",
+        "clues": {
+          "forward": "Ersetze den Vokal von _ durch zwei Vokale: Ein kleines, meist künstlich angelegtes Stillgewässer entsteht.",
+          "reverse": "Ersetze die beiden Vokale von _ durch einen: Ein Stück Stoff entsteht."
+        }
       },
       {
-        answer: "SEITE",
-        kind: "meaning",
-        hint: "Wie heißt eine einzelne bedruckte Fläche in einem _?",
-        explanation:
-          "BUCH → SEITE: Wie heißt eine einzelne bedruckte Fläche in einem BUCH?",
-        clues: {
-          forward: "Wie heißt eine einzelne bedruckte Fläche in einem _?",
-          reverse: "Welche einzelne Fläche in einem _ kann man umblättern?",
-        },
+        "answer": "REICH",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ ein Wort für vermögend oder ein Herrschaftsgebiet.",
+        "explanation": "TEICH und REICH unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ ein Wort für vermögend oder ein Herrschaftsgebiet.",
+          "reverse": "Ein neuer Anfang macht aus dem Hochwasserschutz _ ein kleines, meist künstlich angelegtes Stillgewässer."
+        }
       },
       {
-        answer: "SAITE",
-        kind: "letter",
-        hint: "Aus _ wird mit geändertem Anfangsbuchstaben eine Gitarrenschnur.",
-        explanation:
-          "SEITE → SAITE: Aus SEITE wird mit geändertem Anfangsbuchstaben eine Gitarrenschnur.",
-        clues: {
-          forward:
-            "Aus _ wird mit geändertem Anfangsbuchstaben eine Gitarrenschnur.",
-          reverse:
-            "Aus _ wird mit geändertem Anfangsbuchstaben eine Buchfläche.",
-        },
+        "answer": "REIF",
+        "kind": "letter",
+        "hint": "Ersetze die letzten beiden Buchstaben von _ durch einen: Ein weißer Belag aus Eiskristallen entsteht, der sich bei Frost auf Oberflächen bildet.",
+        "explanation": "REICH verliert CH und erhält F: REIF.",
+        "clues": {
+          "forward": "Ersetze die letzten beiden Buchstaben von _ durch einen: Ein weißer Belag aus Eiskristallen entsteht, der sich bei Frost auf Oberflächen bildet.",
+          "reverse": "Ersetze den Schlussbuchstaben von _ durch zwei: Ein Adjektiv für vermögend entsteht."
+        }
       },
       {
-        answer: "GITARRE",
-        kind: "meaning",
-        hint: "Auf welchem Instrument spannt man eine _ zum Spielen?",
-        explanation:
-          "SAITE → GITARRE: Auf welchem Instrument spannt man eine SAITE zum Spielen?",
-        clues: {
-          forward: "Auf welchem Instrument spannt man eine _ zum Spielen?",
-          reverse: "Welche gespannte Schnur erzeugt auf einer _ einen Ton?",
-        },
+        "answer": "REIFEN",
+        "kind": "letter",
+        "hint": "Verlängere _ hinten um zwei Buchstaben: Statt des Frostbelags entsteht die Gummihülle um ein Fahrzeugrad.",
+        "explanation": "REIF + EN ergibt REIFEN.",
+        "clues": {
+          "forward": "Verlängere _ hinten um zwei Buchstaben: Statt des Frostbelags entsteht die Gummihülle um ein Fahrzeugrad.",
+          "reverse": "Kürze _ hinten um zwei Buchstaben: Ein weißer Frostbelag bleibt."
+        }
       },
-    ],
-    date: "2026-12-10",
-    schemaVersion: 2,
-    legacyId: 27,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "SEIFE",
+        "kind": "letter",
+        "hint": "Nimm den letzten Buchstaben von _ weg und ändere den Anfang: Ein Waschmittel, auch als festes Stück, entsteht.",
+        "explanation": "REIFEN ohne N wird REIFE; R → S ergibt SEIFE.",
+        "clues": {
+          "forward": "Nimm den letzten Buchstaben von _ weg und ändere den Anfang: Ein Waschmittel, auch als festes Stück, entsteht.",
+          "reverse": "Ändere den Anfang von _ und ergänze hinten einen Buchstaben: Eine Gummihülle um ein Fahrzeugrad entsteht."
+        }
+      },
+      {
+        "answer": "SCHAUM",
+        "kind": "meaning",
+        "hint": "_: Welche Masse aus kleinen Bläschen bildet sich, wenn man dieses Waschmittel mit Wasser und Luft verreibt?",
+        "explanation": "Mit Wasser und Luft bildet Seife Schaum.",
+        "clues": {
+          "forward": "_: Welche Masse aus kleinen Bläschen bildet sich, wenn man dieses Waschmittel mit Wasser und Luft verreibt?",
+          "reverse": "_: Welches Waschmittel, auch als festes Stück erhältlich, erzeugt beim Verreiben mit Wasser eine solche Bläschenmasse?"
+        }
+      },
+      {
+        "answer": "TRAUM",
+        "kind": "letter",
+        "hint": "Ersetze die ersten drei Buchstaben von _ durch zwei andere: Ein Erlebnis im Schlaf entsteht.",
+        "explanation": "SCHAUM verliert SCH und erhält TR: TRAUM.",
+        "clues": {
+          "forward": "Ersetze die ersten drei Buchstaben von _ durch zwei andere: Ein Erlebnis im Schlaf entsteht.",
+          "reverse": "Ersetze die ersten beiden Buchstaben von _ durch drei andere: Eine Masse aus kleinen Bläschen entsteht."
+        }
+      },
+      {
+        "answer": "TRAUBE",
+        "kind": "letter",
+        "hint": "Ersetze den Schlussbuchstaben von _ durch zwei andere: Eine Frucht aus vielen zusammenhängenden Beeren entsteht.",
+        "explanation": "TRAUM verliert M und erhält BE: TRAUBE.",
+        "clues": {
+          "forward": "Ersetze den Schlussbuchstaben von _ durch zwei andere: Eine Frucht aus vielen zusammenhängenden Beeren entsteht.",
+          "reverse": "Ersetze die letzten beiden Buchstaben von _ durch einen: Ein Erlebnis im Schlaf entsteht."
+        }
+      },
+      {
+        "answer": "TAUBE",
+        "kind": "letter",
+        "hint": "Entferne aus _ einen Buchstaben: Ein Vogel entsteht, der auf Stadtplätzen gurrt.",
+        "explanation": "TRAUBE ohne R ergibt TAUBE.",
+        "clues": {
+          "forward": "Entferne aus _ einen Buchstaben: Ein Vogel entsteht, der auf Stadtplätzen gurrt.",
+          "reverse": "Füge in _ einen Buchstaben ein: Eine Frucht aus vielen zusammenhängenden Beeren entsteht."
+        }
+      },
+      {
+        "answer": "LAUBE",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ einen kleinen, geschützten Sitzbau im Garten.",
+        "explanation": "TAUBE und LAUBE unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ einen kleinen, geschützten Sitzbau im Garten.",
+          "reverse": "Ein neuer Anfang macht aus _ einen Vogel, der gurrt."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-12-11",
-    start: "FELD",
-    end: "KOPF",
-    steps: [
+    "id": "rd-2026-12-11",
+    "date": "2026-12-11",
+    "legacyId": 28,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Feld zum Wirt",
+    "start": "FELD",
+    "end": "WIRT",
+    "steps": [
       {
-        answer: "GELD",
-        kind: "letter",
-        hint: "Aus _ wird mit neuem Anfangsbuchstaben ein Zahlungsmittel.",
-        explanation:
-          "FELD → GELD: Aus FELD wird mit neuem Anfangsbuchstaben ein Zahlungsmittel.",
-        clues: {
-          forward: "Aus _ wird mit neuem Anfangsbuchstaben ein Zahlungsmittel.",
-          reverse:
-            "Aus _ wird mit neuem Anfangsbuchstaben eine landwirtschaftliche Fläche.",
-        },
+        "answer": "HELD",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ eine Person, die wegen einer mutigen Tat bewundert wird.",
+        "explanation": "FELD und HELD unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ eine Person, die wegen einer mutigen Tat bewundert wird.",
+          "reverse": "Ein neuer Anfang macht aus _ eine Fläche, auf der Getreide oder andere Nutzpflanzen wachsen."
+        }
       },
       {
-        answer: "MÜNZE",
-        kind: "meaning",
-        hint: "Welche kleine Metallscheibe ist eine Form von _?",
-        explanation:
-          "GELD → MÜNZE: Welche kleine Metallscheibe ist eine Form von GELD?",
-        clues: {
-          forward: "Welche kleine Metallscheibe ist eine Form von _?",
-          reverse: "Was ist eine _ in geprägter Form?",
-        },
+        "answer": "HELM",
+        "kind": "letter",
+        "hint": "Ein anderer Schluss macht aus _ einen festen Schutz für den Kopf.",
+        "explanation": "HELD und HELM unterscheiden sich durch D/M.",
+        "clues": {
+          "forward": "Ein anderer Schluss macht aus _ einen festen Schutz für den Kopf.",
+          "reverse": "Ein anderer Schluss macht aus _ eine wegen einer mutigen Tat bewunderte Person."
+        }
       },
       {
-        answer: "MÜTZE",
-        kind: "letter",
-        hint: "Aus _ wird durch Änderung eines Buchstabens eine Kopfbedeckung.",
-        explanation:
-          "MÜNZE → MÜTZE: Aus MÜNZE wird durch Änderung eines Buchstabens eine Kopfbedeckung.",
-        clues: {
-          forward:
-            "Aus _ wird durch Änderung eines Buchstabens eine Kopfbedeckung.",
-          reverse: "Aus _ wird durch Änderung eines Buchstabens ein Geldstück.",
-        },
+        "answer": "HEMD",
+        "kind": "letter",
+        "hint": "Tausche zwei Buchstaben in _: Aus dem Kopfschutz wird ein Oberteil mit Knöpfen und oft einem Kragen.",
+        "explanation": "HELM → HEMD: L wird M, M wird D.",
+        "clues": {
+          "forward": "Tausche zwei Buchstaben in _: Aus dem Kopfschutz wird ein Oberteil mit Knöpfen und oft einem Kragen.",
+          "reverse": "Tausche zwei Buchstaben in _: Aus dem Oberteil wird ein fester Kopfschutz."
+        }
       },
       {
-        answer: "KOPF",
-        kind: "meaning",
-        hint: "Auf welchem Körperteil trägt man eine _?",
-        explanation:
-          "MÜTZE → KOPF: Auf welchem Körperteil trägt man eine MÜTZE?",
-        clues: {
-          forward: "Auf welchem Körperteil trägt man eine _?",
-          reverse: "Welchen Körperteil bedeckt eine _?",
-        },
+        "answer": "KRAGEN",
+        "kind": "meaning",
+        "hint": "_: Wie heißt der Teil dieses Oberteils, der den Hals umgibt und sich oft umklappen lässt?",
+        "explanation": "Ein Hemd besitzt typischerweise einen Kragen.",
+        "clues": {
+          "forward": "_: Wie heißt der Teil dieses Oberteils, der den Hals umgibt und sich oft umklappen lässt?",
+          "reverse": "_: Welches meist vorn geknöpfte Oberteil trägt diesen Halsteil? Gesucht ist die allgemeine Bezeichnung mit vier Buchstaben."
+        }
       },
-    ],
-    date: "2026-12-11",
-    schemaVersion: 2,
-    legacyId: 28,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "KRAN",
+        "kind": "letter",
+        "hint": "Entferne zwei innere Buchstaben aus _: Ein hohes Hebegerät auf einer Baustelle bleibt.",
+        "explanation": "KRAGEN ohne GE ergibt KRAN.",
+        "clues": {
+          "forward": "Entferne zwei innere Buchstaben aus _: Ein hohes Hebegerät auf einer Baustelle bleibt.",
+          "reverse": "Füge in _ zwei Buchstaben ein: Der Halsteil eines Hemds entsteht."
+        }
+      },
+      {
+        "answer": "KORN",
+        "kind": "letter",
+        "hint": "Tausche zwei innere Buchstaben in _: Aus dem Hebegerät wird ein einzelner Getreidesamen.",
+        "explanation": "KRAN → KORN: R wird O, A wird R.",
+        "clues": {
+          "forward": "Tausche zwei innere Buchstaben in _: Aus dem Hebegerät wird ein einzelner Getreidesamen.",
+          "reverse": "Tausche zwei innere Buchstaben in _: Aus dem Getreidesamen wird ein hohes Hebegerät."
+        }
+      },
+      {
+        "answer": "HORN",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ einen harten Kopfauswuchs bei Rindern oder ein Blasinstrument.",
+        "explanation": "KORN und HORN unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ einen harten Kopfauswuchs bei Rindern oder ein Blasinstrument.",
+          "reverse": "Ein neuer Anfang macht aus _ einen einzelnen Getreidesamen."
+        }
+      },
+      {
+        "answer": "HORT",
+        "kind": "letter",
+        "hint": "Ein anderer Schluss macht aus _ eine Einrichtung, die Schulkinder nach dem Unterricht betreut.",
+        "explanation": "HORN und HORT unterscheiden sich durch N/T.",
+        "clues": {
+          "forward": "Ein anderer Schluss macht aus _ eine Einrichtung, die Schulkinder nach dem Unterricht betreut.",
+          "reverse": "Ein anderer Schluss macht aus _ einen harten Kopfauswuchs bei Rindern oder ein Blasinstrument."
+        }
+      },
+      {
+        "answer": "WORT",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ eine sprachliche Einheit zwischen Leerzeichen.",
+        "explanation": "HORT und WORT unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ eine sprachliche Einheit zwischen Leerzeichen.",
+          "reverse": "Ein neuer Anfang macht aus _ eine Einrichtung zur Betreuung von Schulkindern nach dem Unterricht."
+        }
+      },
+      {
+        "answer": "WIRT",
+        "kind": "letter",
+        "hint": "Ein Vokalwechsel macht aus _ den Betreiber eines Gasthauses.",
+        "explanation": "WORT und WIRT unterscheiden sich durch O/I.",
+        "clues": {
+          "forward": "Ein Vokalwechsel macht aus _ den Betreiber eines Gasthauses.",
+          "reverse": "Ein Vokalwechsel macht aus _ eine sprachliche Einheit zwischen Leerzeichen."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-12-12",
-    start: "TOPF",
-    end: "ZWEI",
-    steps: [
+    "id": "rd-2026-12-12",
+    "date": "2026-12-12",
+    "legacyId": 29,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Topf zum Golf",
+    "start": "TOPF",
+    "end": "GOLF",
+    "steps": [
       {
-        answer: "KOPF",
-        kind: "letter",
-        hint: "Aus _ wird mit neuem Anfangsbuchstaben ein Körperteil.",
-        explanation:
-          "TOPF → KOPF: Aus TOPF wird mit neuem Anfangsbuchstaben ein Körperteil.",
-        clues: {
-          forward: "Aus _ wird mit neuem Anfangsbuchstaben ein Körperteil.",
-          reverse: "Aus _ wird mit neuem Anfangsbuchstaben ein Kochgefäß.",
-        },
+        "answer": "KOPF",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ den Körperteil, der Augen, Ohren und Gehirn trägt.",
+        "explanation": "TOPF und KOPF unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ den Körperteil, der Augen, Ohren und Gehirn trägt.",
+          "reverse": "Ein neuer Anfang macht aus _ ein tiefes Kochgefäß."
+        }
       },
       {
-        answer: "HAAR",
-        kind: "meaning",
-        hint: "Was wächst auf dem _?",
-        explanation: "KOPF → HAAR: Was wächst auf dem KOPF?",
-        clues: {
-          forward: "Was wächst auf dem _?",
-          reverse: "Auf welchem Körperteil wächst ein _ normalerweise?",
-        },
+        "answer": "KNOPF",
+        "kind": "letter",
+        "hint": "Füge in _ einen Buchstaben ein: Ein kleiner Verschluss entsteht, der durch ein Loch gesteckt wird.",
+        "explanation": "KOPF + N nach K ergibt KNOPF.",
+        "clues": {
+          "forward": "Füge in _ einen Buchstaben ein: Ein kleiner Verschluss entsteht, der durch ein Loch gesteckt wird.",
+          "reverse": "Entferne aus _ einen Buchstaben: Der Körperteil mit Augen und Ohren bleibt."
+        }
       },
       {
-        answer: "PAAR",
-        kind: "letter",
-        hint: "Aus _ wird durch Änderung des ersten Buchstabens eine Gruppe von zwei zusammengehörigen Dingen.",
-        explanation:
-          "HAAR → PAAR: Aus HAAR wird durch Änderung des ersten Buchstabens eine Gruppe von zwei zusammengehörigen Dingen.",
-        clues: {
-          forward:
-            "Aus _ wird durch Änderung des ersten Buchstabens eine Gruppe von zwei zusammengehörigen Dingen.",
-          reverse:
-            "Aus _ wird durch Änderung des ersten Buchstabens etwas, das auf dem Kopf wächst.",
-        },
+        "answer": "HEMD",
+        "kind": "meaning",
+        "hint": "_: Welches Oberteil schließt man vorn gewöhnlich mit einer Reihe solcher Verschlüsse und trägt es oft mit Kragen? Gesucht sind vier Buchstaben.",
+        "explanation": "Ein Hemd wird gewöhnlich mit Knöpfen geschlossen.",
+        "clues": {
+          "forward": "_: Welches Oberteil schließt man vorn gewöhnlich mit einer Reihe solcher Verschlüsse und trägt es oft mit Kragen? Gesucht sind vier Buchstaben.",
+          "reverse": "_: Welcher kleine Verschluss wird bei diesem Oberteil durch ein passendes Loch gesteckt?"
+        }
       },
       {
-        answer: "ZWEI",
-        kind: "meaning",
-        hint: "Wie viele Personen bilden ein _?",
-        explanation: "PAAR → ZWEI: Wie viele Personen bilden ein PAAR?",
-        clues: {
-          forward: "Wie viele Personen bilden ein _?",
-          reverse: "Welche Zahl bezeichnet die Anzahl in einem _?",
-        },
+        "answer": "HEER",
+        "kind": "letter",
+        "hint": "Ändere zwei Schlussbuchstaben von _: Aus dem Kleidungsstück wird eine große organisierte Streitmacht.",
+        "explanation": "HEMD → HEER: M wird E, D wird R.",
+        "clues": {
+          "forward": "Ändere zwei Schlussbuchstaben von _: Aus dem Kleidungsstück wird eine große organisierte Streitmacht.",
+          "reverse": "Ändere zwei Schlussbuchstaben von _: Aus der Streitmacht wird ein vorn geknöpftes Oberteil."
+        }
       },
-    ],
-    date: "2026-12-12",
-    schemaVersion: 2,
-    legacyId: 29,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
+      {
+        "answer": "MEER",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ eine große zusammenhängende Salzwasserfläche.",
+        "explanation": "HEER und MEER unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ eine große zusammenhängende Salzwasserfläche.",
+          "reverse": "Ein neuer Anfang macht aus _ eine große organisierte Streitmacht."
+        }
+      },
+      {
+        "answer": "WELLE",
+        "kind": "meaning",
+        "hint": "_: Welche wandernde Erhebung auf dem Wasser entsteht dort häufig durch Wind?",
+        "explanation": "Wind erzeugt Wellen auf dem Meer.",
+        "clues": {
+          "forward": "_: Welche wandernde Erhebung auf dem Wasser entsteht dort häufig durch Wind?",
+          "reverse": "_: Welche große Salzwasserfläche trägt eine solche wandernde Erhebung und liegt zwischen Kontinenten?"
+        }
+      },
+      {
+        "answer": "WELPE",
+        "kind": "letter",
+        "hint": "Ein anderer innerer Buchstabe macht aus _ ein sehr junges Tier, besonders einen jungen Hund.",
+        "explanation": "WELLE und WELPE unterscheiden sich durch L/P.",
+        "clues": {
+          "forward": "Ein anderer innerer Buchstabe macht aus _ ein sehr junges Tier, besonders einen jungen Hund.",
+          "reverse": "Ein anderer innerer Buchstabe macht aus _ eine wandernde Erhebung auf dem Wasser."
+        }
+      },
+      {
+        "answer": "WOLF",
+        "kind": "meaning",
+        "hint": "_: Von welchem wilden Raubtier stammt der Haushund ab, dessen sehr junges Tier hier gemeint ist?",
+        "explanation": "Wolf und Hund haben Welpen; der Haushund stammt vom Wolf ab.",
+        "clues": {
+          "forward": "_: Von welchem wilden Raubtier stammt der Haushund ab, dessen sehr junges Tier hier gemeint ist?",
+          "reverse": "_: Wie nennt man ein sehr junges Tier dieser Art und des Haushunds, noch bevor es ausgewachsen ist?"
+        }
+      },
+      {
+        "answer": "GOLF",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ eine Sportart, bei der ein kleiner Ball mit möglichst wenigen Schlägen in Löcher gespielt wird.",
+        "explanation": "WOLF und GOLF unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ eine Sportart, bei der ein kleiner Ball mit möglichst wenigen Schlägen in Löcher gespielt wird.",
+          "reverse": "Ein neuer Anfang macht aus _ den wild lebenden Vorfahren des Haushunds."
+        }
+      }
+    ]
   },
   {
-    id: "rd-2026-12-13",
-    start: "BACH",
-    end: "NAGER",
-    steps: [
+    "id": "rd-2026-12-13",
+    "date": "2026-12-13",
+    "legacyId": 30,
+    "schemaVersion": 2,
+    "editorialVersion": 4,
+    "structureVersion": 2,
+    "theme": "Vom Bach zum Schlaf",
+    "start": "BACH",
+    "end": "MOTTE",
+    "steps": [
       {
-        answer: "DACH",
-        kind: "letter",
-        hint: "Aus _ wird durch Änderung des ersten Buchstabens der obere Abschluss eines Hauses.",
-        explanation:
-          "BACH → DACH: Aus BACH wird durch Änderung des ersten Buchstabens der obere Abschluss eines Hauses.",
-        clues: {
-          forward:
-            "Aus _ wird durch Änderung des ersten Buchstabens der obere Abschluss eines Hauses.",
-          reverse:
-            "Aus _ wird durch Änderung des ersten Buchstabens ein kleiner Wasserlauf.",
-        },
+        "answer": "DACH",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ den oberen, gegen Regen schützenden Abschluss eines Gebäudes.",
+        "explanation": "BACH und DACH unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ den oberen, gegen Regen schützenden Abschluss eines Gebäudes.",
+          "reverse": "Ein neuer Anfang macht aus _ einen kleinen natürlichen Wasserlauf."
+        }
       },
       {
-        answer: "HAUS",
-        kind: "meaning",
-        hint: "Welches Gebäude hat meist ein _ über den Wänden?",
-        explanation:
-          "DACH → HAUS: Welches Gebäude hat meist ein DACH über den Wänden?",
-        clues: {
-          forward: "Welches Gebäude hat meist ein _ über den Wänden?",
-          reverse: "Welches Gebäude hat ein _?",
-        },
+        "answer": "DRACHEN",
+        "kind": "letter",
+        "hint": "Füge in _ drei Buchstaben ein: Ein Flugspielzeug an einer Schnur entsteht, dessen Name auch ein Fabelwesen bezeichnet.",
+        "explanation": "DACH erhält R nach D und EN am Ende: DRACHEN.",
+        "clues": {
+          "forward": "Füge in _ drei Buchstaben ein: Ein Flugspielzeug an einer Schnur entsteht, dessen Name auch ein Fabelwesen bezeichnet.",
+          "reverse": "Entferne aus _ drei Buchstaben: Der obere Wetterschutz eines Gebäudes bleibt."
+        }
       },
       {
-        answer: "MAUS",
-        kind: "letter",
-        hint: "Aus _ wird durch Änderung des ersten Buchstabens ein kleines Nagetier.",
-        explanation:
-          "HAUS → MAUS: Aus HAUS wird durch Änderung des ersten Buchstabens ein kleines Nagetier.",
-        clues: {
-          forward:
-            "Aus _ wird durch Änderung des ersten Buchstabens ein kleines Nagetier.",
-          reverse:
-            "Aus _ wird durch Änderung des ersten Buchstabens ein Wohngebäude.",
-        },
+        "answer": "RACHEN",
+        "kind": "letter",
+        "hint": "Entferne den Anfangsbuchstaben von _: Der hintere Raum im Mund vor Speise- und Luftröhre bleibt.",
+        "explanation": "DRACHEN ohne D ergibt RACHEN.",
+        "clues": {
+          "forward": "Entferne den Anfangsbuchstaben von _: Der hintere Raum im Mund vor Speise- und Luftröhre bleibt.",
+          "reverse": "Stelle einen Buchstaben vor _: Ein Flugspielzeug an einer Schnur entsteht."
+        }
       },
       {
-        answer: "NAGER",
-        kind: "meaning",
-        hint: "Zu welcher Tiergruppe gehört eine _?",
-        explanation: "MAUS → NAGER: Zu welcher Tiergruppe gehört eine MAUS?",
-        clues: {
-          forward: "Zu welcher Tiergruppe gehört eine _?",
-          reverse: "Welches kleine Tier ist ein _ mit langem Schwanz?",
-        },
+        "answer": "RACHE",
+        "kind": "letter",
+        "hint": "Entferne den Schlussbuchstaben von _: Das absichtliche Heimzahlen einer erlittenen Verletzung entsteht.",
+        "explanation": "RACHEN ohne N ergibt RACHE.",
+        "clues": {
+          "forward": "Entferne den Schlussbuchstaben von _: Das absichtliche Heimzahlen einer erlittenen Verletzung entsteht.",
+          "reverse": "Verlängere _ hinten um einen Buchstaben: Der Raum hinter der Mundhöhle vor Speise- und Luftröhre entsteht."
+        }
       },
-    ],
-    date: "2026-12-13",
-    schemaVersion: 2,
-    legacyId: 30,
-    theme: "Wortverbindungen",
-    editorialVersion: 3,
-  },
+      {
+        "answer": "SACHE",
+        "kind": "letter",
+        "hint": "Ein neuer Anfang macht aus _ eine allgemeine Bezeichnung für einen Gegenstand oder eine Angelegenheit.",
+        "explanation": "RACHE und SACHE unterscheiden sich am Anfang.",
+        "clues": {
+          "forward": "Ein neuer Anfang macht aus _ eine allgemeine Bezeichnung für einen Gegenstand oder eine Angelegenheit.",
+          "reverse": "Ein neuer Anfang macht aus _ das absichtliche Heimzahlen einer erlittenen Verletzung."
+        }
+      },
+      {
+        "answer": "SACHT",
+        "kind": "letter",
+        "hint": "Ein anderer Schluss macht aus _ ein Wort für sanft und vorsichtig.",
+        "explanation": "SACHE und SACHT unterscheiden sich durch E/T.",
+        "clues": {
+          "forward": "Ein anderer Schluss macht aus _ ein Wort für sanft und vorsichtig.",
+          "reverse": "Ein anderer Schluss macht aus _ eine allgemeine Bezeichnung für einen Gegenstand oder eine Angelegenheit."
+        }
+      },
+      {
+        "answer": "SCHACHT",
+        "kind": "letter",
+        "hint": "Füge in _ zwei Buchstaben ein: Ein enger, oft senkrechter Hohlraum etwa für einen Aufzug entsteht.",
+        "explanation": "SACHT erhält CH nach S: SCHACHT.",
+        "clues": {
+          "forward": "Füge in _ zwei Buchstaben ein: Ein enger, oft senkrechter Hohlraum etwa für einen Aufzug entsteht.",
+          "reverse": "Entferne aus _ zwei Buchstaben: Ein Wort für sanft und vorsichtig bleibt."
+        }
+      },
+      {
+        "answer": "SCHACH",
+        "kind": "letter",
+        "hint": "Nimm den Schlussbuchstaben von _ weg: Ein Brettspiel mit Königen und Türmen bleibt.",
+        "explanation": "SCHACHT ohne T ergibt SCHACH.",
+        "clues": {
+          "forward": "Nimm den Schlussbuchstaben von _ weg: Ein Brettspiel mit Königen und Türmen bleibt.",
+          "reverse": "Verlängere _ hinten um einen Buchstaben: Ein enger, oft senkrechter Hohlraum für einen Aufzug entsteht."
+        }
+      },
+      {
+        "answer": "MATT",
+        "kind": "meaning",
+        "hint": "_: Welches Wort beendet dabei die Partie, wenn keine erlaubte Antwort mehr den bedrohten König retten kann?",
+        "explanation": "Schachmatt beendet die Schachpartie.",
+        "clues": {
+          "forward": "_: Welches Wort beendet dabei die Partie, wenn keine erlaubte Antwort mehr den bedrohten König retten kann?",
+          "reverse": "_: Bei welchem Brettspiel verliert man, wenn der eigene König in diesem Zustand ist?"
+        }
+      },
+      {
+        "answer": "MATTE",
+        "kind": "letter",
+        "hint": "Verlängere _ hinten um einen Vokal: Eine weiche Unterlage zum Turnen entsteht.",
+        "explanation": "MATT + E ergibt MATTE.",
+        "clues": {
+          "forward": "Verlängere _ hinten um einen Vokal: Eine weiche Unterlage zum Turnen entsteht.",
+          "reverse": "Kürze _ hinten um einen Vokal: Übrig bleibt das Wort für einen König ohne Rettung im Schach."
+        }
+      },
+      {
+        "answer": "MOTTE",
+        "kind": "letter",
+        "hint": "Ein Vokalwechsel macht aus _ einen kleinen Falter, dessen Larven manche Textilien anfressen.",
+        "explanation": "MATTE und MOTTE unterscheiden sich durch A/O.",
+        "clues": {
+          "forward": "Ein Vokalwechsel macht aus _ einen kleinen Falter, dessen Larven manche Textilien anfressen.",
+          "reverse": "Ein Vokalwechsel macht aus _ eine weiche Unterlage zum Turnen."
+        }
+      }
+    ]
+  }
 ];

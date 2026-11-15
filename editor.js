@@ -7,12 +7,19 @@
   const add = (v = {}) => {
     const e = document.createElement("div");
     e.className = "editstep";
-    e.innerHTML = `<strong>Schritt ${++n}</strong><label>Lösungswort</label><input class="answer" placeholder="Zielwort"><label>Typ</label><select class="kind"><option value="letter">Buchstaben</option><option value="meaning">Bedeutung</option></select><label>Hinweis (deutsch, eindeutig)</label><textarea class="hint"></textarea><label>Rückwärtshinweis (genau ein _ als Platzhalter)</label><textarea class="reverse"></textarea><label>Erklärung der Verbindung</label><textarea class="explanation"></textarea>`;
+    e.innerHTML = `<strong>Verbindung ${++n}</strong><button class="remove textbtn" type="button">Entfernen</button><label>Lösungswort</label><input class="answer" placeholder="Nächstes Wort"><label>Typ</label><select class="kind"><option value="letter">Buchstaben</option><option value="meaning">Bedeutung</option></select><label>Vorwärtshinweis (genau ein _ als Platzhalter)</label><textarea class="hint"></textarea><label>Rückwärtshinweis (genau ein _ als Platzhalter)</label><textarea class="reverse"></textarea><label>Erklärung der Verbindung</label><textarea class="explanation"></textarea>`;
     e.querySelector(".answer").value = v.answer || "";
     e.querySelector(".kind").value = v.kind || "letter";
     e.querySelector(".hint").value = v.clues?.forward || v.hint || "";
     e.querySelector(".reverse").value = v.clues?.reverse || "";
     e.querySelector(".explanation").value = v.explanation || "";
+    e.querySelector(".remove").onclick = () => {
+      e.remove();
+      document.querySelectorAll(".editstep strong").forEach((label, i) => {
+        label.textContent = `Verbindung ${i + 1}`;
+      });
+      n = document.querySelectorAll(".editstep").length;
+    };
     $("steps").append(e);
   };
   const diff = (a, b) => {
@@ -52,7 +59,8 @@
       }));
     return {
       schemaVersion: 2,
-      editorialVersion: 3,
+      editorialVersion: 1,
+      structureVersion: 1,
       id: "rd-" + date,
       date,
       legacyId: P.length + 1,
@@ -69,8 +77,10 @@
     if (P.some((x) => x.date === p.date))
       errors.push("Datum ist bereits belegt.");
     if (!p.start) errors.push("Startwort fehlt.");
-    if (p.steps.length < 3 || p.steps.length > 12)
-      errors.push("Bitte 3 bis 12 Schritte verwenden.");
+    if (p.steps.length < 7 || p.steps.length > 11)
+      errors.push("Bitte 7 bis 11 Verbindungen verwenden: 8 bis 12 Wörter einschließlich Start und Ziel.");
+    if (new Set([p.start, ...p.steps.map((s) => s.answer)]).size !== p.steps.length + 1)
+      errors.push("Ein Wort kommt innerhalb der Kette mehrfach vor.");
     let from = p.start;
     for (const [i, s] of p.steps.entries()) {
       if (!s.answer || !s.hint || !s.explanation)
@@ -136,5 +146,5 @@
   $("date").value = new Date(Date.parse(last + "T12:00:00Z") + 86400000)
     .toISOString()
     .slice(0, 10);
-  for (let i = 0; i < 4; i++) add();
+  for (let i = 0; i < 8; i++) add();
 })();

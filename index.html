@@ -9,7 +9,7 @@
       content="Räddel – jeden Tag ein neues deutsches Worträtsel."
     />
     <title>Räddel – Das tägliche Worträtsel</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css?v=3.4" />
   </head>
   <body>
     <header>
@@ -47,8 +47,9 @@
           </div>
           <button id="archiveBtn" class="outline">Archiv ▦</button>
         </div>
+        <p id="updateNotice" class="tip" role="status" hidden>Diese Wortkette wurde neu bearbeitet. Dein früherer Fortschritt und die Punkte dieses Rätsels wurden zurückgesetzt. Spielstände unveränderter Rätsel bleiben erhalten.</p>
         <div class="progress-top">
-          <span id="progressText">Schritt 0 von 4</span
+          <span id="progressText">Verbindungen werden geladen …</span
           ><span id="modeLabel">Buchstaben & Bedeutungen</span>
         </div>
         <div class="progress" id="progressBar"></div>
@@ -116,7 +117,7 @@
       </div>
       <div id="modalBody"></div>
     </dialog>
-    <script src="puzzles.js"></script>
-    <script src="app.js"></script>
+    <script src="puzzles.js?v=3.4"></script>
+    <script src="app.js?v=3.4"></script>
   </body>
 </html>
