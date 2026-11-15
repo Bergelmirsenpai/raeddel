@@ -377,7 +377,7 @@
   $("revealBtn").onclick = () => {
     if (
       confirm(
-        `„${target(active())}“ aufdecken? Für diese Verbindung gibt es 0 Punkte.`,
+        "Lösung wirklich aufdecken? Für diese Verbindung erhältst du 0 Punkte.",
       )
     )
       mark(true);
