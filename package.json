@@ -1,0 +1,11 @@
+{
+  "name": "raeddel",
+  "version": "3.3.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "playwright": "1.56.1"
+  }
+}

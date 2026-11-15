@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#f4f0e6" />
+    <meta
+      name="description"
+      content="Räddel – jeden Tag ein neues deutsches Worträtsel."
+    />
+    <title>Räddel – Das tägliche Worträtsel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="top">
+        <span class="eyebrow">DAS TÄGLICHE WORTSPIEL</span>
+        <div class="toplinks">
+          <button id="helpBtn" class="textbtn" aria-label="Spielanleitung">
+            ? Hilfe</button
+          ><button id="statsBtn" class="textbtn">▥ Statistik</button>
+        </div>
+      </div>
+      <h1>Räddel<span class="dot">.</span></h1>
+      <p class="tagline">Ein Wort führt zum nächsten.</p>
+    </header>
+    <main>
+      <section id="adminPanel" class="admin-panel" hidden>
+        <strong>Admin-Testmodus</strong>
+        <p>
+          Alle 30 Rätsel einschließlich zukünftiger Termine testen. Testdaten
+          bleiben ausschließlich im Arbeitsspeicher und verändern keine echten
+          Spielstände.
+        </p>
+        <label for="adminPuzzle">Rätsel auswählen</label
+        ><select id="adminPuzzle"></select
+        ><button id="adminReset" class="outline" type="button">
+          Dieses Testrätsel zurücksetzen
+        </button>
+      </section>
+      <section class="panel" aria-label="Tagesrätsel">
+        <div class="panel-head">
+          <div>
+            <div class="eyebrow">HEUTIGES RÄTSEL</div>
+            <h2 id="puzzleTitle">Rätsel wird geladen …</h2>
+            <div id="dateLabel" class="muted"></div>
+          </div>
+          <button id="archiveBtn" class="outline">Archiv ▦</button>
+        </div>
+        <div class="progress-top">
+          <span id="progressText">Schritt 0 von 4</span
+          ><span id="modeLabel">Buchstaben & Bedeutungen</span>
+        </div>
+        <div class="progress" id="progressBar"></div>
+        <div class="endpoints">
+          <div><small>START</small><strong id="startWord">—</strong></div>
+          <div class="arrow">→</div>
+          <div><small>ZIEL</small><strong id="endWord">—</strong></div>
+        </div>
+        <div class="trail" id="trail" aria-live="polite"></div>
+        <div id="playArea">
+          <div class="clue-label">
+            <span id="stepLabel">Gesuchtes Wort</span
+            ><span id="lengthLabel" class="kind"></span>
+          </div>
+          <div class="direction">
+            <strong id="currentWord"></strong
+            ><button id="directionBtn" class="outline" type="button">
+              Richtung: vorwärts ↓
+            </button>
+          </div>
+          <h3 class="clues-title">Hinweise – ungeordnet</h3>
+          <ol id="clues" class="clues"></ol>
+          <form id="guessForm">
+            <label for="guess">Deine Lösung</label>
+            <div class="guess-row">
+              <input
+                id="guess"
+                type="text"
+                autocomplete="off"
+                autocapitalize="characters"
+                spellcheck="false"
+                placeholder="Wort eingeben …"
+                maxlength="40"
+                required
+              /><button type="submit" class="primary">Prüfen →</button>
+            </div>
+          </form>
+          <p id="feedback" class="feedback" aria-live="polite"></p>
+          <div class="actions">
+            <button id="tipBtn" class="textbtn">✦ Tipp anzeigen</button
+            ><button id="revealBtn" class="textbtn subtle">
+              Lösung aufdecken (0 Punkte)
+            </button>
+          </div>
+          <p id="tipText" class="tip" hidden></p>
+        </div>
+        <div id="finishArea" hidden>
+          <div class="finish-icon">✦</div>
+          <h2>Wunderbar gelöst!</h2>
+          <p id="finishText"></p>
+          <button id="shareBtn" class="primary">Ergebnis teilen ↗</button>
+          <p id="shareStatus" class="muted" aria-live="polite"></p>
+        </div>
+      </section>
+      <p class="footer-note">
+        Ein neues Rätsel jeden Tag um 00:00 Uhr deutscher Zeit. Ohne Anmeldung.
+      </p>
+    </main>
+    <dialog id="modal">
+      <div class="modal-head">
+        <h2 id="modalTitle">Info</h2>
+        <button id="closeModal" class="textbtn" aria-label="Schließen">
+          ✕
+        </button>
+      </div>
+      <div id="modalBody"></div>
+    </dialog>
+    <script src="puzzles.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
